@@ -15,7 +15,7 @@ function renderSidebar () {
 function renderProject (project) {
   return (
     div('.project', [
-      a('.homepage', {href: project.homepage}, [
+      a('.homepage', {href: project.homepage, target: '_blank'}, [
         h3('.name', project.name)
       ]),
 
@@ -28,7 +28,7 @@ function renderProject (project) {
 
 function renderProjects (projects) {
   return (
-    projects.map(renderProject)
+    div('.projects', projects.map(renderProject))
   );
 }
 
