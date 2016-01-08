@@ -1,8 +1,9 @@
 export default [
   {
-    name: "RxMarbles",
-    description: "Interactive diagrams of Rx Observables",
-    repository: "https://github.com/staltz/rxmarbles",
-    homepage: "http://rxmarbles.com/"
+    name: 'RxMarbles',
+    description: 'Interactive diagrams of Rx Observables',
+    repository: 'https://github.com/staltz/rxmarbles',
+    homepage: 'http://rxmarbles.com/',
+    screenshot: 'data/images/rxmarbles.png'
   }
 ]
