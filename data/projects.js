@@ -7,10 +7,10 @@ export default [
     screenshot: 'data/images/rxmarbles.png'
   },
   {
-    name: "Ghostwriter",
-    description: "Autocompleting rap/rhyme editor",
-    repository: "https://github.com/widdershin/ghostwriter",
-    homepage: "http://widdersh.in/ghostwriter"
-    screenshot: "data/images/ghostwriter.png"
+    name: 'Ghostwriter',
+    description: 'Autocompleting rap/rhyme editor',
+    repository: 'https://github.com/widdershin/ghostwriter',
+    homepage: 'http://widdersh.in/ghostwriter'
+    screenshot: 'data/images/ghostwriter.png'
   }
 ]
