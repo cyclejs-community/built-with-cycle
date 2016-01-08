@@ -1,3 +1,18 @@
-.hello-world {
-  color: #663399;
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.built-with-cycle {
+  display: flex;
+  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
+}
+
+.sidebar {
+  color: #555;
+  width: 15em;
+  font-family: "Merriweather", "Lora", "Georgia", serif;
+}
+
+.sidebar img {
+  width: 80%;
+  padding: 5px;
 }

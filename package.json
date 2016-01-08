@@ -27,6 +27,7 @@
   "dependencies": {
     "@cycle/core": "^6.0.0-rc2",
     "@cycle/dom": "^8.0.0-rc3",
+    "@cycle/http": "^7.0.0",
     "babel-preset-es2015": "^6.1.18",
     "rx": "^4.0.7"
   },
