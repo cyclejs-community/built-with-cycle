@@ -10,7 +10,7 @@ export default [
     name: 'Ghostwriter',
     description: 'Autocompleting rap/rhyme editor',
     repository: 'https://github.com/widdershin/ghostwriter',
-    homepage: 'http://widdersh.in/ghostwriter'
+    homepage: 'http://widdersh.in/ghostwriter',
     screenshot: 'data/images/ghostwriter.png'
   }
 ]

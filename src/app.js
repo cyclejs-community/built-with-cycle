@@ -1,5 +1,5 @@
 import {Observable} from 'rx';
-import {div, pre, h2, img} from '@cycle/dom';
+import {div, a, h2, h3, img} from '@cycle/dom';
 
 import projects from '../data/projects';
 
@@ -12,16 +12,24 @@ function renderSidebar () {
   );
 }
 
-function renderProject(project) {
+function renderProject (project) {
   return (
-    pre(JSON.stringify(project, null, 2))
+    div('.project', [
+      a('.homepage', {href: project.homepage}, [
+        h3('.name', project.name)
+      ]),
+
+      div('.description', project.description),
+
+      img({src: project.screenshot, alt: project.name})
+    ])
   );
 }
 
 function renderProjects (projects) {
   return (
     projects.map(renderProject)
-  )
+  );
 }
 
 export default function App ({DOM}) {
