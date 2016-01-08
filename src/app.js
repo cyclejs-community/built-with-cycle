@@ -28,7 +28,7 @@ function renderProject (project) {
 
 function renderProjects (projects) {
   return (
-    projects.map(renderProject)
+    div('.projects', projects.map(renderProject))
   );
 }
 

@@ -16,3 +16,8 @@
   width: 80%;
   padding: 5px;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
