@@ -1,7 +1,7 @@
 {
-  "name": "cycle-hot-reloading-example",
+  "name": "built-with-cycle",
   "version": "0.0.1",
-  "description": "A Cycle.js starter project with hot reloading using Browserify",
+  "description": "A website to showcase the cool projects built with Cycle.js",
   "main": "index.js",
   "scripts": {
     "start": "babel-node server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Widdershin/cycle-hot-reloading-example.git"
+    "url": "https://github.com/Widdershin/built-with-cycle.git"
   },
   "keywords": [
     "hot",
@@ -21,9 +21,9 @@
   "author": "Nick Johnstone",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Widdershin/cycle-hot-reloading-example/issues"
+    "url": "https://github.com/Widdershin/built-with-cycle/issues"
   },
-  "homepage": "https://github.com/Widdershin/cycle-hot-reloading-example",
+  "homepage": "http://widdersh.in/built-with-cycle",
   "dependencies": {
     "@cycle/core": "^6.0.0-rc2",
     "@cycle/dom": "^8.0.0-rc3",
@@ -37,6 +37,8 @@
     "browserify": "^12.0.1",
     "browserify-hmr": "^0.3.1",
     "budo": "^6.1.0",
-    "uglifyify": "^3.0.1"
+    "bufferutil": "^1.2.1",
+    "uglifyify": "^3.0.1",
+    "utf-8-validate": "^1.2.1"
   }
 }
