@@ -2,6 +2,22 @@
 
 export default [
   {
+    name: 'Hangman',
+    description: 'Hangman game built with Cycle.js',
+    repository: 'https://github.com/class-ideas/cyclejs-hangman',
+    homepage: 'http://class-ideas.github.io/cyclejs-hangman/',
+    screenshot: 'data/images/hangman.png'
+  },
+
+  {
+    name: 'Concentration',
+    description: 'A card game about memory and concentration',
+    repository: 'https://github.com/class-ideas/cyclejs-concentration',
+    homepage: 'http://class-ideas.github.io/cyclejs-concentration/',
+    screenshot: 'data/images/concentration.png'
+  },
+
+  {
     name: 'TodoMVC',
     description: 'TodoMVC example implemented in Cycle.js',
     repository: 'https://github.com/cyclejs/todomvc-cycle',
