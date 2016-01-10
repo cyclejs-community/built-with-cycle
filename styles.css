@@ -72,8 +72,10 @@ hr {
 }
 
 .projects img {
-  padding: 1.3em 0em;
+  margin: 1.3em 0em;
   width: 100%;
+  border: 1px solid #DDD;
+  border-radius: 7px;
 }
 
 .projects hr {
