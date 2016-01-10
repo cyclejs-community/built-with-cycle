@@ -26,6 +26,14 @@ export default [
   },
 
   {
+    name: 'Powerpeople',
+    description: 'An app used internally at Powershop to help staff learn the names of their coworkers. Shown here with Pokemon as an example.',
+    repository: 'https://github.com/Widdershin/powerpeople',
+    homepage: 'https://github.com/Widdershin/powerpeople',
+    screenshot: 'data/images/powerpeople.png'
+  },
+
+  {
     name: 'RxMarbles',
     description: 'Interactive diagrams of Rx Observables',
     repository: 'https://github.com/staltz/rxmarbles',
