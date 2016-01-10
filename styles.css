@@ -10,7 +10,6 @@ html, body {
 
 .built-with-cycle {
   display: flex;
-  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
   align-items: left;
 }
 
@@ -28,6 +27,7 @@ html, body {
 .sidebar h2 {
   white-space: nowrap;
   margin: 0.6em;
+  margin-bottom: 1.2em;
 }
 
 .sidebar img {
@@ -43,7 +43,7 @@ html, body {
 hr {
   border: none;
   height: 1px;
-  width: 80%;
+  width: 85%;
 
   color: #CCC;
   background-color: #CCC;
@@ -58,9 +58,12 @@ hr {
 
 .sidebar .credit {
   padding: 0em 10%;
+  margin-bottom: 1.2em;
 }
 
 .projects {
+  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
+
   display: flex;
   flex-direction: column;
 
@@ -110,6 +113,35 @@ a {
 
 .projects a {
   color: #13A0AB;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation button {
+  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
+  border: 2px solid #409B9E;
+  background-color: #FFF;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: #409B9E;
+  margin: 0 0.4em;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  box-shadow: none;
+}
+
+.navigation button:hover {
+  border: 2px solid #8FE8B4;
+  background-color: #8FE8B4;
+  color: #FFF;
+}
+
+.navigation button.back:hover {
+  border: 2px solid #8FD3E8;
+  background-color: #8FD3E8;
+  color: #FFF;
 }
 
 @media only screen and (max-width:480px) {

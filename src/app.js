@@ -1,10 +1,12 @@
 import {Observable} from 'rx';
-import {div, a, h2, h3, img, hr} from '@cycle/dom';
+import {div, a, h2, h3, img, hr, button} from '@cycle/dom';
 
 import projects from '../data/projects';
 
+const PROJECTS_PER_PAGE = 10;
+
 const INSTRUCTIONS = `
-Submit a new project by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle">project's repository</a>.
+Please add new projects by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle">project's repository</a>.
 `;
 
 function renderSidebar () {
@@ -17,8 +19,6 @@ function renderSidebar () {
 
       h2('Built with Cycle.js'),
 
-      hr(),
-
       div('.instructions', {innerHTML: INSTRUCTIONS}),
 
       hr(),
@@ -26,16 +26,17 @@ function renderSidebar () {
       div('.credit', [
         'Built by ',
         a({href: 'https://github.com/Widdershin'}, 'Widdershin'),
-        ' with the help of ',
-        a({href: 'https://github.com/Widdershin/graphs/contributors'}, "Cycle's community"),
+        ' with the help of the ',
+        a({href: 'https://github.com/Widdershin/graphs/contributors'}, "Cycle community"),
         '.'
       ]),
-      hr(),
     ])
   );
 }
 
-function renderProject (project) {
+function renderProject (project, index, projects) {
+  const lastProject = index === projects.length - 1;
+
   return (
     div('.project', [
       div('.project-header', [
@@ -54,23 +55,49 @@ function renderProject (project) {
         img('.screenshot', {src: project.screenshot, alt: project.name})
       ]),
 
-      hr()
+      lastProject ? '' : hr()
     ])
   );
 }
 
-function renderProjects (projects) {
+function renderNavigationControls (projects, numberToRender) {
+  if (numberToRender >= projects.length) {
+    return;
+  }
+
   return (
-    div('.projects', projects.map(renderProject))
+    div('.navigation', [
+      button('.more', 'Show more')
+    ])
+  );
+}
+
+function renderProjects (projects, numberToRender) {
+  return (
+    div('.projects', projects
+      .slice(0, numberToRender)
+      .map(renderProject)
+      .concat([renderNavigationControls(projects, numberToRender)])
+    )
   );
 }
 
 export default function App ({DOM}) {
+  const showMore$ = DOM
+    .select('.navigation .more')
+    .events('click')
+    .do(ev => ev.preventDefault())
+    .map(_ => +PROJECTS_PER_PAGE);
+
+  const projectsToShowCount$ = showMore$
+    .scan((current, change) => current + change, PROJECTS_PER_PAGE)
+    .startWith(PROJECTS_PER_PAGE);
+
   return {
-    DOM: Observable.just(
+    DOM: projectsToShowCount$.map(numberToShow =>
       div('.built-with-cycle', [
         renderSidebar(),
-        renderProjects(projects)
+        renderProjects(projects, numberToShow)
       ])
     )
   };
