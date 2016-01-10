@@ -27,9 +27,9 @@ function renderSidebar () {
         'Built by ',
         a({href: 'https://github.com/Widdershin'}, 'Widdershin'),
         ' with the help of the ',
-        a({href: 'https://github.com/Widdershin/graphs/contributors'}, "Cycle community"),
+        a({href: 'https://github.com/Widdershin/graphs/contributors'}, 'Cycle community'),
         '.'
-      ]),
+      ])
     ])
   );
 }
