@@ -32,14 +32,20 @@ function renderSidebar () {
 function renderProject (project) {
   return (
     div('.project', [
-      a('.homepage', {href: project.homepage, target: '_blank'}, [
-        h3('.name', project.name)
+      div('.project-header', [
+        a('.homepage', {href: project.homepage, target: '_blank'}, [
+          h3('.name', project.name)
+        ]),
+
+        a('.repo', {href: project.repository, target: '_blank'}, [
+          img('.repo-img', {src: 'assets/github.svg', alt: project.name})
+        ])
       ]),
 
       div('.description', project.description),
 
       a('.homepage', {href: project.homepage, target: '_blank'}, [
-        img({src: project.screenshot, alt: project.name})
+        img('.screenshot', {src: project.screenshot, alt: project.name})
       ]),
 
       hr()
