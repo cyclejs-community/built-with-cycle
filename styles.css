@@ -39,14 +39,18 @@ hr {
   height: 1px;
   width: 80%;
 
-  color: #999;
-  background-color: #999;
+  color: #CCC;
+  background-color: #CCC;
 
   margin: 1.2em;
   align-self: center;
 }
 
 .sidebar .instructions {
+  padding: 0em 10%;
+}
+
+.sidebar .credit {
   padding: 0em 10%;
 }
 

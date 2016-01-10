@@ -23,8 +23,11 @@ function renderSidebar () {
       div('.credit', [
         'Built by ',
         a({href: 'https://github.com/Widdershin'}, 'Widdershin'),
+        ' with the help of ',
+        a({href: 'https://github.com/Widdershin/graphs/contributors'}, "Cycle's community"),
         '.'
-      ])
+      ]),
+      hr(),
     ])
   );
 }
