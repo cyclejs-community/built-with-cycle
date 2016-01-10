@@ -15,13 +15,14 @@ html, body {
 }
 
 .sidebar {
-  color: #555;
+  color: #EEE;
   font-family: "Merriweather", "Lora", "Georgia", serif;
-  padding: 0.4em;
+  padding: 0.5em;
   flex-basis: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #24242D;
 }
 
 .sidebar h2 {
@@ -32,6 +33,11 @@ html, body {
 .sidebar img {
   width: 10em;
   padding: 1em;
+}
+
+.sidebar hr {
+  background: #555;
+  color: #555;
 }
 
 hr {
@@ -62,7 +68,7 @@ hr {
 
   flex-basis: 80%;
 
-  padding: 1em;
+  padding: 1.3em;
 }
 
 .project {
@@ -71,6 +77,7 @@ hr {
 }
 
 .project .name {
+  font-family: "Merriweather", "Lora", "Georgia", serif;
   font-size: 1.5em;
   margin: 0.4em 0;
 }
@@ -98,11 +105,11 @@ hr {
 }
 
 a {
-  color: #0F9DA7;
+  color: #58D3D8;
 }
 
-a:visited {
-  color: #056C74;
+.projects a {
+  color: #13A0AB;
 }
 
 @media only screen and (max-width:480px) {
