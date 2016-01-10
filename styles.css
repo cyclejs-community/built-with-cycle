@@ -71,7 +71,18 @@ hr {
   margin: 0.4em 0;
 }
 
-.projects img {
+.project-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project .repo-img {
+  width: 2em;
+}
+
+.projects .screenshot {
   margin: 1.3em 0em;
   width: 100%;
   border: 1px solid #DDD;
@@ -83,11 +94,11 @@ hr {
 }
 
 a {
-  color: #056C74;
+  color: #0F9DA7;
 }
 
 a:visited {
-  color: #0F9DA7;
+  color: #056C74;
 }
 
 @media only screen and (max-width:480px) {
