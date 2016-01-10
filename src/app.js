@@ -10,7 +10,10 @@ Submit a new project by making a pull request or issue against this <a href="htt
 function renderSidebar () {
   return (
     div('.sidebar', [
-      img({src: 'assets/cyclejs_logo.svg', alt: 'Cycle.js'}),
+
+      a({href: 'http://cycle.js.org', target: '_blank'}, [
+        img({src: 'assets/cyclejs_logo.svg', alt: 'Cycle.js'})
+      ]),
 
       h2('Built with Cycle.js'),
 
