@@ -2,6 +2,14 @@
 
 export default [
   {
+    name: 'TodoMVC',
+    description: 'TodoMVC example implemented in Cycle.js',
+    repository: 'https://github.com/cyclejs/todomvc-cycle',
+    homepage: 'http://cycle.js.org/todomvc-cycle/',
+    screenshot: 'data/images/todomvc.png'
+  },
+
+  {
     name: 'Cycle Music Sequencer',
     description: 'An easy way to make melodies in your browser, powered by Cycle.js and Tone.js',
     repository: 'https://github.com/widdershin/cycle-music-sequencer/',
