@@ -1,13 +1,30 @@
 import {Observable} from 'rx';
-import {div, a, h2, h3, img} from '@cycle/dom';
+import {div, a, h2, h3, img, hr} from '@cycle/dom';
 
 import projects from '../data/projects';
+
+const INSTRUCTIONS = `
+Submit a new project by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle">project's repository</a>.
+`;
 
 function renderSidebar () {
   return (
     div('.sidebar', [
+      img({src: 'assets/cyclejs_logo.svg', alt: 'Cycle.js'}),
+
       h2('Built with Cycle.js'),
-      img({src: 'http://cycle.js.org/img/cyclejs_logo.svg', alt: 'Cycle.js'})
+
+      hr(),
+
+      div('.instructions', {innerHTML: INSTRUCTIONS}),
+
+      hr(),
+
+      div('.credit', [
+        'Built by ',
+        a({href: 'https://github.com/Widdershin'}, 'Widdershin'),
+        '.'
+      ])
     ])
   );
 }
@@ -21,7 +38,11 @@ function renderProject (project) {
 
       div('.description', project.description),
 
-      img({src: project.screenshot, alt: project.name})
+      a('.homepage', {href: project.homepage, target: '_blank'}, [
+        img({src: project.screenshot, alt: project.name})
+      ]),
+
+      hr()
     ])
   );
 }
