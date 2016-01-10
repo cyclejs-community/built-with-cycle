@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Merriweather", "Lora", "Georgia", serif;
+}
+
+.built-with-cycle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.sidebar {
+  color: #EEE;
+  font-family: "Merriweather", "Lora", "Georgia", serif;
+  padding: 0.5em;
+  -webkit-flex-basis: 20%;
+      -ms-flex-preferred-size: 20%;
+          flex-basis: 20%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #24242D;
+}
+
+.sidebar h2 {
+  white-space: nowrap;
+  margin: 0.6em;
+  margin-bottom: 1.2em;
+}
+
+.sidebar img {
+  width: 10em;
+  padding: 1em;
+}
+
+.sidebar hr {
+  background: #555;
+  color: #555;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 85%;
+
+  color: #CCC;
+  background-color: #CCC;
+
+  margin: 1.2em;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.sidebar .instructions {
+  padding: 0em 10%;
+}
+
+.sidebar .credit {
+  padding: 0em 10%;
+  margin-bottom: 1.2em;
+}
+
+.projects {
+  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
+
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+      -ms-flex-align: center;
+
+          align-items: center;
+
+  -webkit-flex-basis: 80%;
+
+      -ms-flex-preferred-size: 80%;
+
+          flex-basis: 80%;
+
+  padding: 1.3em;
+}
+
+.project {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project .name {
+  font-family: "Merriweather", "Lora", "Georgia", serif;
+  font-size: 1.5em;
+  margin: 0.4em 0;
+}
+
+.project-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+
+  -webkit-justify-content: space-between;
+
+      -ms-flex-pack: justify;
+
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project .repo-img {
+  width: 2em;
+}
+
+.projects .screenshot {
+  margin: 1.3em 0em;
+  width: 100%;
+  border: 1px solid #DDD;
+  border-radius: 7px;
+}
+
+.projects hr {
+  margin: 2em;
+}
+
+a {
+  color: #58D3D8;
+}
+
+.projects a {
+  color: #13A0AB;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.navigation button {
+  font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif;
+  border: 2px solid #409B9E;
+  background-color: #FFF;
+  font-size: 1.5em;
+  border-radius: 5px;
+  color: #409B9E;
+  margin: 0 0.4em;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  box-shadow: none;
+}
+
+.navigation button:hover {
+  border: 2px solid #8FE8B4;
+  background-color: #8FE8B4;
+  color: #FFF;
+}
+
+.navigation button.back:hover {
+  border: 2px solid #8FD3E8;
+  background-color: #8FD3E8;
+  color: #FFF;
+}
+
+@media only screen and (max-width:480px) {
+  .built-with-cycle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-device-width:480px) {
+  .built-with-cycle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
