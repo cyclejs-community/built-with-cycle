@@ -6,7 +6,7 @@
   "scripts": {
     "start": "babel-node server.js",
     "test": "mocha --compilers js:babel-register",
-    "bundle": "browserify index.js -t babelify -t uglifyify -o bundle.js"
+    "bundle": "browserify index.js -t babelify -t uglifyify -o bundle.js && postcss --use autoprefixer -o bundle.css styles.css"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     "rx": "^4.0.7"
   },
   "devDependencies": {
+    "autoprefixer": "^6.2.3",
     "babel-cli": "^6.2.0",
     "babel-core": "^6.2.1",
     "babelify": "^7.2.0",
@@ -39,6 +40,7 @@
     "browserify-hmr": "^0.3.1",
     "budo": "^6.1.0",
     "bufferutil": "^1.2.1",
+    "postcss-cli": "^2.3.3",
     "uglifyify": "^3.0.1",
     "utf-8-validate": "^1.2.1"
   }
