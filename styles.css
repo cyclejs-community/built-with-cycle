@@ -35,9 +35,14 @@ html, body {
 }
 
 hr {
+  border: none;
+  height: 1px;
   width: 80%;
+
+  color: #999;
+  background-color: #999;
+
   margin: 1.2em;
-  color: #555;
   align-self: center;
 }
 
