@@ -6,7 +6,7 @@ import projects from '../data/projects';
 const PROJECTS_PER_PAGE = 10;
 
 const INSTRUCTIONS = `
-Please add new projects by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle">project's repository</a>.
+Please add new projects by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle" _target="blank">project's repository</a>.
 `;
 
 function renderSidebar () {
@@ -25,9 +25,9 @@ function renderSidebar () {
 
       div('.credit', [
         'Built by ',
-        a({href: 'https://github.com/Widdershin'}, 'Widdershin'),
+        a({href: 'https://github.com/Widdershin', _target: 'blank'}, 'Widdershin'),
         ' with the help of the ',
-        a({href: 'https://github.com/Widdershin/graphs/contributors'}, 'Cycle community'),
+        a({href: 'https://github.com/Widdershin/built-with-cycle/graphs/contributors', _target: 'blank'}, 'Cycle community'),
         '.'
       ])
     ])
