@@ -5,7 +5,7 @@ export default [
     name: 'Cycle Conway',
     description: 'Conway\'s Game of Life built with Cycle.js',
     homepage: 'http://raquelxmoss.github.io/cycle-conway',
-    screenshot: 'data/images/cycle-conway.js'
+    screenshot: 'data/images/cycle-conway.png'
   },
   {
     name: 'Hangman',
