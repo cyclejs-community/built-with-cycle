@@ -2,6 +2,12 @@
 
 export default [
   {
+    name: 'Cycle Conway',
+    description: 'Conway\'s Game of Life built with Cycle.js',
+    homepage: 'http://raquelxmoss.github.io/cycle-conway',
+    screenshot: 'data/images/cycle-conway.png'
+  },
+  {
     name: 'Hangman',
     description: 'Hangman game built with Cycle.js',
     repository: 'https://github.com/class-ideas/cyclejs-hangman',
