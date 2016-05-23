@@ -2,6 +2,13 @@
 
 export default [
   {
+    name: 'TAMS Tools',
+    description: 'A set of tools for teaching and learning computer science built with Cycle.js',
+    repository: 'https://github.com/laszlokorte/tams-tools',
+    homepage: 'https://thesis.laszlokorte.de/',
+    screenshot: 'data/images/tams-tools.png'
+  },
+  {
     name: 'Cycle Conway',
     description: 'Conway\'s Game of Life built with Cycle.js',
     repository: 'https://github.com/raquelxmoss/cycle-conway',
