@@ -84,5 +84,13 @@ export default [
     repository: 'https://github.com/staltz/rxmarbles',
     homepage: 'http://rxmarbles.com/',
     screenshot: 'data/images/rxmarbles.png'
+  },
+
+  {
+    name: 'Equalizer',
+    description: 'Web audio player with equalizer',
+    repository: 'https://github.com/Bloomca/equalizer',
+    homepage: 'http://bloomca.github.io/equalizer/',
+    screenshot: 'data/images/equalizer.png'
   }
 ];
