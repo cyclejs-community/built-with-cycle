@@ -2,6 +2,14 @@
 
 export default [
   {
+    name: 'Equalizer',
+    description: 'Web audio player with equalizer',
+    repository: 'https://github.com/Bloomca/equalizer',
+    homepage: 'http://bloomca.github.io/equalizer/',
+    screenshot: 'data/images/equalizer.png'
+  },
+
+  {
     name: 'Bornycentre',
     description: 'An app to get your Bornycentre built with Cycle.js',
     repository: 'https://github.com/teawaterwire/bornycentre',
@@ -86,3 +94,5 @@ export default [
     screenshot: 'data/images/rxmarbles.png'
   }
 ];
+
+// When you add a new project, please add it to the top of the array!
