@@ -7,7 +7,7 @@ export default [
     repository: 'https://github.com/artfuldev/recall-cycle/',
     homepage: 'https://artfuldev.github.io/recall-cycle/',
     image: 'data/images/recall.png'
-  }
+  },
   {
     name: 'Equalizer',
     description: 'Web audio player with equalizer',
