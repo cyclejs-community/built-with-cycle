@@ -2,6 +2,14 @@
 
 export default [
   {
+    name: 'FRP Bowling Kata',
+    description: 'Bowling Scoring Problem and TDD Screencasts',
+    repository: 'https://github.com/wizardwerdna/FRPBowlingKata',
+    homepage: 'http://wizardwerdna.github.io',
+    screenshot: 'data/images/FRPBowlingKata.png'
+  },
+
+  {
     name: 'Equalizer',
     description: 'Web audio player with equalizer',
     repository: 'https://github.com/Bloomca/equalizer',
