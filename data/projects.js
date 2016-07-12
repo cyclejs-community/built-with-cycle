@@ -6,7 +6,7 @@ export default [
     description: 'A memory game built with Cycle.js',
     repository: 'https://github.com/artfuldev/recall-cycle/',
     homepage: 'https://artfuldev.github.io/recall-cycle/',
-    image: 'data/images/recall.png'
+    screenshot: 'data/images/recall.png'
   },
   {
     name: 'Equalizer',
