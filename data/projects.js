@@ -2,12 +2,21 @@
 
 export default [
   {
+    name: 'FRP Bowling Kata',
+    description: 'Bowling Scoring Problem and TDD Screencasts',
+    repository: 'https://github.com/wizardwerdna/FRPBowlingKata',
+    homepage: 'http://wizardwerdna.github.io',
+    screenshot: 'data/images/FRPBowlingKata.png'
+  },
+
+  {
     name: 'Recall',
     description: 'A memory game built with Cycle.js',
     repository: 'https://github.com/artfuldev/recall-cycle/',
     homepage: 'https://artfuldev.github.io/recall-cycle/',
     screenshot: 'data/images/recall.png'
   },
+
   {
     name: 'Equalizer',
     description: 'Web audio player with equalizer',
