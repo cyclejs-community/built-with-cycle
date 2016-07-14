@@ -10,6 +10,15 @@ export default [
   },
   
   {
+    name: 'Trello Kanban Analysis Tool (TKAT)',
+    description: 'Analyse Kanban metrics from a Trello board',
+    repository: 'https://github.com/nicoespeon/trello-kanban-analysis-tool',
+    homepage: 'http://nicoespeon.com/trello-kanban-analysis-tool/',
+    screenshot: 'data/images/tkat.png'
+  },
+
+  
+  {
     name: 'FRP Bowling Kata',
     description: 'Bowling Scoring Problem and TDD Screencasts',
     repository: 'https://github.com/wizardwerdna/FRPBowlingKata',
