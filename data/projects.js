@@ -4,8 +4,8 @@ export default [
   {
     name: 'Cycle Keyboard',
     description: 'An app that displays a reactive keyboard built with cycle.js',
-    repository: 'https://github.com/artfuldev/cycle-keyboard/',
-    homepage: 'https://artfuldev.github.io/cycle-keyboard/',
+    repository: 'https://github.com/cyclejs-community/cycle-keyboard/',
+    homepage: 'https://cyclejs-community.github.io/cycle-keyboard/',
     screenshot: 'data/images/cycle-keyboard.png'
   },
   
