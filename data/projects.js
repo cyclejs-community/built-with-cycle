@@ -1,7 +1,6 @@
 // When you add a new project, please add it to the top of the array!
 
 export default [
-  
   {
     name: 'Cycle Keyboard',
     description: 'An app that displays a reactive keyboard built with cycle.js',
