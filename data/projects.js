@@ -2,6 +2,14 @@
 
 export default [
   {
+    name: 'Spreadsheet',
+    description: 'A full-featured spreadsheet component',
+    repository: 'https://github.com/fiatjaf/spreadsheet',
+    homepage: 'https://github.com/fiatjaf/spreadsheet',
+    screenshot: 'data/images/spreadsheet.png'
+  }, 
+
+  {
     name: 'Cycle Keyboard',
     description: 'An app that displays a reactive keyboard built with cycle.js',
     repository: 'https://github.com/cyclejs-community/cycle-keyboard/',
