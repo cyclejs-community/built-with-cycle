@@ -1,13 +1,6 @@
 // When you add a new project, please add it to the top of the array!
 
 export default [
-   {
-    name: 'Meeting Price Calculator',
-    description: 'Do you hate long meetings? This app could significantly reduce the duration of meetings by showing the actual price of the meeting',
-    repository: 'https://github.com/olpeh/meeting-price-calculator',
-    homepage: 'https://olpeh.github.io/meeting-price-calculator',
-    screenshot: 'data/images/meeting-price-calculator.png'
-  },
   {
     name: 'Cycle Keyboard',
     description: 'An app that displays a reactive keyboard built with cycle.js',
