@@ -1,8 +1,8 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=[{name:"Cycle Keyboard",description:"An app that displays a reactive keyboard built with cycle.js",repository:"https://github.com/cyclejs-community/cycle-keyboard/",homepage:"https://cyclejs-community.github.io/cycle-keyboard/",screenshot:"data/images/cycle-keyboard.png"},{name:"Trello Kanban Analysis Tool (TKAT)",description:"Analyse Kanban metrics from a Trello board",repository:"https://github.com/nicoespeon/trello-kanban-analysis-tool",homepage:"http://nicoespeon.com/trello-kanban-analysis-tool/",screenshot:"data/images/tkat.png"},{name:"FRP Bowling Kata",description:"Bowling Scoring Problem and TDD Screencasts",repository:"https://github.com/wizardwerdna/FRPBowlingKata",homepage:"http://wizardwerdna.github.io",screenshot:"data/images/FRPBowlingKata.png"},{name:"Recall",description:"A memory game built with Cycle.js",repository:"https://github.com/artfuldev/recall-cycle/",homepage:"https://artfuldev.github.io/recall-cycle/",screenshot:"data/images/recall.png"},{name:"Equalizer",description:"Web audio player with equalizer",repository:"https://github.com/Bloomca/equalizer",homepage:"http://bloomca.github.io/equalizer/",screenshot:"data/images/equalizer.png"},{name:"Bornycentre",description:"An app to get your Bornycentre built with Cycle.js",repository:"https://github.com/teawaterwire/bornycentre",homepage:"http://bornycent.re/",screenshot:"data/images/bornycentre.png"},{name:"TAMS Tools",description:"A set of tools for teaching and learning computer science built with Cycle.js",repository:"https://github.com/laszlokorte/tams-tools",homepage:"https://thesis.laszlokorte.de/",screenshot:"data/images/tams-tools.png"},{name:"Cycle Conway",description:"Conway's Game of Life built with Cycle.js",repository:"https://github.com/raquelxmoss/cycle-conway",homepage:"http://raquelxmoss.github.io/cycle-conway",screenshot:"data/images/cycle-conway.png"},{name:"Hangman",description:"Hangman game built with Cycle.js",repository:"https://github.com/class-ideas/cyclejs-hangman",homepage:"http://class-ideas.github.io/cyclejs-hangman/",screenshot:"data/images/hangman.png"},{name:"Concentration",description:"A card game about memory and concentration",repository:"https://github.com/class-ideas/cyclejs-concentration",homepage:"http://class-ideas.github.io/cyclejs-concentration/",screenshot:"data/images/concentration.png"},{name:"TodoMVC",description:"TodoMVC example implemented in Cycle.js",repository:"https://github.com/cyclejs/todomvc-cycle",homepage:"http://cycle.js.org/todomvc-cycle/",screenshot:"data/images/todomvc.png"},{name:"Cycle Music Sequencer",description:"An easy way to make melodies in your browser, powered by Cycle.js and Tone.js",repository:"https://github.com/widdershin/cycle-music-sequencer/",homepage:"http://widdersh.in/cycle-music-sequencer/",screenshot:"data/images/cycle-music-sequencer.png"},{name:"Tricycle",description:"Try Cycle.js in your browser, no setup required",repository:"https://github.com/widdershin/tricycle/",homepage:"http://widdersh.in/tricycle",screenshot:"data/images/tricycle.png"},{name:"Ghostwriter",description:"Autocompleting rap/rhyme editor",repository:"https://github.com/widdershin/ghostwriter",homepage:"http://widdersh.in/ghostwriter",screenshot:"data/images/ghostwriter.png"},{name:"Powerpeople",description:"An app used internally at Powershop to help staff learn the names of their coworkers. Shown here with Pokemon as an example.",repository:"https://github.com/Widdershin/powerpeople",homepage:"https://github.com/Widdershin/powerpeople",screenshot:"data/images/powerpeople.png"},{name:"RxMarbles",description:"Interactive diagrams of Rx Observables",repository:"https://github.com/staltz/rxmarbles",homepage:"http://rxmarbles.com/",screenshot:"data/images/rxmarbles.png"}];
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=[{name:"Meeting Price Calculator",description:"Do you hate long meetings? This app could significantly reduce the duration of meetings by showing the actual price of the meeting",repository:"https://github.com/olpeh/meeting-price-calculator",homepage:"https://olpeh.github.io/meeting-price-calculator",screenshot:"data/images/meeting-price-calculator.png"},{name:"Cycle Keyboard",description:"An app that displays a reactive keyboard built with cycle.js",repository:"https://github.com/cyclejs-community/cycle-keyboard/",homepage:"https://cyclejs-community.github.io/cycle-keyboard/",screenshot:"data/images/cycle-keyboard.png"},{name:"Trello Kanban Analysis Tool (TKAT)",description:"Analyse Kanban metrics from a Trello board",repository:"https://github.com/nicoespeon/trello-kanban-analysis-tool",homepage:"http://nicoespeon.com/trello-kanban-analysis-tool/",screenshot:"data/images/tkat.png"},{name:"FRP Bowling Kata",description:"Bowling Scoring Problem and TDD Screencasts",repository:"https://github.com/wizardwerdna/FRPBowlingKata",homepage:"http://wizardwerdna.github.io",screenshot:"data/images/FRPBowlingKata.png"},{name:"Recall",description:"A memory game built with Cycle.js",repository:"https://github.com/artfuldev/recall-cycle/",homepage:"https://artfuldev.github.io/recall-cycle/",screenshot:"data/images/recall.png"},{name:"Equalizer",description:"Web audio player with equalizer",repository:"https://github.com/Bloomca/equalizer",homepage:"http://bloomca.github.io/equalizer/",screenshot:"data/images/equalizer.png"},{name:"Bornycentre",description:"An app to get your Bornycentre built with Cycle.js",repository:"https://github.com/teawaterwire/bornycentre",homepage:"http://bornycent.re/",screenshot:"data/images/bornycentre.png"},{name:"TAMS Tools",description:"A set of tools for teaching and learning computer science built with Cycle.js",repository:"https://github.com/laszlokorte/tams-tools",homepage:"https://thesis.laszlokorte.de/",screenshot:"data/images/tams-tools.png"},{name:"Cycle Conway",description:"Conway's Game of Life built with Cycle.js",repository:"https://github.com/raquelxmoss/cycle-conway",homepage:"http://raquelxmoss.github.io/cycle-conway",screenshot:"data/images/cycle-conway.png"},{name:"Hangman",description:"Hangman game built with Cycle.js",repository:"https://github.com/class-ideas/cyclejs-hangman",homepage:"http://class-ideas.github.io/cyclejs-hangman/",screenshot:"data/images/hangman.png"},{name:"Concentration",description:"A card game about memory and concentration",repository:"https://github.com/class-ideas/cyclejs-concentration",homepage:"http://class-ideas.github.io/cyclejs-concentration/",screenshot:"data/images/concentration.png"},{name:"TodoMVC",description:"TodoMVC example implemented in Cycle.js",repository:"https://github.com/cyclejs/todomvc-cycle",homepage:"http://cycle.js.org/todomvc-cycle/",screenshot:"data/images/todomvc.png"},{name:"Cycle Music Sequencer",description:"An easy way to make melodies in your browser, powered by Cycle.js and Tone.js",repository:"https://github.com/widdershin/cycle-music-sequencer/",homepage:"http://widdersh.in/cycle-music-sequencer/",screenshot:"data/images/cycle-music-sequencer.png"},{name:"Tricycle",description:"Try Cycle.js in your browser, no setup required",repository:"https://github.com/widdershin/tricycle/",homepage:"http://widdersh.in/tricycle",screenshot:"data/images/tricycle.png"},{name:"Ghostwriter",description:"Autocompleting rap/rhyme editor",repository:"https://github.com/widdershin/ghostwriter",homepage:"http://widdersh.in/ghostwriter",screenshot:"data/images/ghostwriter.png"},{name:"Powerpeople",description:"An app used internally at Powershop to help staff learn the names of their coworkers. Shown here with Pokemon as an example.",repository:"https://github.com/Widdershin/powerpeople",homepage:"https://github.com/Widdershin/powerpeople",screenshot:"data/images/powerpeople.png"},{name:"RxMarbles",description:"Interactive diagrams of Rx Observables",repository:"https://github.com/staltz/rxmarbles",homepage:"http://rxmarbles.com/",screenshot:"data/images/rxmarbles.png"}];
 
 },{}],2:[function(require,module,exports){
-"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}var _core=require("@cycle/core"),_dom=require("@cycle/dom"),_app=require("./src/app"),_app2=_interopRequireDefault(_app),drivers={DOM:(0,_dom.makeDOMDriver)(".app")},_run=(0,_core.run)(_app2["default"],drivers),sinks=_run.sinks,sources=_run.sources;module.hot&&(module.hot.accept(),module.hot.dispose(function(){sinks.dispose(),sources.dispose()}));
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _core=require("@cycle/core"),_dom=require("@cycle/dom"),_app=require("./src/app"),_app2=_interopRequireDefault(_app),drivers={DOM:(0,_dom.makeDOMDriver)(".app")},_run=(0,_core.run)(_app2.default,drivers),sinks=_run.sinks,sources=_run.sources;module.hot&&(module.hot.accept(),module.hot.dispose(function(){sinks.dispose(),sources.dispose()}));
 
 },{"./src/app":64,"@cycle/core":3,"@cycle/dom":4}],3:[function(require,module,exports){
 "use strict";
@@ -11,89 +11,75 @@ var Rx = require("rx");
 
 function makeSinkProxies(drivers) {
   var sinkProxies = {};
-  for (var _name in drivers) {
-    if (drivers.hasOwnProperty(_name)) {
-      sinkProxies[_name] = new Rx.ReplaySubject(1);
-    }
+  var keys = Object.keys(drivers);
+  for (var i = 0; i < keys.length; i++) {
+    sinkProxies[keys[i]] = new Rx.ReplaySubject(1);
   }
   return sinkProxies;
 }
 
 function callDrivers(drivers, sinkProxies) {
   var sources = {};
-  for (var _name2 in drivers) {
-    if (drivers.hasOwnProperty(_name2)) {
-      sources[_name2] = drivers[_name2](sinkProxies[_name2], _name2);
-    }
+  var keys = Object.keys(drivers);
+  for (var i = 0; i < keys.length; i++) {
+    var _name = keys[i];
+    sources[_name] = drivers[_name](sinkProxies[_name], _name);
   }
   return sources;
 }
 
 function attachDisposeToSinks(sinks, replicationSubscription) {
-  Object.defineProperty(sinks, "dispose", {
-    enumerable: false,
+  return Object.defineProperty(sinks, "dispose", {
     value: function value() {
       replicationSubscription.dispose();
     }
   });
-  return sinks;
 }
 
 function makeDisposeSources(sources) {
   return function dispose() {
-    for (var _name3 in sources) {
-      if (sources.hasOwnProperty(_name3) && typeof sources[_name3].dispose === "function") {
-        sources[_name3].dispose();
+    var keys = Object.keys(sources);
+    for (var i = 0; i < keys.length; i++) {
+      var source = sources[keys[i]];
+      if (typeof source.dispose === "function") {
+        source.dispose();
       }
     }
   };
 }
 
 function attachDisposeToSources(sources) {
-  Object.defineProperty(sources, "dispose", {
-    enumerable: false,
+  return Object.defineProperty(sources, "dispose", {
     value: makeDisposeSources(sources)
   });
-  return sources;
 }
 
-function logToConsoleError(err) {
-  var target = err.stack || err;
-  if (console && console.error) {
-    console.error(target);
-  }
-}
+var logToConsoleError = typeof console !== "undefined" && console.error ? function (error) {
+  console.error(error.stack || error);
+} : Function.prototype;
 
 function replicateMany(observables, subjects) {
   return Rx.Observable.create(function (observer) {
     var subscription = new Rx.CompositeDisposable();
     setTimeout(function () {
-      for (var _name4 in observables) {
-        if (observables.hasOwnProperty(_name4) && subjects.hasOwnProperty(_name4) && !subjects[_name4].isDisposed) {
-          subscription.add(observables[_name4].doOnError(logToConsoleError).subscribe(subjects[_name4].asObserver()));
+      var keys = Object.keys(observables);
+      for (var i = 0; i < keys.length; i++) {
+        var _name2 = keys[i];
+        if (subjects.hasOwnProperty(_name2) && !subjects[_name2].isDisposed) {
+          subscription.add(observables[_name2].doOnError(logToConsoleError).subscribe(subjects[_name2].asObserver()));
         }
       }
       observer.onNext(subscription);
-    }, 1);
+    });
 
     return function dispose() {
       subscription.dispose();
-      for (var x in subjects) {
-        if (subjects.hasOwnProperty(x)) {
-          subjects[x].dispose();
-        }
+      var keys = Object.keys(subjects);
+      for (var i = 0; i < keys.length; i++) {
+        subjects[keys[i]].dispose();
       }
     };
   });
-}
-
-function isObjectEmpty(obj) {
-  for (var key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      return false;
-    }
-  }
-  return true;
 }
 
 function run(main, drivers) {
@@ -103,7 +89,7 @@ function run(main, drivers) {
   if (typeof drivers !== "object" || drivers === null) {
     throw new Error("Second argument given to Cycle.run() must be an object " + "with driver functions as properties.");
   }
-  if (isObjectEmpty(drivers)) {
+  if (Object.keys(drivers).length === 0) {
     throw new Error("Second argument given to Cycle.run() must be an object " + "with at least one driver function declared as a property.");
   }
 
@@ -118,7 +104,7 @@ function run(main, drivers) {
 
 var Cycle = {
   /**
-   * Takes an `main` function and circularly connects it to the given collection
+   * Takes a `main` function and circularly connects it to the given collection
    * of driver functions.
    *
    * The `main` function expects a collection of "driver source" Observables
@@ -140,7 +126,7 @@ var Cycle = {
 };
 
 module.exports = Cycle;
-},{"rx":63}],4:[function(require,module,exports){
+},{"rx":25}],4:[function(require,module,exports){
 "use strict";
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -278,7 +264,7 @@ module.exports = CycleDOM;
  * `h('div.wrapper', [ h('h1', 'Header') ])`.
  * @name hyperscript-helpers
  */
-},{"./mock-dom-source":6,"./render-dom":7,"./render-html":8,"./virtual-hyperscript":11,"./virtual-hyperscript-svg":10,"hyperscript-helpers":12}],5:[function(require,module,exports){
+},{"./mock-dom-source":6,"./render-dom":7,"./render-html":8,"./virtual-hyperscript":11,"./virtual-hyperscript-svg":10,"hyperscript-helpers":18}],5:[function(require,module,exports){
 "use strict";
 
 var Rx = require("rx");
@@ -341,7 +327,7 @@ function fromEvent(element, eventName) {
 }
 
 module.exports = fromEvent;
-},{"rx":63}],6:[function(require,module,exports){
+},{"rx":25}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -392,7 +378,7 @@ function mockDOMSource() {
 
 exports['default'] = mockDOMSource;
 module.exports = exports['default'];
-},{"rx":63}],7:[function(require,module,exports){
+},{"rx":25}],7:[function(require,module,exports){
 "use strict";
 
 var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; })();
@@ -642,7 +628,7 @@ module.exports = {
 
   makeDOMDriver: makeDOMDriver
 };
-},{"./fromevent":5,"./transposition":9,"./virtual-hyperscript":11,"matches-selector":13,"rx":63,"vdom-parser":14,"virtual-dom/diff":29,"virtual-dom/patch":36}],8:[function(require,module,exports){
+},{"./fromevent":5,"./transposition":9,"./virtual-hyperscript":11,"matches-selector":23,"rx":25,"vdom-parser":30,"virtual-dom/diff":37,"virtual-dom/patch":38}],8:[function(require,module,exports){
 "use strict";
 
 var Rx = require("rx");
@@ -676,7 +662,7 @@ module.exports = {
 
   makeHTMLDriver: makeHTMLDriver
 };
-},{"./transposition":9,"rx":63,"vdom-to-html":18}],9:[function(require,module,exports){
+},{"./transposition":9,"rx":25,"vdom-to-html":34}],9:[function(require,module,exports){
 "use strict";
 
 var Rx = require("rx");
@@ -709,7 +695,7 @@ function transposeVTree(vtree) {
 module.exports = {
   transposeVTree: transposeVTree
 };
-},{"rx":63,"virtual-dom/vnode/vnode":55}],10:[function(require,module,exports){
+},{"rx":25,"virtual-dom/vnode/vnode":57}],10:[function(require,module,exports){
 /*eslint-disable */
 'use strict';
 
@@ -779,7 +765,7 @@ function isChildren(x) {
   return typeof x === 'string' || isArray(x) || isObservable(x);
 }
 // END Cycle.js-specific code <<<<<<<<<<
-},{"./virtual-hyperscript":11,"virtual-dom/virtual-hyperscript/hooks/attribute-hook":43,"virtual-dom/virtual-hyperscript/svg-attribute-namespace":47,"x-is-array":60}],11:[function(require,module,exports){
+},{"./virtual-hyperscript":11,"virtual-dom/virtual-hyperscript/hooks/attribute-hook":45,"virtual-dom/virtual-hyperscript/svg-attribute-namespace":49,"x-is-array":62}],11:[function(require,module,exports){
 /* eslint-disable */
 'use strict';
 
@@ -912,1345 +898,9 @@ function errorString(obj) {
   }
 }
 /* eslint-enable */
-},{"virtual-dom/virtual-hyperscript/hooks/ev-hook.js":44,"virtual-dom/virtual-hyperscript/hooks/soft-set-hook.js":45,"virtual-dom/virtual-hyperscript/parse-tag.js":46,"virtual-dom/vnode/is-thunk":49,"virtual-dom/vnode/is-vhook":50,"virtual-dom/vnode/is-vnode":51,"virtual-dom/vnode/is-vtext":52,"virtual-dom/vnode/is-widget":53,"virtual-dom/vnode/vnode.js":55,"virtual-dom/vnode/vtext.js":57,"x-is-array":60}],12:[function(require,module,exports){
-'use strict';
-
-var isValidString = function isValidString(param) {
-  return typeof param === 'string' && param.length > 0;
-};
-
-var startsWith = function startsWith(string, start) {
-  return string.indexOf(start) === 0;
-};
-
-var isSelector = function isSelector(param) {
-  return isValidString(param) && (startsWith(param, '.') || startsWith(param, '#'));
-};
-
-var node = function node(h) {
-  return function (tagName) {
-    return function (first) {
-      for (var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-        rest[_key - 1] = arguments[_key];
-      }
-
-      if (isSelector(first)) {
-        return h.apply(undefined, [tagName + first].concat(rest));
-      } else {
-        return h.apply(undefined, [tagName, first].concat(rest));
-      }
-    };
-  };
-};
-
-var TAG_NAMES = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'base', 'bdi', 'bdo', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'dd', 'del', 'dfn', 'dir', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'link', 'map', 'mark', 'menu', 'meta', 'nav', 'noscript', 'object', 'ol', 'optgroup', 'option', 'p', 'param', 'pre', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'script', 'section', 'select', 'small', 'source', 'span', 'strong', 'style', 'sub', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'title', 'tr', 'u', 'ul', 'video'];
-
-module.exports = function (h) {
-  var exported = { TAG_NAMES: TAG_NAMES, isSelector: isSelector };
-  var appliedNode = node(h);
-  TAG_NAMES.forEach(function (n) {
-    exported[n] = appliedNode(n);
-  });
-  return exported;
-};
+},{"virtual-dom/virtual-hyperscript/hooks/ev-hook.js":46,"virtual-dom/virtual-hyperscript/hooks/soft-set-hook.js":47,"virtual-dom/virtual-hyperscript/parse-tag.js":48,"virtual-dom/vnode/is-thunk":51,"virtual-dom/vnode/is-vhook":52,"virtual-dom/vnode/is-vnode":53,"virtual-dom/vnode/is-vtext":54,"virtual-dom/vnode/is-widget":55,"virtual-dom/vnode/vnode.js":57,"virtual-dom/vnode/vtext.js":59,"x-is-array":62}],12:[function(require,module,exports){
 
 },{}],13:[function(require,module,exports){
-'use strict';
-
-var proto = Element.prototype;
-var vendor = proto.matches
-  || proto.matchesSelector
-  || proto.webkitMatchesSelector
-  || proto.mozMatchesSelector
-  || proto.msMatchesSelector
-  || proto.oMatchesSelector;
-
-module.exports = match;
-
-/**
- * Match `el` to `selector`.
- *
- * @param {Element} el
- * @param {String} selector
- * @return {Boolean}
- * @api public
- */
-
-function match(el, selector) {
-  if (vendor) return vendor.call(el, selector);
-  var nodes = el.parentNode.querySelectorAll(selector);
-  for (var i = 0; i < nodes.length; i++) {
-    if (nodes[i] == el) return true;
-  }
-  return false;
-}
-},{}],14:[function(require,module,exports){
-
-/**
- * index.js
- *
- * A client-side DOM to vdom parser based on DOMParser API
- */
-
-'use strict';
-
-var VNode = require('virtual-dom/vnode/vnode');
-var VText = require('virtual-dom/vnode/vtext');
-var domParser = new DOMParser();
-
-var propertyMap = require('./property-map');
-var namespaceMap = require('./namespace-map');
-
-var HTML_NAMESPACE = 'http://www.w3.org/1999/xhtml';
-
-module.exports = parser;
-
-/**
- * DOM/html string to vdom parser
- *
- * @param   Mixed   el    DOM element or html string
- * @param   String  attr  Attribute name that contains vdom key
- * @return  Object        VNode or VText
- */
-function parser(el, attr) {
-	// empty input fallback to empty text node
-	if (!el) {
-		return createNode(document.createTextNode(''));
-	}
-
-	if (typeof el === 'string') {
-		var doc = domParser.parseFromString(el, 'text/html');
-
-		// most tags default to body
-		if (doc.body.firstChild) {
-			el = doc.body.firstChild;
-
-		// some tags, like script and style, default to head
-		} else if (doc.head.firstChild && (doc.head.firstChild.tagName !== 'TITLE' || doc.title)) {
-			el = doc.head.firstChild;
-
-		// special case for html comment, cdata, doctype
-		} else if (doc.firstChild && doc.firstChild.tagName !== 'HTML') {
-			el = doc.firstChild;
-
-		// other element, such as whitespace, or html/body/head tag, fallback to empty text node
-		} else {
-			el = document.createTextNode('');
-		}
-	}
-
-	if (typeof el !== 'object' || !el || !el.nodeType) { 
-		throw new Error('invalid dom node', el);
-	}
-
-	return createNode(el, attr);
-}
-
-/**
- * Create vdom from dom node
- *
- * @param   Object  el    DOM element
- * @param   String  attr  Attribute name that contains vdom key
- * @return  Object        VNode or VText
- */
-function createNode(el, attr) {
-	// html comment is not currently supported by virtual-dom
-	if (el.nodeType === 3) {
-		return createVirtualTextNode(el);
-
-	// cdata or doctype is not currently supported by virtual-dom
-	} else if (el.nodeType === 1 || el.nodeType === 9) {
-		return createVirtualDomNode(el, attr);
-	}
-
-	// default to empty text node
-	return new VText('');
-}
-
-/**
- * Create vtext from dom node
- *
- * @param   Object  el  Text node
- * @return  Object      VText
- */
-function createVirtualTextNode(el) {
-	return new VText(el.nodeValue);
-}
-
-/**
- * Create vnode from dom node
- *
- * @param   Object  el    DOM element
- * @param   String  attr  Attribute name that contains vdom key
- * @return  Object        VNode
- */
-function createVirtualDomNode(el, attr) {
-	var ns = el.namespaceURI !== HTML_NAMESPACE ? el.namespaceURI : null;
-	var key = attr && el.getAttribute(attr) ? el.getAttribute(attr) : null;
-
-	return new VNode(
-		el.tagName
-		, createProperties(el)
-		, createChildren(el, attr)
-		, key
-		, ns
-	);
-}
-
-/**
- * Recursively create vdom
- *
- * @param   Object  el    Parent element
- * @param   String  attr  Attribute name that contains vdom key
- * @return  Array         Child vnode or vtext
- */
-function createChildren(el, attr) {
-	var children = [];
-	for (var i = 0; i < el.childNodes.length; i++) {
-		children.push(createNode(el.childNodes[i], attr));
-	};
-
-	return children;
-}
-
-/**
- * Create properties from dom node
- *
- * @param   Object  el  DOM element
- * @return  Object      Node properties and attributes
- */
-function createProperties(el) {
-	var properties = {};
-
-	if (!el.hasAttributes()) {
-		return properties;
-	}
-
-	var ns;
-	if (el.namespaceURI && el.namespaceURI !== HTML_NAMESPACE) {
-		ns = el.namespaceURI;
-	}
-
-	var attr;
-	for (var i = 0; i < el.attributes.length; i++) {
-		if (ns) {
-			attr = createPropertyNS(el.attributes[i]);
-		} else {
-			attr = createProperty(el.attributes[i]);
-		}
-
-		// special case, namespaced attribute, use properties.foobar
-		if (attr.ns) {
-			properties[attr.name] = {
-				namespace: attr.ns
-				, value: attr.value
-			};
-
-		// special case, use properties.attributes.foobar
-		} else if (attr.isAttr) {
-			// init attributes object only when necessary
-			if (!properties.attributes) {
-				properties.attributes = {}
-			}
-			properties.attributes[attr.name] = attr.value;
-
-		// default case, use properties.foobar
-		} else {
-			properties[attr.name] = attr.value;
-		}
-	};
-
-	return properties;
-}
-
-/**
- * Create property from dom attribute 
- *
- * @param   Object  attr  DOM attribute
- * @return  Object        Normalized attribute
- */
-function createProperty(attr) {
-	var name, value, isAttr;
-
-	// using a map to find the correct case of property name
-	if (propertyMap[attr.name]) {
-		name = propertyMap[attr.name];
-	} else {
-		name = attr.name;
-	}
-
-	// special cases for style attribute, we default to properties.style
-	if (name === 'style') {
-		var style = {};
-		attr.value.split(';').forEach(function (s) {
-			var pos = s.indexOf(':');
-			if (pos < 0) {
-				return;
-			}
-			style[s.substr(0, pos).trim()] = s.substr(pos + 1).trim();
-		});
-		value = style;
-	// special cases for data attribute, we default to properties.attributes.data
-	} else if (name.indexOf('data-') === 0) {
-		value = attr.value;
-		isAttr = true;
-	} else {
-		value = attr.value;
-	}
-
-	return {
-		name: name
-		, value: value
-		, isAttr: isAttr || false
-	};
-}
-
-/**
- * Create namespaced property from dom attribute 
- *
- * @param   Object  attr  DOM attribute
- * @return  Object        Normalized attribute
- */
-function createPropertyNS(attr) {
-	var name, value;
-
-	return {
-		name: attr.name
-		, value: attr.value
-		, ns: namespaceMap[attr.name] || ''
-	};
-}
-
-},{"./namespace-map":15,"./property-map":16,"virtual-dom/vnode/vnode":55,"virtual-dom/vnode/vtext":57}],15:[function(require,module,exports){
-
-/**
- * namespace-map.js
- *
- * Necessary to map svg attributes back to their namespace
- */
-
-'use strict';
-
-// extracted from https://github.com/Matt-Esch/virtual-dom/blob/master/virtual-hyperscript/svg-attribute-namespace.js
-var DEFAULT_NAMESPACE = null;
-var EV_NAMESPACE = 'http://www.w3.org/2001/xml-events';
-var XLINK_NAMESPACE = 'http://www.w3.org/1999/xlink';
-var XML_NAMESPACE = 'http://www.w3.org/XML/1998/namespace';
-
-var namespaces = {
-	'about': DEFAULT_NAMESPACE
-	, 'accent-height': DEFAULT_NAMESPACE
-	, 'accumulate': DEFAULT_NAMESPACE
-	, 'additive': DEFAULT_NAMESPACE
-	, 'alignment-baseline': DEFAULT_NAMESPACE
-	, 'alphabetic': DEFAULT_NAMESPACE
-	, 'amplitude': DEFAULT_NAMESPACE
-	, 'arabic-form': DEFAULT_NAMESPACE
-	, 'ascent': DEFAULT_NAMESPACE
-	, 'attributeName': DEFAULT_NAMESPACE
-	, 'attributeType': DEFAULT_NAMESPACE
-	, 'azimuth': DEFAULT_NAMESPACE
-	, 'bandwidth': DEFAULT_NAMESPACE
-	, 'baseFrequency': DEFAULT_NAMESPACE
-	, 'baseProfile': DEFAULT_NAMESPACE
-	, 'baseline-shift': DEFAULT_NAMESPACE
-	, 'bbox': DEFAULT_NAMESPACE
-	, 'begin': DEFAULT_NAMESPACE
-	, 'bias': DEFAULT_NAMESPACE
-	, 'by': DEFAULT_NAMESPACE
-	, 'calcMode': DEFAULT_NAMESPACE
-	, 'cap-height': DEFAULT_NAMESPACE
-	, 'class': DEFAULT_NAMESPACE
-	, 'clip': DEFAULT_NAMESPACE
-	, 'clip-path': DEFAULT_NAMESPACE
-	, 'clip-rule': DEFAULT_NAMESPACE
-	, 'clipPathUnits': DEFAULT_NAMESPACE
-	, 'color': DEFAULT_NAMESPACE
-	, 'color-interpolation': DEFAULT_NAMESPACE
-	, 'color-interpolation-filters': DEFAULT_NAMESPACE
-	, 'color-profile': DEFAULT_NAMESPACE
-	, 'color-rendering': DEFAULT_NAMESPACE
-	, 'content': DEFAULT_NAMESPACE
-	, 'contentScriptType': DEFAULT_NAMESPACE
-	, 'contentStyleType': DEFAULT_NAMESPACE
-	, 'cursor': DEFAULT_NAMESPACE
-	, 'cx': DEFAULT_NAMESPACE
-	, 'cy': DEFAULT_NAMESPACE
-	, 'd': DEFAULT_NAMESPACE
-	, 'datatype': DEFAULT_NAMESPACE
-	, 'defaultAction': DEFAULT_NAMESPACE
-	, 'descent': DEFAULT_NAMESPACE
-	, 'diffuseConstant': DEFAULT_NAMESPACE
-	, 'direction': DEFAULT_NAMESPACE
-	, 'display': DEFAULT_NAMESPACE
-	, 'divisor': DEFAULT_NAMESPACE
-	, 'dominant-baseline': DEFAULT_NAMESPACE
-	, 'dur': DEFAULT_NAMESPACE
-	, 'dx': DEFAULT_NAMESPACE
-	, 'dy': DEFAULT_NAMESPACE
-	, 'edgeMode': DEFAULT_NAMESPACE
-	, 'editable': DEFAULT_NAMESPACE
-	, 'elevation': DEFAULT_NAMESPACE
-	, 'enable-background': DEFAULT_NAMESPACE
-	, 'end': DEFAULT_NAMESPACE
-	, 'ev:event': EV_NAMESPACE
-	, 'event': DEFAULT_NAMESPACE
-	, 'exponent': DEFAULT_NAMESPACE
-	, 'externalResourcesRequired': DEFAULT_NAMESPACE
-	, 'fill': DEFAULT_NAMESPACE
-	, 'fill-opacity': DEFAULT_NAMESPACE
-	, 'fill-rule': DEFAULT_NAMESPACE
-	, 'filter': DEFAULT_NAMESPACE
-	, 'filterRes': DEFAULT_NAMESPACE
-	, 'filterUnits': DEFAULT_NAMESPACE
-	, 'flood-color': DEFAULT_NAMESPACE
-	, 'flood-opacity': DEFAULT_NAMESPACE
-	, 'focusHighlight': DEFAULT_NAMESPACE
-	, 'focusable': DEFAULT_NAMESPACE
-	, 'font-family': DEFAULT_NAMESPACE
-	, 'font-size': DEFAULT_NAMESPACE
-	, 'font-size-adjust': DEFAULT_NAMESPACE
-	, 'font-stretch': DEFAULT_NAMESPACE
-	, 'font-style': DEFAULT_NAMESPACE
-	, 'font-variant': DEFAULT_NAMESPACE
-	, 'font-weight': DEFAULT_NAMESPACE
-	, 'format': DEFAULT_NAMESPACE
-	, 'from': DEFAULT_NAMESPACE
-	, 'fx': DEFAULT_NAMESPACE
-	, 'fy': DEFAULT_NAMESPACE
-	, 'g1': DEFAULT_NAMESPACE
-	, 'g2': DEFAULT_NAMESPACE
-	, 'glyph-name': DEFAULT_NAMESPACE
-	, 'glyph-orientation-horizontal': DEFAULT_NAMESPACE
-	, 'glyph-orientation-vertical': DEFAULT_NAMESPACE
-	, 'glyphRef': DEFAULT_NAMESPACE
-	, 'gradientTransform': DEFAULT_NAMESPACE
-	, 'gradientUnits': DEFAULT_NAMESPACE
-	, 'handler': DEFAULT_NAMESPACE
-	, 'hanging': DEFAULT_NAMESPACE
-	, 'height': DEFAULT_NAMESPACE
-	, 'horiz-adv-x': DEFAULT_NAMESPACE
-	, 'horiz-origin-x': DEFAULT_NAMESPACE
-	, 'horiz-origin-y': DEFAULT_NAMESPACE
-	, 'id': DEFAULT_NAMESPACE
-	, 'ideographic': DEFAULT_NAMESPACE
-	, 'image-rendering': DEFAULT_NAMESPACE
-	, 'in': DEFAULT_NAMESPACE
-	, 'in2': DEFAULT_NAMESPACE
-	, 'initialVisibility': DEFAULT_NAMESPACE
-	, 'intercept': DEFAULT_NAMESPACE
-	, 'k': DEFAULT_NAMESPACE
-	, 'k1': DEFAULT_NAMESPACE
-	, 'k2': DEFAULT_NAMESPACE
-	, 'k3': DEFAULT_NAMESPACE
-	, 'k4': DEFAULT_NAMESPACE
-	, 'kernelMatrix': DEFAULT_NAMESPACE
-	, 'kernelUnitLength': DEFAULT_NAMESPACE
-	, 'kerning': DEFAULT_NAMESPACE
-	, 'keyPoints': DEFAULT_NAMESPACE
-	, 'keySplines': DEFAULT_NAMESPACE
-	, 'keyTimes': DEFAULT_NAMESPACE
-	, 'lang': DEFAULT_NAMESPACE
-	, 'lengthAdjust': DEFAULT_NAMESPACE
-	, 'letter-spacing': DEFAULT_NAMESPACE
-	, 'lighting-color': DEFAULT_NAMESPACE
-	, 'limitingConeAngle': DEFAULT_NAMESPACE
-	, 'local': DEFAULT_NAMESPACE
-	, 'marker-end': DEFAULT_NAMESPACE
-	, 'marker-mid': DEFAULT_NAMESPACE
-	, 'marker-start': DEFAULT_NAMESPACE
-	, 'markerHeight': DEFAULT_NAMESPACE
-	, 'markerUnits': DEFAULT_NAMESPACE
-	, 'markerWidth': DEFAULT_NAMESPACE
-	, 'mask': DEFAULT_NAMESPACE
-	, 'maskContentUnits': DEFAULT_NAMESPACE
-	, 'maskUnits': DEFAULT_NAMESPACE
-	, 'mathematical': DEFAULT_NAMESPACE
-	, 'max': DEFAULT_NAMESPACE
-	, 'media': DEFAULT_NAMESPACE
-	, 'mediaCharacterEncoding': DEFAULT_NAMESPACE
-	, 'mediaContentEncodings': DEFAULT_NAMESPACE
-	, 'mediaSize': DEFAULT_NAMESPACE
-	, 'mediaTime': DEFAULT_NAMESPACE
-	, 'method': DEFAULT_NAMESPACE
-	, 'min': DEFAULT_NAMESPACE
-	, 'mode': DEFAULT_NAMESPACE
-	, 'name': DEFAULT_NAMESPACE
-	, 'nav-down': DEFAULT_NAMESPACE
-	, 'nav-down-left': DEFAULT_NAMESPACE
-	, 'nav-down-right': DEFAULT_NAMESPACE
-	, 'nav-left': DEFAULT_NAMESPACE
-	, 'nav-next': DEFAULT_NAMESPACE
-	, 'nav-prev': DEFAULT_NAMESPACE
-	, 'nav-right': DEFAULT_NAMESPACE
-	, 'nav-up': DEFAULT_NAMESPACE
-	, 'nav-up-left': DEFAULT_NAMESPACE
-	, 'nav-up-right': DEFAULT_NAMESPACE
-	, 'numOctaves': DEFAULT_NAMESPACE
-	, 'observer': DEFAULT_NAMESPACE
-	, 'offset': DEFAULT_NAMESPACE
-	, 'opacity': DEFAULT_NAMESPACE
-	, 'operator': DEFAULT_NAMESPACE
-	, 'order': DEFAULT_NAMESPACE
-	, 'orient': DEFAULT_NAMESPACE
-	, 'orientation': DEFAULT_NAMESPACE
-	, 'origin': DEFAULT_NAMESPACE
-	, 'overflow': DEFAULT_NAMESPACE
-	, 'overlay': DEFAULT_NAMESPACE
-	, 'overline-position': DEFAULT_NAMESPACE
-	, 'overline-thickness': DEFAULT_NAMESPACE
-	, 'panose-1': DEFAULT_NAMESPACE
-	, 'path': DEFAULT_NAMESPACE
-	, 'pathLength': DEFAULT_NAMESPACE
-	, 'patternContentUnits': DEFAULT_NAMESPACE
-	, 'patternTransform': DEFAULT_NAMESPACE
-	, 'patternUnits': DEFAULT_NAMESPACE
-	, 'phase': DEFAULT_NAMESPACE
-	, 'playbackOrder': DEFAULT_NAMESPACE
-	, 'pointer-events': DEFAULT_NAMESPACE
-	, 'points': DEFAULT_NAMESPACE
-	, 'pointsAtX': DEFAULT_NAMESPACE
-	, 'pointsAtY': DEFAULT_NAMESPACE
-	, 'pointsAtZ': DEFAULT_NAMESPACE
-	, 'preserveAlpha': DEFAULT_NAMESPACE
-	, 'preserveAspectRatio': DEFAULT_NAMESPACE
-	, 'primitiveUnits': DEFAULT_NAMESPACE
-	, 'propagate': DEFAULT_NAMESPACE
-	, 'property': DEFAULT_NAMESPACE
-	, 'r': DEFAULT_NAMESPACE
-	, 'radius': DEFAULT_NAMESPACE
-	, 'refX': DEFAULT_NAMESPACE
-	, 'refY': DEFAULT_NAMESPACE
-	, 'rel': DEFAULT_NAMESPACE
-	, 'rendering-intent': DEFAULT_NAMESPACE
-	, 'repeatCount': DEFAULT_NAMESPACE
-	, 'repeatDur': DEFAULT_NAMESPACE
-	, 'requiredExtensions': DEFAULT_NAMESPACE
-	, 'requiredFeatures': DEFAULT_NAMESPACE
-	, 'requiredFonts': DEFAULT_NAMESPACE
-	, 'requiredFormats': DEFAULT_NAMESPACE
-	, 'resource': DEFAULT_NAMESPACE
-	, 'restart': DEFAULT_NAMESPACE
-	, 'result': DEFAULT_NAMESPACE
-	, 'rev': DEFAULT_NAMESPACE
-	, 'role': DEFAULT_NAMESPACE
-	, 'rotate': DEFAULT_NAMESPACE
-	, 'rx': DEFAULT_NAMESPACE
-	, 'ry': DEFAULT_NAMESPACE
-	, 'scale': DEFAULT_NAMESPACE
-	, 'seed': DEFAULT_NAMESPACE
-	, 'shape-rendering': DEFAULT_NAMESPACE
-	, 'slope': DEFAULT_NAMESPACE
-	, 'snapshotTime': DEFAULT_NAMESPACE
-	, 'spacing': DEFAULT_NAMESPACE
-	, 'specularConstant': DEFAULT_NAMESPACE
-	, 'specularExponent': DEFAULT_NAMESPACE
-	, 'spreadMethod': DEFAULT_NAMESPACE
-	, 'startOffset': DEFAULT_NAMESPACE
-	, 'stdDeviation': DEFAULT_NAMESPACE
-	, 'stemh': DEFAULT_NAMESPACE
-	, 'stemv': DEFAULT_NAMESPACE
-	, 'stitchTiles': DEFAULT_NAMESPACE
-	, 'stop-color': DEFAULT_NAMESPACE
-	, 'stop-opacity': DEFAULT_NAMESPACE
-	, 'strikethrough-position': DEFAULT_NAMESPACE
-	, 'strikethrough-thickness': DEFAULT_NAMESPACE
-	, 'string': DEFAULT_NAMESPACE
-	, 'stroke': DEFAULT_NAMESPACE
-	, 'stroke-dasharray': DEFAULT_NAMESPACE
-	, 'stroke-dashoffset': DEFAULT_NAMESPACE
-	, 'stroke-linecap': DEFAULT_NAMESPACE
-	, 'stroke-linejoin': DEFAULT_NAMESPACE
-	, 'stroke-miterlimit': DEFAULT_NAMESPACE
-	, 'stroke-opacity': DEFAULT_NAMESPACE
-	, 'stroke-width': DEFAULT_NAMESPACE
-	, 'surfaceScale': DEFAULT_NAMESPACE
-	, 'syncBehavior': DEFAULT_NAMESPACE
-	, 'syncBehaviorDefault': DEFAULT_NAMESPACE
-	, 'syncMaster': DEFAULT_NAMESPACE
-	, 'syncTolerance': DEFAULT_NAMESPACE
-	, 'syncToleranceDefault': DEFAULT_NAMESPACE
-	, 'systemLanguage': DEFAULT_NAMESPACE
-	, 'tableValues': DEFAULT_NAMESPACE
-	, 'target': DEFAULT_NAMESPACE
-	, 'targetX': DEFAULT_NAMESPACE
-	, 'targetY': DEFAULT_NAMESPACE
-	, 'text-anchor': DEFAULT_NAMESPACE
-	, 'text-decoration': DEFAULT_NAMESPACE
-	, 'text-rendering': DEFAULT_NAMESPACE
-	, 'textLength': DEFAULT_NAMESPACE
-	, 'timelineBegin': DEFAULT_NAMESPACE
-	, 'title': DEFAULT_NAMESPACE
-	, 'to': DEFAULT_NAMESPACE
-	, 'transform': DEFAULT_NAMESPACE
-	, 'transformBehavior': DEFAULT_NAMESPACE
-	, 'type': DEFAULT_NAMESPACE
-	, 'typeof': DEFAULT_NAMESPACE
-	, 'u1': DEFAULT_NAMESPACE
-	, 'u2': DEFAULT_NAMESPACE
-	, 'underline-position': DEFAULT_NAMESPACE
-	, 'underline-thickness': DEFAULT_NAMESPACE
-	, 'unicode': DEFAULT_NAMESPACE
-	, 'unicode-bidi': DEFAULT_NAMESPACE
-	, 'unicode-range': DEFAULT_NAMESPACE
-	, 'units-per-em': DEFAULT_NAMESPACE
-	, 'v-alphabetic': DEFAULT_NAMESPACE
-	, 'v-hanging': DEFAULT_NAMESPACE
-	, 'v-ideographic': DEFAULT_NAMESPACE
-	, 'v-mathematical': DEFAULT_NAMESPACE
-	, 'values': DEFAULT_NAMESPACE
-	, 'version': DEFAULT_NAMESPACE
-	, 'vert-adv-y': DEFAULT_NAMESPACE
-	, 'vert-origin-x': DEFAULT_NAMESPACE
-	, 'vert-origin-y': DEFAULT_NAMESPACE
-	, 'viewBox': DEFAULT_NAMESPACE
-	, 'viewTarget': DEFAULT_NAMESPACE
-	, 'visibility': DEFAULT_NAMESPACE
-	, 'width': DEFAULT_NAMESPACE
-	, 'widths': DEFAULT_NAMESPACE
-	, 'word-spacing': DEFAULT_NAMESPACE
-	, 'writing-mode': DEFAULT_NAMESPACE
-	, 'x': DEFAULT_NAMESPACE
-	, 'x-height': DEFAULT_NAMESPACE
-	, 'x1': DEFAULT_NAMESPACE
-	, 'x2': DEFAULT_NAMESPACE
-	, 'xChannelSelector': DEFAULT_NAMESPACE
-	, 'xlink:actuate': XLINK_NAMESPACE
-	, 'xlink:arcrole': XLINK_NAMESPACE
-	, 'xlink:href': XLINK_NAMESPACE
-	, 'xlink:role': XLINK_NAMESPACE
-	, 'xlink:show': XLINK_NAMESPACE
-	, 'xlink:title': XLINK_NAMESPACE
-	, 'xlink:type': XLINK_NAMESPACE
-	, 'xml:base': XML_NAMESPACE
-	, 'xml:id': XML_NAMESPACE
-	, 'xml:lang': XML_NAMESPACE
-	, 'xml:space': XML_NAMESPACE
-	, 'y': DEFAULT_NAMESPACE
-	, 'y1': DEFAULT_NAMESPACE
-	, 'y2': DEFAULT_NAMESPACE
-	, 'yChannelSelector': DEFAULT_NAMESPACE
-	, 'z': DEFAULT_NAMESPACE
-	, 'zoomAndPan': DEFAULT_NAMESPACE
-};
-
-module.exports = namespaces;
-
-},{}],16:[function(require,module,exports){
-
-/**
- * property-map.js
- *
- * Necessary to map dom attributes back to vdom properties
- */
-
-'use strict';
-
-// invert of https://www.npmjs.com/package/html-attributes
-var properties = {
-	'abbr': 'abbr'
-	, 'accept': 'accept'
-	, 'accept-charset': 'acceptCharset'
-	, 'accesskey': 'accessKey'
-	, 'action': 'action'
-	, 'allowfullscreen': 'allowFullScreen'
-	, 'allowtransparency': 'allowTransparency'
-	, 'alt': 'alt'
-	, 'async': 'async'
-	, 'autocomplete': 'autoComplete'
-	, 'autofocus': 'autoFocus'
-	, 'autoplay': 'autoPlay'
-	, 'cellpadding': 'cellPadding'
-	, 'cellspacing': 'cellSpacing'
-	, 'challenge': 'challenge'
-	, 'charset': 'charset'
-	, 'checked': 'checked'
-	, 'cite': 'cite'
-	, 'class': 'className'
-	, 'cols': 'cols'
-	, 'colspan': 'colSpan'
-	, 'command': 'command'
-	, 'content': 'content'
-	, 'contenteditable': 'contentEditable'
-	, 'contextmenu': 'contextMenu'
-	, 'controls': 'controls'
-	, 'coords': 'coords'
-	, 'crossorigin': 'crossOrigin'
-	, 'data': 'data'
-	, 'datetime': 'dateTime'
-	, 'default': 'default'
-	, 'defer': 'defer'
-	, 'dir': 'dir'
-	, 'disabled': 'disabled'
-	, 'download': 'download'
-	, 'draggable': 'draggable'
-	, 'dropzone': 'dropzone'
-	, 'enctype': 'encType'
-	, 'for': 'htmlFor'
-	, 'form': 'form'
-	, 'formaction': 'formAction'
-	, 'formenctype': 'formEncType'
-	, 'formmethod': 'formMethod'
-	, 'formnovalidate': 'formNoValidate'
-	, 'formtarget': 'formTarget'
-	, 'frameBorder': 'frameBorder'
-	, 'headers': 'headers'
-	, 'height': 'height'
-	, 'hidden': 'hidden'
-	, 'high': 'high'
-	, 'href': 'href'
-	, 'hreflang': 'hrefLang'
-	, 'http-equiv': 'httpEquiv'
-	, 'icon': 'icon'
-	, 'id': 'id'
-	, 'inputmode': 'inputMode'
-	, 'ismap': 'isMap'
-	, 'itemid': 'itemId'
-	, 'itemprop': 'itemProp'
-	, 'itemref': 'itemRef'
-	, 'itemscope': 'itemScope'
-	, 'itemtype': 'itemType'
-	, 'kind': 'kind'
-	, 'label': 'label'
-	, 'lang': 'lang'
-	, 'list': 'list'
-	, 'loop': 'loop'
-	, 'manifest': 'manifest'
-	, 'max': 'max'
-	, 'maxlength': 'maxLength'
-	, 'media': 'media'
-	, 'mediagroup': 'mediaGroup'
-	, 'method': 'method'
-	, 'min': 'min'
-	, 'minlength': 'minLength'
-	, 'multiple': 'multiple'
-	, 'muted': 'muted'
-	, 'name': 'name'
-	, 'novalidate': 'noValidate'
-	, 'open': 'open'
-	, 'optimum': 'optimum'
-	, 'pattern': 'pattern'
-	, 'ping': 'ping'
-	, 'placeholder': 'placeholder'
-	, 'poster': 'poster'
-	, 'preload': 'preload'
-	, 'radiogroup': 'radioGroup'
-	, 'readonly': 'readOnly'
-	, 'rel': 'rel'
-	, 'required': 'required'
-	, 'role': 'role'
-	, 'rows': 'rows'
-	, 'rowspan': 'rowSpan'
-	, 'sandbox': 'sandbox'
-	, 'scope': 'scope'
-	, 'scoped': 'scoped'
-	, 'scrolling': 'scrolling'
-	, 'seamless': 'seamless'
-	, 'selected': 'selected'
-	, 'shape': 'shape'
-	, 'size': 'size'
-	, 'sizes': 'sizes'
-	, 'sortable': 'sortable'
-	, 'span': 'span'
-	, 'spellcheck': 'spellCheck'
-	, 'src': 'src'
-	, 'srcdoc': 'srcDoc'
-	, 'srcset': 'srcSet'
-	, 'start': 'start'
-	, 'step': 'step'
-	, 'style': 'style'
-	, 'tabindex': 'tabIndex'
-	, 'target': 'target'
-	, 'title': 'title'
-	, 'translate': 'translate'
-	, 'type': 'type'
-	, 'typemustmatch': 'typeMustMatch'
-	, 'usemap': 'useMap'
-	, 'value': 'value'
-	, 'width': 'width'
-	, 'wmode': 'wmode'
-	, 'wrap': 'wrap'
-};
-
-module.exports = properties;
-
-},{}],17:[function(require,module,exports){
-var escape = require('escape-html');
-var propConfig = require('./property-config');
-var types = propConfig.attributeTypes;
-var properties = propConfig.properties;
-var attributeNames = propConfig.attributeNames;
-
-var prefixAttribute = memoizeString(function (name) {
-  return escape(name) + '="';
-});
-
-module.exports = createAttribute;
-
-/**
- * Create attribute string.
- *
- * @param {String} name The name of the property or attribute
- * @param {*} value The value
- * @param {Boolean} [isAttribute] Denotes whether `name` is an attribute.
- * @return {?String} Attribute string || null if not a valid property or custom attribute.
- */
-
-function createAttribute(name, value, isAttribute) {
-  if (properties.hasOwnProperty(name)) {
-    if (shouldSkip(name, value)) return '';
-    name = (attributeNames[name] || name).toLowerCase();
-    var attrType = properties[name];
-    // for BOOLEAN `value` only has to be truthy
-    // for OVERLOADED_BOOLEAN `value` has to be === true
-    if ((attrType === types.BOOLEAN) ||
-        (attrType === types.OVERLOADED_BOOLEAN && value === true)) {
-      return escape(name);
-    }
-    return prefixAttribute(name) + escape(value) + '"';
-  } else if (isAttribute) {
-    if (value == null) return '';
-    return prefixAttribute(name) + escape(value) + '"';
-  }
-  // return null if `name` is neither a valid property nor an attribute
-  return null;
-}
-
-/**
- * Should skip false boolean attributes.
- */
-
-function shouldSkip(name, value) {
-  var attrType = properties[name];
-  return value == null ||
-    (attrType === types.BOOLEAN && !value) ||
-    (attrType === types.OVERLOADED_BOOLEAN && value === false);
-}
-
-/**
- * Memoizes the return value of a function that accepts one string argument.
- *
- * @param {function} callback
- * @return {function}
- */
-
-function memoizeString(callback) {
-  var cache = {};
-  return function(string) {
-    if (cache.hasOwnProperty(string)) {
-      return cache[string];
-    } else {
-      return cache[string] = callback.call(this, string);
-    }
-  };
-}
-},{"./property-config":27,"escape-html":19}],18:[function(require,module,exports){
-var escape = require('escape-html');
-var extend = require('xtend');
-var isVNode = require('virtual-dom/vnode/is-vnode');
-var isVText = require('virtual-dom/vnode/is-vtext');
-var isThunk = require('virtual-dom/vnode/is-thunk');
-var isWidget = require('virtual-dom/vnode/is-widget');
-var softHook = require('virtual-dom/virtual-hyperscript/hooks/soft-set-hook');
-var attrHook = require('virtual-dom/virtual-hyperscript/hooks/attribute-hook');
-var paramCase = require('param-case');
-var createAttribute = require('./create-attribute');
-var voidElements = require('./void-elements');
-
-module.exports = toHTML;
-
-function toHTML(node, parent) {
-  if (!node) return '';
-
-  if (isThunk(node)) {
-    node = node.render();
-  }
-
-  if (isWidget(node) && node.render) {
-    node = node.render();
-  }
-
-  if (isVNode(node)) {
-    return openTag(node) + tagContent(node) + closeTag(node);
-  } else if (isVText(node)) {
-    if (parent && parent.tagName.toLowerCase() === 'script') return String(node.text);
-    return escape(String(node.text));
-  }
-
-  return '';
-}
-
-function openTag(node) {
-  var props = node.properties;
-  var ret = '<' + node.tagName.toLowerCase();
-
-  for (var name in props) {
-    var value = props[name];
-    if (value == null) continue;
-
-    if (name == 'attributes') {
-      value = extend({}, value);
-      for (var attrProp in value) {
-        ret += ' ' + createAttribute(attrProp, value[attrProp], true);
-      }
-      continue;
-    }
-
-    if (name == 'style') {
-      var css = '';
-      value = extend({}, value);
-      for (var styleProp in value) {
-        css += paramCase(styleProp) + ': ' + value[styleProp] + '; ';
-      }
-      value = css.trim();
-    }
-
-    if (value instanceof softHook || value instanceof attrHook) {
-      ret += ' ' + createAttribute(name, value.value, true);
-      continue;
-    }
-
-    var attr = createAttribute(name, value);
-    if (attr) ret += ' ' + attr;
-  }
-
-  return ret + '>';
-}
-
-function tagContent(node) {
-  var innerHTML = node.properties.innerHTML;
-  if (innerHTML != null) return innerHTML;
-  else {
-    var ret = '';
-    if (node.children && node.children.length) {
-      for (var i = 0, l = node.children.length; i<l; i++) {
-        var child = node.children[i];
-        ret += toHTML(child, node);
-      }
-    }
-    return ret;
-  }
-}
-
-function closeTag(node) {
-  var tag = node.tagName.toLowerCase();
-  return voidElements[tag] ? '' : '</' + tag + '>';
-}
-},{"./create-attribute":17,"./void-elements":28,"escape-html":19,"param-case":25,"virtual-dom/virtual-hyperscript/hooks/attribute-hook":43,"virtual-dom/virtual-hyperscript/hooks/soft-set-hook":45,"virtual-dom/vnode/is-thunk":49,"virtual-dom/vnode/is-vnode":51,"virtual-dom/vnode/is-vtext":52,"virtual-dom/vnode/is-widget":53,"xtend":26}],19:[function(require,module,exports){
-/*!
- * escape-html
- * Copyright(c) 2012-2013 TJ Holowaychuk
- * Copyright(c) 2015 Andreas Lubbe
- * Copyright(c) 2015 Tiancheng "Timothy" Gu
- * MIT Licensed
- */
-
-'use strict';
-
-/**
- * Module variables.
- * @private
- */
-
-var matchHtmlRegExp = /["'&<>]/;
-
-/**
- * Module exports.
- * @public
- */
-
-module.exports = escapeHtml;
-
-/**
- * Escape special characters in the given string of html.
- *
- * @param  {string} string The string to escape for inserting into HTML
- * @return {string}
- * @public
- */
-
-function escapeHtml(string) {
-  var str = '' + string;
-  var match = matchHtmlRegExp.exec(str);
-
-  if (!match) {
-    return str;
-  }
-
-  var escape;
-  var html = '';
-  var index = 0;
-  var lastIndex = 0;
-
-  for (index = match.index; index < str.length; index++) {
-    switch (str.charCodeAt(index)) {
-      case 34: // "
-        escape = '&quot;';
-        break;
-      case 38: // &
-        escape = '&amp;';
-        break;
-      case 39: // '
-        escape = '&#39;';
-        break;
-      case 60: // <
-        escape = '&lt;';
-        break;
-      case 62: // >
-        escape = '&gt;';
-        break;
-      default:
-        continue;
-    }
-
-    if (lastIndex !== index) {
-      html += str.substring(lastIndex, index);
-    }
-
-    lastIndex = index + 1;
-    html += escape;
-  }
-
-  return lastIndex !== index
-    ? html + str.substring(lastIndex, index)
-    : html;
-}
-
-},{}],20:[function(require,module,exports){
-/**
- * Special language-specific overrides.
- *
- * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
- *
- * @type {Object}
- */
-var LANGUAGES = {
-  tr: {
-    regexp: /\u0130|\u0049|\u0049\u0307/g,
-    map: {
-      '\u0130': '\u0069',
-      '\u0049': '\u0131',
-      '\u0049\u0307': '\u0069'
-    }
-  },
-  az: {
-    regexp: /[\u0130]/g,
-    map: {
-      '\u0130': '\u0069',
-      '\u0049': '\u0131',
-      '\u0049\u0307': '\u0069'
-    }
-  },
-  lt: {
-    regexp: /[\u0049\u004A\u012E\u00CC\u00CD\u0128]/g,
-    map: {
-      '\u0049': '\u0069\u0307',
-      '\u004A': '\u006A\u0307',
-      '\u012E': '\u012F\u0307',
-      '\u00CC': '\u0069\u0307\u0300',
-      '\u00CD': '\u0069\u0307\u0301',
-      '\u0128': '\u0069\u0307\u0303'
-    }
-  }
-}
-
-/**
- * Lowercase a string.
- *
- * @param  {String} str
- * @return {String}
- */
-module.exports = function (str, locale) {
-  var lang = LANGUAGES[locale]
-
-  str = str == null ? '' : String(str)
-
-  if (lang) {
-    str = str.replace(lang.regexp, function (m) { return lang.map[m] })
-  }
-
-  return str.toLowerCase()
-}
-
-},{}],21:[function(require,module,exports){
-var lowerCase = require('lower-case')
-
-var NON_WORD_REGEXP = require('./vendor/non-word-regexp')
-var CAMEL_CASE_REGEXP = require('./vendor/camel-case-regexp')
-var TRAILING_DIGIT_REGEXP = require('./vendor/trailing-digit-regexp')
-
-/**
- * Sentence case a string.
- *
- * @param  {String} str
- * @param  {String} locale
- * @param  {String} replacement
- * @return {String}
- */
-module.exports = function (str, locale, replacement) {
-  if (str == null) {
-    return ''
-  }
-
-  replacement = replacement || ' '
-
-  function replace (match, index, string) {
-    if (index === 0 || index === (string.length - match.length)) {
-      return ''
-    }
-
-    return replacement
-  }
-
-  str = String(str)
-    // Support camel case ("camelCase" -> "camel Case").
-    .replace(CAMEL_CASE_REGEXP, '$1 $2')
-    // Support digit groups ("test2012" -> "test 2012").
-    .replace(TRAILING_DIGIT_REGEXP, '$1 $2')
-    // Remove all non-word characters and replace with a single space.
-    .replace(NON_WORD_REGEXP, replace)
-
-  // Lower case the entire string.
-  return lowerCase(str, locale)
-}
-
-},{"./vendor/camel-case-regexp":22,"./vendor/non-word-regexp":23,"./vendor/trailing-digit-regexp":24,"lower-case":20}],22:[function(require,module,exports){
-module.exports = /([\u0061-\u007A\u00B5\u00DF-\u00F6\u00F8-\u00FF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0561-\u0587\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5E\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7FA\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A])([\u0041-\u005A\u00C0-\u00D6\u00D8-\u00DE\u0100\u0102\u0104\u0106\u0108\u010A\u010C\u010E\u0110\u0112\u0114\u0116\u0118\u011A\u011C\u011E\u0120\u0122\u0124\u0126\u0128\u012A\u012C\u012E\u0130\u0132\u0134\u0136\u0139\u013B\u013D\u013F\u0141\u0143\u0145\u0147\u014A\u014C\u014E\u0150\u0152\u0154\u0156\u0158\u015A\u015C\u015E\u0160\u0162\u0164\u0166\u0168\u016A\u016C\u016E\u0170\u0172\u0174\u0176\u0178\u0179\u017B\u017D\u0181\u0182\u0184\u0186\u0187\u0189-\u018B\u018E-\u0191\u0193\u0194\u0196-\u0198\u019C\u019D\u019F\u01A0\u01A2\u01A4\u01A6\u01A7\u01A9\u01AC\u01AE\u01AF\u01B1-\u01B3\u01B5\u01B7\u01B8\u01BC\u01C4\u01C7\u01CA\u01CD\u01CF\u01D1\u01D3\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u01E2\u01E4\u01E6\u01E8\u01EA\u01EC\u01EE\u01F1\u01F4\u01F6-\u01F8\u01FA\u01FC\u01FE\u0200\u0202\u0204\u0206\u0208\u020A\u020C\u020E\u0210\u0212\u0214\u0216\u0218\u021A\u021C\u021E\u0220\u0222\u0224\u0226\u0228\u022A\u022C\u022E\u0230\u0232\u023A\u023B\u023D\u023E\u0241\u0243-\u0246\u0248\u024A\u024C\u024E\u0370\u0372\u0376\u0386\u0388-\u038A\u038C\u038E\u038F\u0391-\u03A1\u03A3-\u03AB\u03CF\u03D2-\u03D4\u03D8\u03DA\u03DC\u03DE\u03E0\u03E2\u03E4\u03E6\u03E8\u03EA\u03EC\u03EE\u03F4\u03F7\u03F9\u03FA\u03FD-\u042F\u0460\u0462\u0464\u0466\u0468\u046A\u046C\u046E\u0470\u0472\u0474\u0476\u0478\u047A\u047C\u047E\u0480\u048A\u048C\u048E\u0490\u0492\u0494\u0496\u0498\u049A\u049C\u049E\u04A0\u04A2\u04A4\u04A6\u04A8\u04AA\u04AC\u04AE\u04B0\u04B2\u04B4\u04B6\u04B8\u04BA\u04BC\u04BE\u04C0\u04C1\u04C3\u04C5\u04C7\u04C9\u04CB\u04CD\u04D0\u04D2\u04D4\u04D6\u04D8\u04DA\u04DC\u04DE\u04E0\u04E2\u04E4\u04E6\u04E8\u04EA\u04EC\u04EE\u04F0\u04F2\u04F4\u04F6\u04F8\u04FA\u04FC\u04FE\u0500\u0502\u0504\u0506\u0508\u050A\u050C\u050E\u0510\u0512\u0514\u0516\u0518\u051A\u051C\u051E\u0520\u0522\u0524\u0526\u0531-\u0556\u10A0-\u10C5\u10C7\u10CD\u1E00\u1E02\u1E04\u1E06\u1E08\u1E0A\u1E0C\u1E0E\u1E10\u1E12\u1E14\u1E16\u1E18\u1E1A\u1E1C\u1E1E\u1E20\u1E22\u1E24\u1E26\u1E28\u1E2A\u1E2C\u1E2E\u1E30\u1E32\u1E34\u1E36\u1E38\u1E3A\u1E3C\u1E3E\u1E40\u1E42\u1E44\u1E46\u1E48\u1E4A\u1E4C\u1E4E\u1E50\u1E52\u1E54\u1E56\u1E58\u1E5A\u1E5C\u1E5E\u1E60\u1E62\u1E64\u1E66\u1E68\u1E6A\u1E6C\u1E6E\u1E70\u1E72\u1E74\u1E76\u1E78\u1E7A\u1E7C\u1E7E\u1E80\u1E82\u1E84\u1E86\u1E88\u1E8A\u1E8C\u1E8E\u1E90\u1E92\u1E94\u1E9E\u1EA0\u1EA2\u1EA4\u1EA6\u1EA8\u1EAA\u1EAC\u1EAE\u1EB0\u1EB2\u1EB4\u1EB6\u1EB8\u1EBA\u1EBC\u1EBE\u1EC0\u1EC2\u1EC4\u1EC6\u1EC8\u1ECA\u1ECC\u1ECE\u1ED0\u1ED2\u1ED4\u1ED6\u1ED8\u1EDA\u1EDC\u1EDE\u1EE0\u1EE2\u1EE4\u1EE6\u1EE8\u1EEA\u1EEC\u1EEE\u1EF0\u1EF2\u1EF4\u1EF6\u1EF8\u1EFA\u1EFC\u1EFE\u1F08-\u1F0F\u1F18-\u1F1D\u1F28-\u1F2F\u1F38-\u1F3F\u1F48-\u1F4D\u1F59\u1F5B\u1F5D\u1F5F\u1F68-\u1F6F\u1FB8-\u1FBB\u1FC8-\u1FCB\u1FD8-\u1FDB\u1FE8-\u1FEC\u1FF8-\u1FFB\u2102\u2107\u210B-\u210D\u2110-\u2112\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u2130-\u2133\u213E\u213F\u2145\u2183\u2C00-\u2C2E\u2C60\u2C62-\u2C64\u2C67\u2C69\u2C6B\u2C6D-\u2C70\u2C72\u2C75\u2C7E-\u2C80\u2C82\u2C84\u2C86\u2C88\u2C8A\u2C8C\u2C8E\u2C90\u2C92\u2C94\u2C96\u2C98\u2C9A\u2C9C\u2C9E\u2CA0\u2CA2\u2CA4\u2CA6\u2CA8\u2CAA\u2CAC\u2CAE\u2CB0\u2CB2\u2CB4\u2CB6\u2CB8\u2CBA\u2CBC\u2CBE\u2CC0\u2CC2\u2CC4\u2CC6\u2CC8\u2CCA\u2CCC\u2CCE\u2CD0\u2CD2\u2CD4\u2CD6\u2CD8\u2CDA\u2CDC\u2CDE\u2CE0\u2CE2\u2CEB\u2CED\u2CF2\uA640\uA642\uA644\uA646\uA648\uA64A\uA64C\uA64E\uA650\uA652\uA654\uA656\uA658\uA65A\uA65C\uA65E\uA660\uA662\uA664\uA666\uA668\uA66A\uA66C\uA680\uA682\uA684\uA686\uA688\uA68A\uA68C\uA68E\uA690\uA692\uA694\uA696\uA722\uA724\uA726\uA728\uA72A\uA72C\uA72E\uA732\uA734\uA736\uA738\uA73A\uA73C\uA73E\uA740\uA742\uA744\uA746\uA748\uA74A\uA74C\uA74E\uA750\uA752\uA754\uA756\uA758\uA75A\uA75C\uA75E\uA760\uA762\uA764\uA766\uA768\uA76A\uA76C\uA76E\uA779\uA77B\uA77D\uA77E\uA780\uA782\uA784\uA786\uA78B\uA78D\uA790\uA792\uA7A0\uA7A2\uA7A4\uA7A6\uA7A8\uA7AA\uFF21-\uFF3A\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])/g
-
-},{}],23:[function(require,module,exports){
-module.exports = /[^\u0041-\u005A\u0061-\u007A\u00AA\u00B5\u00BA\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u0527\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u08A0\u08A2-\u08AC\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0977\u0979-\u097F\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C33\u0C35-\u0C39\u0C3D\u0C58\u0C59\u0C60\u0C61\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D60\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F4\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191C\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19C1-\u19C7\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312D\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FCC\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA697\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA78E\uA790-\uA793\uA7A0-\uA7AA\uA7F8-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA80-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uABC0-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19]+/g
-
-},{}],24:[function(require,module,exports){
-module.exports = /([\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])([^\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])/g
-
-},{}],25:[function(require,module,exports){
-var sentenceCase = require('sentence-case')
-
-/**
- * Param case a string.
- *
- * @param  {String} string
- * @param  {String} [locale]
- * @return {String}
- */
-module.exports = function (string, locale) {
-  return sentenceCase(string, locale, '-')
-}
-
-},{"sentence-case":21}],26:[function(require,module,exports){
-module.exports = extend
-
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-
-function extend() {
-    var target = {}
-
-    for (var i = 0; i < arguments.length; i++) {
-        var source = arguments[i]
-
-        for (var key in source) {
-            if (hasOwnProperty.call(source, key)) {
-                target[key] = source[key]
-            }
-        }
-    }
-
-    return target
-}
-
-},{}],27:[function(require,module,exports){
-/**
- * Attribute types.
- */
-
-var types = {
-  BOOLEAN: 1,
-  OVERLOADED_BOOLEAN: 2
-};
-
-/**
- * Properties.
- *
- * Taken from https://github.com/facebook/react/blob/847357e42e5267b04dd6e297219eaa125ab2f9f4/src/browser/ui/dom/HTMLDOMPropertyConfig.js
- *
- */
-
-var properties = {
-  /**
-   * Standard Properties
-   */
-  accept: true,
-  acceptCharset: true,
-  accessKey: true,
-  action: true,
-  allowFullScreen: types.BOOLEAN,
-  allowTransparency: true,
-  alt: true,
-  async: types.BOOLEAN,
-  autocomplete: true,
-  autofocus: types.BOOLEAN,
-  autoplay: types.BOOLEAN,
-  cellPadding: true,
-  cellSpacing: true,
-  charset: true,
-  checked: types.BOOLEAN,
-  classID: true,
-  className: true,
-  cols: true,
-  colSpan: true,
-  content: true,
-  contentEditable: true,
-  contextMenu: true,
-  controls: types.BOOLEAN,
-  coords: true,
-  crossOrigin: true,
-  data: true, // For `<object />` acts as `src`.
-  dateTime: true,
-  defer: types.BOOLEAN,
-  dir: true,
-  disabled: types.BOOLEAN,
-  download: types.OVERLOADED_BOOLEAN,
-  draggable: true,
-  enctype: true,
-  form: true,
-  formAction: true,
-  formEncType: true,
-  formMethod: true,
-  formNoValidate: types.BOOLEAN,
-  formTarget: true,
-  frameBorder: true,
-  headers: true,
-  height: true,
-  hidden: types.BOOLEAN,
-  href: true,
-  hreflang: true,
-  htmlFor: true,
-  httpEquiv: true,
-  icon: true,
-  id: true,
-  label: true,
-  lang: true,
-  list: true,
-  loop: types.BOOLEAN,
-  manifest: true,
-  marginHeight: true,
-  marginWidth: true,
-  max: true,
-  maxLength: true,
-  media: true,
-  mediaGroup: true,
-  method: true,
-  min: true,
-  multiple: types.BOOLEAN,
-  muted: types.BOOLEAN,
-  name: true,
-  noValidate: types.BOOLEAN,
-  open: true,
-  pattern: true,
-  placeholder: true,
-  poster: true,
-  preload: true,
-  radiogroup: true,
-  readOnly: types.BOOLEAN,
-  rel: true,
-  required: types.BOOLEAN,
-  role: true,
-  rows: true,
-  rowSpan: true,
-  sandbox: true,
-  scope: true,
-  scrolling: true,
-  seamless: types.BOOLEAN,
-  selected: types.BOOLEAN,
-  shape: true,
-  size: true,
-  sizes: true,
-  span: true,
-  spellcheck: true,
-  src: true,
-  srcdoc: true,
-  srcset: true,
-  start: true,
-  step: true,
-  style: true,
-  tabIndex: true,
-  target: true,
-  title: true,
-  type: true,
-  useMap: true,
-  value: true,
-  width: true,
-  wmode: true,
-
-  /**
-   * Non-standard Properties
-   */
-  // autoCapitalize and autoCorrect are supported in Mobile Safari for
-  // keyboard hints.
-  autocapitalize: true,
-  autocorrect: true,
-  // itemProp, itemScope, itemType are for Microdata support. See
-  // http://schema.org/docs/gs.html
-  itemProp: true,
-  itemScope: types.BOOLEAN,
-  itemType: true,
-  // property is supported for OpenGraph in meta tags.
-  property: true
-};
-
-/**
- * Properties to attributes mapping.
- *
- * The ones not here are simply converted to lower case.
- */
-
-var attributeNames = {
-  acceptCharset: 'accept-charset',
-  className: 'class',
-  htmlFor: 'for',
-  httpEquiv: 'http-equiv'
-};
-
-/**
- * Exports.
- */
-
-module.exports = {
-  attributeTypes: types,
-  properties: properties,
-  attributeNames: attributeNames
-};
-},{}],28:[function(require,module,exports){
-
-/**
- * Void elements.
- *
- * https://github.com/facebook/react/blob/v0.12.0/src/browser/ui/ReactDOMComponent.js#L99
- */
-
-module.exports = {
-  'area': true,
-  'base': true,
-  'br': true,
-  'col': true,
-  'embed': true,
-  'hr': true,
-  'img': true,
-  'input': true,
-  'keygen': true,
-  'link': true,
-  'meta': true,
-  'param': true,
-  'source': true,
-  'track': true,
-  'wbr': true
-};
-},{}],29:[function(require,module,exports){
-var diff = require("./vtree/diff.js")
-
-module.exports = diff
-
-},{"./vtree/diff.js":59}],30:[function(require,module,exports){
 /*!
  * Cross-Browser Split 1.1.1
  * Copyright 2007-2012 Steven Levithan <stevenlevithan.com>
@@ -2358,1755 +1008,105 @@ module.exports = (function split(undef) {
   return self;
 })();
 
-},{}],31:[function(require,module,exports){
-'use strict';
-
-var OneVersionConstraint = require('individual/one-version');
-
-var MY_VERSION = '7';
-OneVersionConstraint('ev-store', MY_VERSION);
-
-var hashKey = '__EV_STORE_KEY@' + MY_VERSION;
-
-module.exports = EvStore;
-
-function EvStore(elem) {
-    var hash = elem[hashKey];
-
-    if (!hash) {
-        hash = elem[hashKey] = {};
-    }
-
-    return hash;
-}
-
-},{"individual/one-version":33}],32:[function(require,module,exports){
-(function (global){
-'use strict';
-
-/*global window, global*/
-
-var root = typeof window !== 'undefined' ?
-    window : typeof global !== 'undefined' ?
-    global : {};
-
-module.exports = Individual;
-
-function Individual(key, value) {
-    if (key in root) {
-        return root[key];
-    }
-
-    root[key] = value;
-
-    return value;
-}
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],33:[function(require,module,exports){
-'use strict';
-
-var Individual = require('./index.js');
-
-module.exports = OneVersion;
-
-function OneVersion(moduleName, version, defaultValue) {
-    var key = '__INDIVIDUAL_ONE_VERSION_' + moduleName;
-    var enforceKey = key + '_ENFORCE_SINGLETON';
-
-    var versionValue = Individual(enforceKey, version);
-
-    if (versionValue !== version) {
-        throw new Error('Can only have one copy of ' +
-            moduleName + '.\n' +
-            'You already have version ' + versionValue +
-            ' installed.\n' +
-            'This means you cannot install version ' + version);
-    }
-
-    return Individual(key, defaultValue);
-}
-
-},{"./index.js":32}],34:[function(require,module,exports){
-(function (global){
-var topLevel = typeof global !== 'undefined' ? global :
-    typeof window !== 'undefined' ? window : {}
-var minDoc = require('min-document');
-
-if (typeof document !== 'undefined') {
-    module.exports = document;
-} else {
-    var doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'];
-
-    if (!doccy) {
-        doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'] = minDoc;
-    }
-
-    module.exports = doccy;
-}
-
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"min-document":61}],35:[function(require,module,exports){
-"use strict";
-
-module.exports = function isObject(x) {
-	return typeof x === "object" && x !== null;
-};
-
-},{}],36:[function(require,module,exports){
-var patch = require("./vdom/patch.js")
-
-module.exports = patch
-
-},{"./vdom/patch.js":41}],37:[function(require,module,exports){
-var isObject = require("is-object")
-var isHook = require("../vnode/is-vhook.js")
-
-module.exports = applyProperties
-
-function applyProperties(node, props, previous) {
-    for (var propName in props) {
-        var propValue = props[propName]
-
-        if (propValue === undefined) {
-            removeProperty(node, propName, propValue, previous);
-        } else if (isHook(propValue)) {
-            removeProperty(node, propName, propValue, previous)
-            if (propValue.hook) {
-                propValue.hook(node,
-                    propName,
-                    previous ? previous[propName] : undefined)
-            }
-        } else {
-            if (isObject(propValue)) {
-                patchObject(node, props, previous, propName, propValue);
-            } else {
-                node[propName] = propValue
-            }
-        }
-    }
-}
-
-function removeProperty(node, propName, propValue, previous) {
-    if (previous) {
-        var previousValue = previous[propName]
-
-        if (!isHook(previousValue)) {
-            if (propName === "attributes") {
-                for (var attrName in previousValue) {
-                    node.removeAttribute(attrName)
-                }
-            } else if (propName === "style") {
-                for (var i in previousValue) {
-                    node.style[i] = ""
-                }
-            } else if (typeof previousValue === "string") {
-                node[propName] = ""
-            } else {
-                node[propName] = null
-            }
-        } else if (previousValue.unhook) {
-            previousValue.unhook(node, propName, propValue)
-        }
-    }
-}
-
-function patchObject(node, props, previous, propName, propValue) {
-    var previousValue = previous ? previous[propName] : undefined
-
-    // Set attributes
-    if (propName === "attributes") {
-        for (var attrName in propValue) {
-            var attrValue = propValue[attrName]
-
-            if (attrValue === undefined) {
-                node.removeAttribute(attrName)
-            } else {
-                node.setAttribute(attrName, attrValue)
-            }
-        }
-
-        return
-    }
-
-    if(previousValue && isObject(previousValue) &&
-        getPrototype(previousValue) !== getPrototype(propValue)) {
-        node[propName] = propValue
-        return
-    }
-
-    if (!isObject(node[propName])) {
-        node[propName] = {}
-    }
-
-    var replacer = propName === "style" ? "" : undefined
-
-    for (var k in propValue) {
-        var value = propValue[k]
-        node[propName][k] = (value === undefined) ? replacer : value
-    }
-}
-
-function getPrototype(value) {
-    if (Object.getPrototypeOf) {
-        return Object.getPrototypeOf(value)
-    } else if (value.__proto__) {
-        return value.__proto__
-    } else if (value.constructor) {
-        return value.constructor.prototype
-    }
-}
-
-},{"../vnode/is-vhook.js":50,"is-object":35}],38:[function(require,module,exports){
-var document = require("global/document")
-
-var applyProperties = require("./apply-properties")
-
-var isVNode = require("../vnode/is-vnode.js")
-var isVText = require("../vnode/is-vtext.js")
-var isWidget = require("../vnode/is-widget.js")
-var handleThunk = require("../vnode/handle-thunk.js")
-
-module.exports = createElement
-
-function createElement(vnode, opts) {
-    var doc = opts ? opts.document || document : document
-    var warn = opts ? opts.warn : null
-
-    vnode = handleThunk(vnode).a
-
-    if (isWidget(vnode)) {
-        return vnode.init()
-    } else if (isVText(vnode)) {
-        return doc.createTextNode(vnode.text)
-    } else if (!isVNode(vnode)) {
-        if (warn) {
-            warn("Item is not a valid virtual dom node", vnode)
-        }
-        return null
-    }
-
-    var node = (vnode.namespace === null) ?
-        doc.createElement(vnode.tagName) :
-        doc.createElementNS(vnode.namespace, vnode.tagName)
-
-    var props = vnode.properties
-    applyProperties(node, props)
-
-    var children = vnode.children
-
-    for (var i = 0; i < children.length; i++) {
-        var childNode = createElement(children[i], opts)
-        if (childNode) {
-            node.appendChild(childNode)
-        }
-    }
-
-    return node
-}
-
-},{"../vnode/handle-thunk.js":48,"../vnode/is-vnode.js":51,"../vnode/is-vtext.js":52,"../vnode/is-widget.js":53,"./apply-properties":37,"global/document":34}],39:[function(require,module,exports){
-// Maps a virtual DOM tree onto a real DOM tree in an efficient manner.
-// We don't want to read all of the DOM nodes in the tree so we use
-// the in-order tree indexing to eliminate recursion down certain branches.
-// We only recurse into a DOM node if we know that it contains a child of
-// interest.
-
-var noChild = {}
-
-module.exports = domIndex
-
-function domIndex(rootNode, tree, indices, nodes) {
-    if (!indices || indices.length === 0) {
-        return {}
-    } else {
-        indices.sort(ascending)
-        return recurse(rootNode, tree, indices, nodes, 0)
-    }
-}
-
-function recurse(rootNode, tree, indices, nodes, rootIndex) {
-    nodes = nodes || {}
-
-
-    if (rootNode) {
-        if (indexInRange(indices, rootIndex, rootIndex)) {
-            nodes[rootIndex] = rootNode
-        }
-
-        var vChildren = tree.children
-
-        if (vChildren) {
-
-            var childNodes = rootNode.childNodes
-
-            for (var i = 0; i < tree.children.length; i++) {
-                rootIndex += 1
-
-                var vChild = vChildren[i] || noChild
-                var nextIndex = rootIndex + (vChild.count || 0)
-
-                // skip recursion down the tree if there are no nodes down here
-                if (indexInRange(indices, rootIndex, nextIndex)) {
-                    recurse(childNodes[i], vChild, indices, nodes, rootIndex)
-                }
-
-                rootIndex = nextIndex
-            }
-        }
-    }
-
-    return nodes
-}
-
-// Binary search for an index in the interval [left, right]
-function indexInRange(indices, left, right) {
-    if (indices.length === 0) {
-        return false
-    }
-
-    var minIndex = 0
-    var maxIndex = indices.length - 1
-    var currentIndex
-    var currentItem
-
-    while (minIndex <= maxIndex) {
-        currentIndex = ((maxIndex + minIndex) / 2) >> 0
-        currentItem = indices[currentIndex]
-
-        if (minIndex === maxIndex) {
-            return currentItem >= left && currentItem <= right
-        } else if (currentItem < left) {
-            minIndex = currentIndex + 1
-        } else  if (currentItem > right) {
-            maxIndex = currentIndex - 1
-        } else {
-            return true
-        }
-    }
-
-    return false;
-}
-
-function ascending(a, b) {
-    return a > b ? 1 : -1
-}
-
-},{}],40:[function(require,module,exports){
-var applyProperties = require("./apply-properties")
-
-var isWidget = require("../vnode/is-widget.js")
-var VPatch = require("../vnode/vpatch.js")
-
-var updateWidget = require("./update-widget")
-
-module.exports = applyPatch
-
-function applyPatch(vpatch, domNode, renderOptions) {
-    var type = vpatch.type
-    var vNode = vpatch.vNode
-    var patch = vpatch.patch
-
-    switch (type) {
-        case VPatch.REMOVE:
-            return removeNode(domNode, vNode)
-        case VPatch.INSERT:
-            return insertNode(domNode, patch, renderOptions)
-        case VPatch.VTEXT:
-            return stringPatch(domNode, vNode, patch, renderOptions)
-        case VPatch.WIDGET:
-            return widgetPatch(domNode, vNode, patch, renderOptions)
-        case VPatch.VNODE:
-            return vNodePatch(domNode, vNode, patch, renderOptions)
-        case VPatch.ORDER:
-            reorderChildren(domNode, patch)
-            return domNode
-        case VPatch.PROPS:
-            applyProperties(domNode, patch, vNode.properties)
-            return domNode
-        case VPatch.THUNK:
-            return replaceRoot(domNode,
-                renderOptions.patch(domNode, patch, renderOptions))
-        default:
-            return domNode
-    }
-}
-
-function removeNode(domNode, vNode) {
-    var parentNode = domNode.parentNode
-
-    if (parentNode) {
-        parentNode.removeChild(domNode)
-    }
-
-    destroyWidget(domNode, vNode);
-
-    return null
-}
-
-function insertNode(parentNode, vNode, renderOptions) {
-    var newNode = renderOptions.render(vNode, renderOptions)
-
-    if (parentNode) {
-        parentNode.appendChild(newNode)
-    }
-
-    return parentNode
-}
-
-function stringPatch(domNode, leftVNode, vText, renderOptions) {
-    var newNode
-
-    if (domNode.nodeType === 3) {
-        domNode.replaceData(0, domNode.length, vText.text)
-        newNode = domNode
-    } else {
-        var parentNode = domNode.parentNode
-        newNode = renderOptions.render(vText, renderOptions)
-
-        if (parentNode && newNode !== domNode) {
-            parentNode.replaceChild(newNode, domNode)
-        }
-    }
-
-    return newNode
-}
-
-function widgetPatch(domNode, leftVNode, widget, renderOptions) {
-    var updating = updateWidget(leftVNode, widget)
-    var newNode
-
-    if (updating) {
-        newNode = widget.update(leftVNode, domNode) || domNode
-    } else {
-        newNode = renderOptions.render(widget, renderOptions)
-    }
-
-    var parentNode = domNode.parentNode
-
-    if (parentNode && newNode !== domNode) {
-        parentNode.replaceChild(newNode, domNode)
-    }
-
-    if (!updating) {
-        destroyWidget(domNode, leftVNode)
-    }
-
-    return newNode
-}
-
-function vNodePatch(domNode, leftVNode, vNode, renderOptions) {
-    var parentNode = domNode.parentNode
-    var newNode = renderOptions.render(vNode, renderOptions)
-
-    if (parentNode && newNode !== domNode) {
-        parentNode.replaceChild(newNode, domNode)
-    }
-
-    return newNode
-}
-
-function destroyWidget(domNode, w) {
-    if (typeof w.destroy === "function" && isWidget(w)) {
-        w.destroy(domNode)
-    }
-}
-
-function reorderChildren(domNode, moves) {
-    var childNodes = domNode.childNodes
-    var keyMap = {}
-    var node
-    var remove
-    var insert
-
-    for (var i = 0; i < moves.removes.length; i++) {
-        remove = moves.removes[i]
-        node = childNodes[remove.from]
-        if (remove.key) {
-            keyMap[remove.key] = node
-        }
-        domNode.removeChild(node)
-    }
-
-    var length = childNodes.length
-    for (var j = 0; j < moves.inserts.length; j++) {
-        insert = moves.inserts[j]
-        node = keyMap[insert.key]
-        // this is the weirdest bug i've ever seen in webkit
-        domNode.insertBefore(node, insert.to >= length++ ? null : childNodes[insert.to])
-    }
-}
-
-function replaceRoot(oldRoot, newRoot) {
-    if (oldRoot && newRoot && oldRoot !== newRoot && oldRoot.parentNode) {
-        oldRoot.parentNode.replaceChild(newRoot, oldRoot)
-    }
-
-    return newRoot;
-}
-
-},{"../vnode/is-widget.js":53,"../vnode/vpatch.js":56,"./apply-properties":37,"./update-widget":42}],41:[function(require,module,exports){
-var document = require("global/document")
-var isArray = require("x-is-array")
-
-var render = require("./create-element")
-var domIndex = require("./dom-index")
-var patchOp = require("./patch-op")
-module.exports = patch
-
-function patch(rootNode, patches, renderOptions) {
-    renderOptions = renderOptions || {}
-    renderOptions.patch = renderOptions.patch && renderOptions.patch !== patch
-        ? renderOptions.patch
-        : patchRecursive
-    renderOptions.render = renderOptions.render || render
-
-    return renderOptions.patch(rootNode, patches, renderOptions)
-}
-
-function patchRecursive(rootNode, patches, renderOptions) {
-    var indices = patchIndices(patches)
-
-    if (indices.length === 0) {
-        return rootNode
-    }
-
-    var index = domIndex(rootNode, patches.a, indices)
-    var ownerDocument = rootNode.ownerDocument
-
-    if (!renderOptions.document && ownerDocument !== document) {
-        renderOptions.document = ownerDocument
-    }
-
-    for (var i = 0; i < indices.length; i++) {
-        var nodeIndex = indices[i]
-        rootNode = applyPatch(rootNode,
-            index[nodeIndex],
-            patches[nodeIndex],
-            renderOptions)
-    }
-
-    return rootNode
-}
-
-function applyPatch(rootNode, domNode, patchList, renderOptions) {
-    if (!domNode) {
-        return rootNode
-    }
-
-    var newNode
-
-    if (isArray(patchList)) {
-        for (var i = 0; i < patchList.length; i++) {
-            newNode = patchOp(patchList[i], domNode, renderOptions)
-
-            if (domNode === rootNode) {
-                rootNode = newNode
-            }
-        }
-    } else {
-        newNode = patchOp(patchList, domNode, renderOptions)
-
-        if (domNode === rootNode) {
-            rootNode = newNode
-        }
-    }
-
-    return rootNode
-}
-
-function patchIndices(patches) {
-    var indices = []
-
-    for (var key in patches) {
-        if (key !== "a") {
-            indices.push(Number(key))
-        }
-    }
-
-    return indices
-}
-
-},{"./create-element":38,"./dom-index":39,"./patch-op":40,"global/document":34,"x-is-array":60}],42:[function(require,module,exports){
-var isWidget = require("../vnode/is-widget.js")
-
-module.exports = updateWidget
-
-function updateWidget(a, b) {
-    if (isWidget(a) && isWidget(b)) {
-        if ("name" in a && "name" in b) {
-            return a.id === b.id
-        } else {
-            return a.init === b.init
-        }
-    }
-
-    return false
-}
-
-},{"../vnode/is-widget.js":53}],43:[function(require,module,exports){
-'use strict';
-
-module.exports = AttributeHook;
-
-function AttributeHook(namespace, value) {
-    if (!(this instanceof AttributeHook)) {
-        return new AttributeHook(namespace, value);
-    }
-
-    this.namespace = namespace;
-    this.value = value;
-}
-
-AttributeHook.prototype.hook = function (node, prop, prev) {
-    if (prev && prev.type === 'AttributeHook' &&
-        prev.value === this.value &&
-        prev.namespace === this.namespace) {
-        return;
-    }
-
-    node.setAttributeNS(this.namespace, prop, this.value);
-};
-
-AttributeHook.prototype.unhook = function (node, prop, next) {
-    if (next && next.type === 'AttributeHook' &&
-        next.namespace === this.namespace) {
-        return;
-    }
-
-    var colonPosition = prop.indexOf(':');
-    var localName = colonPosition > -1 ? prop.substr(colonPosition + 1) : prop;
-    node.removeAttributeNS(this.namespace, localName);
-};
-
-AttributeHook.prototype.type = 'AttributeHook';
-
-},{}],44:[function(require,module,exports){
-'use strict';
-
-var EvStore = require('ev-store');
-
-module.exports = EvHook;
-
-function EvHook(value) {
-    if (!(this instanceof EvHook)) {
-        return new EvHook(value);
-    }
-
-    this.value = value;
-}
-
-EvHook.prototype.hook = function (node, propertyName) {
-    var es = EvStore(node);
-    var propName = propertyName.substr(3);
-
-    es[propName] = this.value;
-};
-
-EvHook.prototype.unhook = function(node, propertyName) {
-    var es = EvStore(node);
-    var propName = propertyName.substr(3);
-
-    es[propName] = undefined;
-};
-
-},{"ev-store":31}],45:[function(require,module,exports){
-'use strict';
-
-module.exports = SoftSetHook;
-
-function SoftSetHook(value) {
-    if (!(this instanceof SoftSetHook)) {
-        return new SoftSetHook(value);
-    }
-
-    this.value = value;
-}
-
-SoftSetHook.prototype.hook = function (node, propertyName) {
-    if (node[propertyName] !== this.value) {
-        node[propertyName] = this.value;
-    }
-};
-
-},{}],46:[function(require,module,exports){
-'use strict';
-
-var split = require('browser-split');
-
-var classIdSplit = /([\.#]?[a-zA-Z0-9\u007F-\uFFFF_:-]+)/;
-var notClassId = /^\.|#/;
-
-module.exports = parseTag;
-
-function parseTag(tag, props) {
-    if (!tag) {
-        return 'DIV';
-    }
-
-    var noId = !(props.hasOwnProperty('id'));
-
-    var tagParts = split(tag, classIdSplit);
-    var tagName = null;
-
-    if (notClassId.test(tagParts[1])) {
-        tagName = 'DIV';
-    }
-
-    var classes, part, type, i;
-
-    for (i = 0; i < tagParts.length; i++) {
-        part = tagParts[i];
-
-        if (!part) {
-            continue;
-        }
-
-        type = part.charAt(0);
-
-        if (!tagName) {
-            tagName = part;
-        } else if (type === '.') {
-            classes = classes || [];
-            classes.push(part.substring(1, part.length));
-        } else if (type === '#' && noId) {
-            props.id = part.substring(1, part.length);
-        }
-    }
-
-    if (classes) {
-        if (props.className) {
-            classes.push(props.className);
-        }
-
-        props.className = classes.join(' ');
-    }
-
-    return props.namespace ? tagName : tagName.toUpperCase();
-}
-
-},{"browser-split":30}],47:[function(require,module,exports){
-'use strict';
-
-var DEFAULT_NAMESPACE = null;
-var EV_NAMESPACE = 'http://www.w3.org/2001/xml-events';
-var XLINK_NAMESPACE = 'http://www.w3.org/1999/xlink';
-var XML_NAMESPACE = 'http://www.w3.org/XML/1998/namespace';
-
-// http://www.w3.org/TR/SVGTiny12/attributeTable.html
-// http://www.w3.org/TR/SVG/attindex.html
-var SVG_PROPERTIES = {
-    'about': DEFAULT_NAMESPACE,
-    'accent-height': DEFAULT_NAMESPACE,
-    'accumulate': DEFAULT_NAMESPACE,
-    'additive': DEFAULT_NAMESPACE,
-    'alignment-baseline': DEFAULT_NAMESPACE,
-    'alphabetic': DEFAULT_NAMESPACE,
-    'amplitude': DEFAULT_NAMESPACE,
-    'arabic-form': DEFAULT_NAMESPACE,
-    'ascent': DEFAULT_NAMESPACE,
-    'attributeName': DEFAULT_NAMESPACE,
-    'attributeType': DEFAULT_NAMESPACE,
-    'azimuth': DEFAULT_NAMESPACE,
-    'bandwidth': DEFAULT_NAMESPACE,
-    'baseFrequency': DEFAULT_NAMESPACE,
-    'baseProfile': DEFAULT_NAMESPACE,
-    'baseline-shift': DEFAULT_NAMESPACE,
-    'bbox': DEFAULT_NAMESPACE,
-    'begin': DEFAULT_NAMESPACE,
-    'bias': DEFAULT_NAMESPACE,
-    'by': DEFAULT_NAMESPACE,
-    'calcMode': DEFAULT_NAMESPACE,
-    'cap-height': DEFAULT_NAMESPACE,
-    'class': DEFAULT_NAMESPACE,
-    'clip': DEFAULT_NAMESPACE,
-    'clip-path': DEFAULT_NAMESPACE,
-    'clip-rule': DEFAULT_NAMESPACE,
-    'clipPathUnits': DEFAULT_NAMESPACE,
-    'color': DEFAULT_NAMESPACE,
-    'color-interpolation': DEFAULT_NAMESPACE,
-    'color-interpolation-filters': DEFAULT_NAMESPACE,
-    'color-profile': DEFAULT_NAMESPACE,
-    'color-rendering': DEFAULT_NAMESPACE,
-    'content': DEFAULT_NAMESPACE,
-    'contentScriptType': DEFAULT_NAMESPACE,
-    'contentStyleType': DEFAULT_NAMESPACE,
-    'cursor': DEFAULT_NAMESPACE,
-    'cx': DEFAULT_NAMESPACE,
-    'cy': DEFAULT_NAMESPACE,
-    'd': DEFAULT_NAMESPACE,
-    'datatype': DEFAULT_NAMESPACE,
-    'defaultAction': DEFAULT_NAMESPACE,
-    'descent': DEFAULT_NAMESPACE,
-    'diffuseConstant': DEFAULT_NAMESPACE,
-    'direction': DEFAULT_NAMESPACE,
-    'display': DEFAULT_NAMESPACE,
-    'divisor': DEFAULT_NAMESPACE,
-    'dominant-baseline': DEFAULT_NAMESPACE,
-    'dur': DEFAULT_NAMESPACE,
-    'dx': DEFAULT_NAMESPACE,
-    'dy': DEFAULT_NAMESPACE,
-    'edgeMode': DEFAULT_NAMESPACE,
-    'editable': DEFAULT_NAMESPACE,
-    'elevation': DEFAULT_NAMESPACE,
-    'enable-background': DEFAULT_NAMESPACE,
-    'end': DEFAULT_NAMESPACE,
-    'ev:event': EV_NAMESPACE,
-    'event': DEFAULT_NAMESPACE,
-    'exponent': DEFAULT_NAMESPACE,
-    'externalResourcesRequired': DEFAULT_NAMESPACE,
-    'fill': DEFAULT_NAMESPACE,
-    'fill-opacity': DEFAULT_NAMESPACE,
-    'fill-rule': DEFAULT_NAMESPACE,
-    'filter': DEFAULT_NAMESPACE,
-    'filterRes': DEFAULT_NAMESPACE,
-    'filterUnits': DEFAULT_NAMESPACE,
-    'flood-color': DEFAULT_NAMESPACE,
-    'flood-opacity': DEFAULT_NAMESPACE,
-    'focusHighlight': DEFAULT_NAMESPACE,
-    'focusable': DEFAULT_NAMESPACE,
-    'font-family': DEFAULT_NAMESPACE,
-    'font-size': DEFAULT_NAMESPACE,
-    'font-size-adjust': DEFAULT_NAMESPACE,
-    'font-stretch': DEFAULT_NAMESPACE,
-    'font-style': DEFAULT_NAMESPACE,
-    'font-variant': DEFAULT_NAMESPACE,
-    'font-weight': DEFAULT_NAMESPACE,
-    'format': DEFAULT_NAMESPACE,
-    'from': DEFAULT_NAMESPACE,
-    'fx': DEFAULT_NAMESPACE,
-    'fy': DEFAULT_NAMESPACE,
-    'g1': DEFAULT_NAMESPACE,
-    'g2': DEFAULT_NAMESPACE,
-    'glyph-name': DEFAULT_NAMESPACE,
-    'glyph-orientation-horizontal': DEFAULT_NAMESPACE,
-    'glyph-orientation-vertical': DEFAULT_NAMESPACE,
-    'glyphRef': DEFAULT_NAMESPACE,
-    'gradientTransform': DEFAULT_NAMESPACE,
-    'gradientUnits': DEFAULT_NAMESPACE,
-    'handler': DEFAULT_NAMESPACE,
-    'hanging': DEFAULT_NAMESPACE,
-    'height': DEFAULT_NAMESPACE,
-    'horiz-adv-x': DEFAULT_NAMESPACE,
-    'horiz-origin-x': DEFAULT_NAMESPACE,
-    'horiz-origin-y': DEFAULT_NAMESPACE,
-    'id': DEFAULT_NAMESPACE,
-    'ideographic': DEFAULT_NAMESPACE,
-    'image-rendering': DEFAULT_NAMESPACE,
-    'in': DEFAULT_NAMESPACE,
-    'in2': DEFAULT_NAMESPACE,
-    'initialVisibility': DEFAULT_NAMESPACE,
-    'intercept': DEFAULT_NAMESPACE,
-    'k': DEFAULT_NAMESPACE,
-    'k1': DEFAULT_NAMESPACE,
-    'k2': DEFAULT_NAMESPACE,
-    'k3': DEFAULT_NAMESPACE,
-    'k4': DEFAULT_NAMESPACE,
-    'kernelMatrix': DEFAULT_NAMESPACE,
-    'kernelUnitLength': DEFAULT_NAMESPACE,
-    'kerning': DEFAULT_NAMESPACE,
-    'keyPoints': DEFAULT_NAMESPACE,
-    'keySplines': DEFAULT_NAMESPACE,
-    'keyTimes': DEFAULT_NAMESPACE,
-    'lang': DEFAULT_NAMESPACE,
-    'lengthAdjust': DEFAULT_NAMESPACE,
-    'letter-spacing': DEFAULT_NAMESPACE,
-    'lighting-color': DEFAULT_NAMESPACE,
-    'limitingConeAngle': DEFAULT_NAMESPACE,
-    'local': DEFAULT_NAMESPACE,
-    'marker-end': DEFAULT_NAMESPACE,
-    'marker-mid': DEFAULT_NAMESPACE,
-    'marker-start': DEFAULT_NAMESPACE,
-    'markerHeight': DEFAULT_NAMESPACE,
-    'markerUnits': DEFAULT_NAMESPACE,
-    'markerWidth': DEFAULT_NAMESPACE,
-    'mask': DEFAULT_NAMESPACE,
-    'maskContentUnits': DEFAULT_NAMESPACE,
-    'maskUnits': DEFAULT_NAMESPACE,
-    'mathematical': DEFAULT_NAMESPACE,
-    'max': DEFAULT_NAMESPACE,
-    'media': DEFAULT_NAMESPACE,
-    'mediaCharacterEncoding': DEFAULT_NAMESPACE,
-    'mediaContentEncodings': DEFAULT_NAMESPACE,
-    'mediaSize': DEFAULT_NAMESPACE,
-    'mediaTime': DEFAULT_NAMESPACE,
-    'method': DEFAULT_NAMESPACE,
-    'min': DEFAULT_NAMESPACE,
-    'mode': DEFAULT_NAMESPACE,
-    'name': DEFAULT_NAMESPACE,
-    'nav-down': DEFAULT_NAMESPACE,
-    'nav-down-left': DEFAULT_NAMESPACE,
-    'nav-down-right': DEFAULT_NAMESPACE,
-    'nav-left': DEFAULT_NAMESPACE,
-    'nav-next': DEFAULT_NAMESPACE,
-    'nav-prev': DEFAULT_NAMESPACE,
-    'nav-right': DEFAULT_NAMESPACE,
-    'nav-up': DEFAULT_NAMESPACE,
-    'nav-up-left': DEFAULT_NAMESPACE,
-    'nav-up-right': DEFAULT_NAMESPACE,
-    'numOctaves': DEFAULT_NAMESPACE,
-    'observer': DEFAULT_NAMESPACE,
-    'offset': DEFAULT_NAMESPACE,
-    'opacity': DEFAULT_NAMESPACE,
-    'operator': DEFAULT_NAMESPACE,
-    'order': DEFAULT_NAMESPACE,
-    'orient': DEFAULT_NAMESPACE,
-    'orientation': DEFAULT_NAMESPACE,
-    'origin': DEFAULT_NAMESPACE,
-    'overflow': DEFAULT_NAMESPACE,
-    'overlay': DEFAULT_NAMESPACE,
-    'overline-position': DEFAULT_NAMESPACE,
-    'overline-thickness': DEFAULT_NAMESPACE,
-    'panose-1': DEFAULT_NAMESPACE,
-    'path': DEFAULT_NAMESPACE,
-    'pathLength': DEFAULT_NAMESPACE,
-    'patternContentUnits': DEFAULT_NAMESPACE,
-    'patternTransform': DEFAULT_NAMESPACE,
-    'patternUnits': DEFAULT_NAMESPACE,
-    'phase': DEFAULT_NAMESPACE,
-    'playbackOrder': DEFAULT_NAMESPACE,
-    'pointer-events': DEFAULT_NAMESPACE,
-    'points': DEFAULT_NAMESPACE,
-    'pointsAtX': DEFAULT_NAMESPACE,
-    'pointsAtY': DEFAULT_NAMESPACE,
-    'pointsAtZ': DEFAULT_NAMESPACE,
-    'preserveAlpha': DEFAULT_NAMESPACE,
-    'preserveAspectRatio': DEFAULT_NAMESPACE,
-    'primitiveUnits': DEFAULT_NAMESPACE,
-    'propagate': DEFAULT_NAMESPACE,
-    'property': DEFAULT_NAMESPACE,
-    'r': DEFAULT_NAMESPACE,
-    'radius': DEFAULT_NAMESPACE,
-    'refX': DEFAULT_NAMESPACE,
-    'refY': DEFAULT_NAMESPACE,
-    'rel': DEFAULT_NAMESPACE,
-    'rendering-intent': DEFAULT_NAMESPACE,
-    'repeatCount': DEFAULT_NAMESPACE,
-    'repeatDur': DEFAULT_NAMESPACE,
-    'requiredExtensions': DEFAULT_NAMESPACE,
-    'requiredFeatures': DEFAULT_NAMESPACE,
-    'requiredFonts': DEFAULT_NAMESPACE,
-    'requiredFormats': DEFAULT_NAMESPACE,
-    'resource': DEFAULT_NAMESPACE,
-    'restart': DEFAULT_NAMESPACE,
-    'result': DEFAULT_NAMESPACE,
-    'rev': DEFAULT_NAMESPACE,
-    'role': DEFAULT_NAMESPACE,
-    'rotate': DEFAULT_NAMESPACE,
-    'rx': DEFAULT_NAMESPACE,
-    'ry': DEFAULT_NAMESPACE,
-    'scale': DEFAULT_NAMESPACE,
-    'seed': DEFAULT_NAMESPACE,
-    'shape-rendering': DEFAULT_NAMESPACE,
-    'slope': DEFAULT_NAMESPACE,
-    'snapshotTime': DEFAULT_NAMESPACE,
-    'spacing': DEFAULT_NAMESPACE,
-    'specularConstant': DEFAULT_NAMESPACE,
-    'specularExponent': DEFAULT_NAMESPACE,
-    'spreadMethod': DEFAULT_NAMESPACE,
-    'startOffset': DEFAULT_NAMESPACE,
-    'stdDeviation': DEFAULT_NAMESPACE,
-    'stemh': DEFAULT_NAMESPACE,
-    'stemv': DEFAULT_NAMESPACE,
-    'stitchTiles': DEFAULT_NAMESPACE,
-    'stop-color': DEFAULT_NAMESPACE,
-    'stop-opacity': DEFAULT_NAMESPACE,
-    'strikethrough-position': DEFAULT_NAMESPACE,
-    'strikethrough-thickness': DEFAULT_NAMESPACE,
-    'string': DEFAULT_NAMESPACE,
-    'stroke': DEFAULT_NAMESPACE,
-    'stroke-dasharray': DEFAULT_NAMESPACE,
-    'stroke-dashoffset': DEFAULT_NAMESPACE,
-    'stroke-linecap': DEFAULT_NAMESPACE,
-    'stroke-linejoin': DEFAULT_NAMESPACE,
-    'stroke-miterlimit': DEFAULT_NAMESPACE,
-    'stroke-opacity': DEFAULT_NAMESPACE,
-    'stroke-width': DEFAULT_NAMESPACE,
-    'surfaceScale': DEFAULT_NAMESPACE,
-    'syncBehavior': DEFAULT_NAMESPACE,
-    'syncBehaviorDefault': DEFAULT_NAMESPACE,
-    'syncMaster': DEFAULT_NAMESPACE,
-    'syncTolerance': DEFAULT_NAMESPACE,
-    'syncToleranceDefault': DEFAULT_NAMESPACE,
-    'systemLanguage': DEFAULT_NAMESPACE,
-    'tableValues': DEFAULT_NAMESPACE,
-    'target': DEFAULT_NAMESPACE,
-    'targetX': DEFAULT_NAMESPACE,
-    'targetY': DEFAULT_NAMESPACE,
-    'text-anchor': DEFAULT_NAMESPACE,
-    'text-decoration': DEFAULT_NAMESPACE,
-    'text-rendering': DEFAULT_NAMESPACE,
-    'textLength': DEFAULT_NAMESPACE,
-    'timelineBegin': DEFAULT_NAMESPACE,
-    'title': DEFAULT_NAMESPACE,
-    'to': DEFAULT_NAMESPACE,
-    'transform': DEFAULT_NAMESPACE,
-    'transformBehavior': DEFAULT_NAMESPACE,
-    'type': DEFAULT_NAMESPACE,
-    'typeof': DEFAULT_NAMESPACE,
-    'u1': DEFAULT_NAMESPACE,
-    'u2': DEFAULT_NAMESPACE,
-    'underline-position': DEFAULT_NAMESPACE,
-    'underline-thickness': DEFAULT_NAMESPACE,
-    'unicode': DEFAULT_NAMESPACE,
-    'unicode-bidi': DEFAULT_NAMESPACE,
-    'unicode-range': DEFAULT_NAMESPACE,
-    'units-per-em': DEFAULT_NAMESPACE,
-    'v-alphabetic': DEFAULT_NAMESPACE,
-    'v-hanging': DEFAULT_NAMESPACE,
-    'v-ideographic': DEFAULT_NAMESPACE,
-    'v-mathematical': DEFAULT_NAMESPACE,
-    'values': DEFAULT_NAMESPACE,
-    'version': DEFAULT_NAMESPACE,
-    'vert-adv-y': DEFAULT_NAMESPACE,
-    'vert-origin-x': DEFAULT_NAMESPACE,
-    'vert-origin-y': DEFAULT_NAMESPACE,
-    'viewBox': DEFAULT_NAMESPACE,
-    'viewTarget': DEFAULT_NAMESPACE,
-    'visibility': DEFAULT_NAMESPACE,
-    'width': DEFAULT_NAMESPACE,
-    'widths': DEFAULT_NAMESPACE,
-    'word-spacing': DEFAULT_NAMESPACE,
-    'writing-mode': DEFAULT_NAMESPACE,
-    'x': DEFAULT_NAMESPACE,
-    'x-height': DEFAULT_NAMESPACE,
-    'x1': DEFAULT_NAMESPACE,
-    'x2': DEFAULT_NAMESPACE,
-    'xChannelSelector': DEFAULT_NAMESPACE,
-    'xlink:actuate': XLINK_NAMESPACE,
-    'xlink:arcrole': XLINK_NAMESPACE,
-    'xlink:href': XLINK_NAMESPACE,
-    'xlink:role': XLINK_NAMESPACE,
-    'xlink:show': XLINK_NAMESPACE,
-    'xlink:title': XLINK_NAMESPACE,
-    'xlink:type': XLINK_NAMESPACE,
-    'xml:base': XML_NAMESPACE,
-    'xml:id': XML_NAMESPACE,
-    'xml:lang': XML_NAMESPACE,
-    'xml:space': XML_NAMESPACE,
-    'y': DEFAULT_NAMESPACE,
-    'y1': DEFAULT_NAMESPACE,
-    'y2': DEFAULT_NAMESPACE,
-    'yChannelSelector': DEFAULT_NAMESPACE,
-    'z': DEFAULT_NAMESPACE,
-    'zoomAndPan': DEFAULT_NAMESPACE
-};
-
-module.exports = SVGAttributeNamespace;
-
-function SVGAttributeNamespace(value) {
-  if (SVG_PROPERTIES.hasOwnProperty(value)) {
-    return SVG_PROPERTIES[value];
-  }
-}
-
-},{}],48:[function(require,module,exports){
-var isVNode = require("./is-vnode")
-var isVText = require("./is-vtext")
-var isWidget = require("./is-widget")
-var isThunk = require("./is-thunk")
-
-module.exports = handleThunk
-
-function handleThunk(a, b) {
-    var renderedA = a
-    var renderedB = b
-
-    if (isThunk(b)) {
-        renderedB = renderThunk(b, a)
-    }
-
-    if (isThunk(a)) {
-        renderedA = renderThunk(a, null)
-    }
-
-    return {
-        a: renderedA,
-        b: renderedB
-    }
-}
-
-function renderThunk(thunk, previous) {
-    var renderedThunk = thunk.vnode
-
-    if (!renderedThunk) {
-        renderedThunk = thunk.vnode = thunk.render(previous)
-    }
-
-    if (!(isVNode(renderedThunk) ||
-            isVText(renderedThunk) ||
-            isWidget(renderedThunk))) {
-        throw new Error("thunk did not return a valid node");
-    }
-
-    return renderedThunk
-}
-
-},{"./is-thunk":49,"./is-vnode":51,"./is-vtext":52,"./is-widget":53}],49:[function(require,module,exports){
-module.exports = isThunk
-
-function isThunk(t) {
-    return t && t.type === "Thunk"
-}
-
-},{}],50:[function(require,module,exports){
-module.exports = isHook
-
-function isHook(hook) {
-    return hook &&
-      (typeof hook.hook === "function" && !hook.hasOwnProperty("hook") ||
-       typeof hook.unhook === "function" && !hook.hasOwnProperty("unhook"))
-}
-
-},{}],51:[function(require,module,exports){
-var version = require("./version")
-
-module.exports = isVirtualNode
-
-function isVirtualNode(x) {
-    return x && x.type === "VirtualNode" && x.version === version
-}
-
-},{"./version":54}],52:[function(require,module,exports){
-var version = require("./version")
-
-module.exports = isVirtualText
-
-function isVirtualText(x) {
-    return x && x.type === "VirtualText" && x.version === version
-}
-
-},{"./version":54}],53:[function(require,module,exports){
-module.exports = isWidget
-
-function isWidget(w) {
-    return w && w.type === "Widget"
-}
-
-},{}],54:[function(require,module,exports){
-module.exports = "2"
-
-},{}],55:[function(require,module,exports){
-var version = require("./version")
-var isVNode = require("./is-vnode")
-var isWidget = require("./is-widget")
-var isThunk = require("./is-thunk")
-var isVHook = require("./is-vhook")
-
-module.exports = VirtualNode
-
-var noProperties = {}
-var noChildren = []
-
-function VirtualNode(tagName, properties, children, key, namespace) {
-    this.tagName = tagName
-    this.properties = properties || noProperties
-    this.children = children || noChildren
-    this.key = key != null ? String(key) : undefined
-    this.namespace = (typeof namespace === "string") ? namespace : null
-
-    var count = (children && children.length) || 0
-    var descendants = 0
-    var hasWidgets = false
-    var hasThunks = false
-    var descendantHooks = false
-    var hooks
-
-    for (var propName in properties) {
-        if (properties.hasOwnProperty(propName)) {
-            var property = properties[propName]
-            if (isVHook(property) && property.unhook) {
-                if (!hooks) {
-                    hooks = {}
-                }
-
-                hooks[propName] = property
-            }
-        }
-    }
-
-    for (var i = 0; i < count; i++) {
-        var child = children[i]
-        if (isVNode(child)) {
-            descendants += child.count || 0
-
-            if (!hasWidgets && child.hasWidgets) {
-                hasWidgets = true
-            }
-
-            if (!hasThunks && child.hasThunks) {
-                hasThunks = true
-            }
-
-            if (!descendantHooks && (child.hooks || child.descendantHooks)) {
-                descendantHooks = true
-            }
-        } else if (!hasWidgets && isWidget(child)) {
-            if (typeof child.destroy === "function") {
-                hasWidgets = true
-            }
-        } else if (!hasThunks && isThunk(child)) {
-            hasThunks = true;
-        }
-    }
-
-    this.count = count + descendants
-    this.hasWidgets = hasWidgets
-    this.hasThunks = hasThunks
-    this.hooks = hooks
-    this.descendantHooks = descendantHooks
-}
-
-VirtualNode.prototype.version = version
-VirtualNode.prototype.type = "VirtualNode"
-
-},{"./is-thunk":49,"./is-vhook":50,"./is-vnode":51,"./is-widget":53,"./version":54}],56:[function(require,module,exports){
-var version = require("./version")
-
-VirtualPatch.NONE = 0
-VirtualPatch.VTEXT = 1
-VirtualPatch.VNODE = 2
-VirtualPatch.WIDGET = 3
-VirtualPatch.PROPS = 4
-VirtualPatch.ORDER = 5
-VirtualPatch.INSERT = 6
-VirtualPatch.REMOVE = 7
-VirtualPatch.THUNK = 8
-
-module.exports = VirtualPatch
-
-function VirtualPatch(type, vNode, patch) {
-    this.type = Number(type)
-    this.vNode = vNode
-    this.patch = patch
-}
-
-VirtualPatch.prototype.version = version
-VirtualPatch.prototype.type = "VirtualPatch"
-
-},{"./version":54}],57:[function(require,module,exports){
-var version = require("./version")
-
-module.exports = VirtualText
-
-function VirtualText(text) {
-    this.text = String(text)
-}
-
-VirtualText.prototype.version = version
-VirtualText.prototype.type = "VirtualText"
-
-},{"./version":54}],58:[function(require,module,exports){
-var isObject = require("is-object")
-var isHook = require("../vnode/is-vhook")
-
-module.exports = diffProps
-
-function diffProps(a, b) {
-    var diff
-
-    for (var aKey in a) {
-        if (!(aKey in b)) {
-            diff = diff || {}
-            diff[aKey] = undefined
-        }
-
-        var aValue = a[aKey]
-        var bValue = b[aKey]
-
-        if (aValue === bValue) {
-            continue
-        } else if (isObject(aValue) && isObject(bValue)) {
-            if (getPrototype(bValue) !== getPrototype(aValue)) {
-                diff = diff || {}
-                diff[aKey] = bValue
-            } else if (isHook(bValue)) {
-                 diff = diff || {}
-                 diff[aKey] = bValue
-            } else {
-                var objectDiff = diffProps(aValue, bValue)
-                if (objectDiff) {
-                    diff = diff || {}
-                    diff[aKey] = objectDiff
-                }
-            }
-        } else {
-            diff = diff || {}
-            diff[aKey] = bValue
-        }
-    }
-
-    for (var bKey in b) {
-        if (!(bKey in a)) {
-            diff = diff || {}
-            diff[bKey] = b[bKey]
-        }
-    }
-
-    return diff
-}
-
-function getPrototype(value) {
-  if (Object.getPrototypeOf) {
-    return Object.getPrototypeOf(value)
-  } else if (value.__proto__) {
-    return value.__proto__
-  } else if (value.constructor) {
-    return value.constructor.prototype
-  }
-}
-
-},{"../vnode/is-vhook":50,"is-object":35}],59:[function(require,module,exports){
-var isArray = require("x-is-array")
-
-var VPatch = require("../vnode/vpatch")
-var isVNode = require("../vnode/is-vnode")
-var isVText = require("../vnode/is-vtext")
-var isWidget = require("../vnode/is-widget")
-var isThunk = require("../vnode/is-thunk")
-var handleThunk = require("../vnode/handle-thunk")
-
-var diffProps = require("./diff-props")
-
-module.exports = diff
-
-function diff(a, b) {
-    var patch = { a: a }
-    walk(a, b, patch, 0)
-    return patch
-}
-
-function walk(a, b, patch, index) {
-    if (a === b) {
-        return
-    }
-
-    var apply = patch[index]
-    var applyClear = false
-
-    if (isThunk(a) || isThunk(b)) {
-        thunks(a, b, patch, index)
-    } else if (b == null) {
-
-        // If a is a widget we will add a remove patch for it
-        // Otherwise any child widgets/hooks must be destroyed.
-        // This prevents adding two remove patches for a widget.
-        if (!isWidget(a)) {
-            clearState(a, patch, index)
-            apply = patch[index]
-        }
-
-        apply = appendPatch(apply, new VPatch(VPatch.REMOVE, a, b))
-    } else if (isVNode(b)) {
-        if (isVNode(a)) {
-            if (a.tagName === b.tagName &&
-                a.namespace === b.namespace &&
-                a.key === b.key) {
-                var propsPatch = diffProps(a.properties, b.properties)
-                if (propsPatch) {
-                    apply = appendPatch(apply,
-                        new VPatch(VPatch.PROPS, a, propsPatch))
-                }
-                apply = diffChildren(a, b, patch, apply, index)
-            } else {
-                apply = appendPatch(apply, new VPatch(VPatch.VNODE, a, b))
-                applyClear = true
-            }
-        } else {
-            apply = appendPatch(apply, new VPatch(VPatch.VNODE, a, b))
-            applyClear = true
-        }
-    } else if (isVText(b)) {
-        if (!isVText(a)) {
-            apply = appendPatch(apply, new VPatch(VPatch.VTEXT, a, b))
-            applyClear = true
-        } else if (a.text !== b.text) {
-            apply = appendPatch(apply, new VPatch(VPatch.VTEXT, a, b))
-        }
-    } else if (isWidget(b)) {
-        if (!isWidget(a)) {
-            applyClear = true
-        }
-
-        apply = appendPatch(apply, new VPatch(VPatch.WIDGET, a, b))
-    }
-
-    if (apply) {
-        patch[index] = apply
-    }
-
-    if (applyClear) {
-        clearState(a, patch, index)
-    }
-}
-
-function diffChildren(a, b, patch, apply, index) {
-    var aChildren = a.children
-    var orderedSet = reorder(aChildren, b.children)
-    var bChildren = orderedSet.children
-
-    var aLen = aChildren.length
-    var bLen = bChildren.length
-    var len = aLen > bLen ? aLen : bLen
-
-    for (var i = 0; i < len; i++) {
-        var leftNode = aChildren[i]
-        var rightNode = bChildren[i]
-        index += 1
-
-        if (!leftNode) {
-            if (rightNode) {
-                // Excess nodes in b need to be added
-                apply = appendPatch(apply,
-                    new VPatch(VPatch.INSERT, null, rightNode))
-            }
-        } else {
-            walk(leftNode, rightNode, patch, index)
-        }
-
-        if (isVNode(leftNode) && leftNode.count) {
-            index += leftNode.count
-        }
-    }
-
-    if (orderedSet.moves) {
-        // Reorder nodes last
-        apply = appendPatch(apply, new VPatch(
-            VPatch.ORDER,
-            a,
-            orderedSet.moves
-        ))
-    }
-
-    return apply
-}
-
-function clearState(vNode, patch, index) {
-    // TODO: Make this a single walk, not two
-    unhook(vNode, patch, index)
-    destroyWidgets(vNode, patch, index)
-}
-
-// Patch records for all destroyed widgets must be added because we need
-// a DOM node reference for the destroy function
-function destroyWidgets(vNode, patch, index) {
-    if (isWidget(vNode)) {
-        if (typeof vNode.destroy === "function") {
-            patch[index] = appendPatch(
-                patch[index],
-                new VPatch(VPatch.REMOVE, vNode, null)
-            )
-        }
-    } else if (isVNode(vNode) && (vNode.hasWidgets || vNode.hasThunks)) {
-        var children = vNode.children
-        var len = children.length
-        for (var i = 0; i < len; i++) {
-            var child = children[i]
-            index += 1
-
-            destroyWidgets(child, patch, index)
-
-            if (isVNode(child) && child.count) {
-                index += child.count
-            }
-        }
-    } else if (isThunk(vNode)) {
-        thunks(vNode, null, patch, index)
-    }
-}
-
-// Create a sub-patch for thunks
-function thunks(a, b, patch, index) {
-    var nodes = handleThunk(a, b)
-    var thunkPatch = diff(nodes.a, nodes.b)
-    if (hasPatches(thunkPatch)) {
-        patch[index] = new VPatch(VPatch.THUNK, null, thunkPatch)
-    }
-}
-
-function hasPatches(patch) {
-    for (var index in patch) {
-        if (index !== "a") {
-            return true
-        }
-    }
-
-    return false
-}
-
-// Execute hooks when two nodes are identical
-function unhook(vNode, patch, index) {
-    if (isVNode(vNode)) {
-        if (vNode.hooks) {
-            patch[index] = appendPatch(
-                patch[index],
-                new VPatch(
-                    VPatch.PROPS,
-                    vNode,
-                    undefinedKeys(vNode.hooks)
-                )
-            )
-        }
-
-        if (vNode.descendantHooks || vNode.hasThunks) {
-            var children = vNode.children
-            var len = children.length
-            for (var i = 0; i < len; i++) {
-                var child = children[i]
-                index += 1
-
-                unhook(child, patch, index)
-
-                if (isVNode(child) && child.count) {
-                    index += child.count
-                }
-            }
-        }
-    } else if (isThunk(vNode)) {
-        thunks(vNode, null, patch, index)
-    }
-}
-
-function undefinedKeys(obj) {
-    var result = {}
-
-    for (var key in obj) {
-        result[key] = undefined
-    }
-
-    return result
-}
-
-// List diff, naive left to right reordering
-function reorder(aChildren, bChildren) {
-    // O(M) time, O(M) memory
-    var bChildIndex = keyIndex(bChildren)
-    var bKeys = bChildIndex.keys
-    var bFree = bChildIndex.free
-
-    if (bFree.length === bChildren.length) {
-        return {
-            children: bChildren,
-            moves: null
-        }
-    }
-
-    // O(N) time, O(N) memory
-    var aChildIndex = keyIndex(aChildren)
-    var aKeys = aChildIndex.keys
-    var aFree = aChildIndex.free
-
-    if (aFree.length === aChildren.length) {
-        return {
-            children: bChildren,
-            moves: null
-        }
-    }
-
-    // O(MAX(N, M)) memory
-    var newChildren = []
-
-    var freeIndex = 0
-    var freeCount = bFree.length
-    var deletedItems = 0
-
-    // Iterate through a and match a node in b
-    // O(N) time,
-    for (var i = 0 ; i < aChildren.length; i++) {
-        var aItem = aChildren[i]
-        var itemIndex
-
-        if (aItem.key) {
-            if (bKeys.hasOwnProperty(aItem.key)) {
-                // Match up the old keys
-                itemIndex = bKeys[aItem.key]
-                newChildren.push(bChildren[itemIndex])
-
-            } else {
-                // Remove old keyed items
-                itemIndex = i - deletedItems++
-                newChildren.push(null)
-            }
-        } else {
-            // Match the item in a with the next free item in b
-            if (freeIndex < freeCount) {
-                itemIndex = bFree[freeIndex++]
-                newChildren.push(bChildren[itemIndex])
-            } else {
-                // There are no free items in b to match with
-                // the free items in a, so the extra free nodes
-                // are deleted.
-                itemIndex = i - deletedItems++
-                newChildren.push(null)
-            }
-        }
-    }
-
-    var lastFreeIndex = freeIndex >= bFree.length ?
-        bChildren.length :
-        bFree[freeIndex]
-
-    // Iterate through b and append any new keys
-    // O(M) time
-    for (var j = 0; j < bChildren.length; j++) {
-        var newItem = bChildren[j]
-
-        if (newItem.key) {
-            if (!aKeys.hasOwnProperty(newItem.key)) {
-                // Add any new keyed items
-                // We are adding new items to the end and then sorting them
-                // in place. In future we should insert new items in place.
-                newChildren.push(newItem)
-            }
-        } else if (j >= lastFreeIndex) {
-            // Add any leftover non-keyed items
-            newChildren.push(newItem)
-        }
-    }
-
-    var simulate = newChildren.slice()
-    var simulateIndex = 0
-    var removes = []
-    var inserts = []
-    var simulateItem
-
-    for (var k = 0; k < bChildren.length;) {
-        var wantedItem = bChildren[k]
-        simulateItem = simulate[simulateIndex]
-
-        // remove items
-        while (simulateItem === null && simulate.length) {
-            removes.push(remove(simulate, simulateIndex, null))
-            simulateItem = simulate[simulateIndex]
-        }
-
-        if (!simulateItem || simulateItem.key !== wantedItem.key) {
-            // if we need a key in this position...
-            if (wantedItem.key) {
-                if (simulateItem && simulateItem.key) {
-                    // if an insert doesn't put this key in place, it needs to move
-                    if (bKeys[simulateItem.key] !== k + 1) {
-                        removes.push(remove(simulate, simulateIndex, simulateItem.key))
-                        simulateItem = simulate[simulateIndex]
-                        // if the remove didn't put the wanted item in place, we need to insert it
-                        if (!simulateItem || simulateItem.key !== wantedItem.key) {
-                            inserts.push({key: wantedItem.key, to: k})
-                        }
-                        // items are matching, so skip ahead
-                        else {
-                            simulateIndex++
-                        }
-                    }
-                    else {
-                        inserts.push({key: wantedItem.key, to: k})
-                    }
-                }
-                else {
-                    inserts.push({key: wantedItem.key, to: k})
-                }
-                k++
-            }
-            // a key in simulate has no matching wanted key, remove it
-            else if (simulateItem && simulateItem.key) {
-                removes.push(remove(simulate, simulateIndex, simulateItem.key))
-            }
-        }
-        else {
-            simulateIndex++
-            k++
-        }
-    }
-
-    // remove all the remaining nodes from simulate
-    while(simulateIndex < simulate.length) {
-        simulateItem = simulate[simulateIndex]
-        removes.push(remove(simulate, simulateIndex, simulateItem && simulateItem.key))
-    }
-
-    // If the only moves we have are deletes then we can just
-    // let the delete patch remove these items.
-    if (removes.length === deletedItems && !inserts.length) {
-        return {
-            children: newChildren,
-            moves: null
-        }
-    }
-
-    return {
-        children: newChildren,
-        moves: {
-            removes: removes,
-            inserts: inserts
-        }
-    }
-}
-
-function remove(arr, index, key) {
-    arr.splice(index, 1)
-
-    return {
-        from: index,
-        key: key
-    }
-}
-
-function keyIndex(children) {
-    var keys = {}
-    var free = []
-    var length = children.length
-
-    for (var i = 0; i < length; i++) {
-        var child = children[i]
-
-        if (child.key) {
-            keys[child.key] = i
-        } else {
-            free.push(i)
-        }
-    }
-
-    return {
-        keys: keys,     // A hash of key name to index
-        free: free      // An array of unkeyed item indices
-    }
-}
-
-function appendPatch(apply, patch) {
-    if (apply) {
-        if (isArray(apply)) {
-            apply.push(patch)
-        } else {
-            apply = [apply, patch]
-        }
-
-        return apply
-    } else {
-        return patch
-    }
-}
-
-},{"../vnode/handle-thunk":48,"../vnode/is-thunk":49,"../vnode/is-vnode":51,"../vnode/is-vtext":52,"../vnode/is-widget":53,"../vnode/vpatch":56,"./diff-props":58,"x-is-array":60}],60:[function(require,module,exports){
-var nativeIsArray = Array.isArray
-var toString = Object.prototype.toString
-
-module.exports = nativeIsArray || isArray
-
-function isArray(obj) {
-    return toString.call(obj) === "[object Array]"
-}
-
-},{}],61:[function(require,module,exports){
-
-},{}],62:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 // shim for using process in browser
-
 var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
 var queue = [];
 var draining = false;
 var currentQueue;
 var queueIndex = -1;
 
 function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
     draining = false;
     if (currentQueue.length) {
         queue = currentQueue.concat(queue);
@@ -4122,7 +1122,7 @@ function drainQueue() {
     if (draining) {
         return;
     }
-    var timeout = setTimeout(cleanUpNextTick);
+    var timeout = runTimeout(cleanUpNextTick);
     draining = true;
 
     var len = queue.length;
@@ -4139,7 +1139,7 @@ function drainQueue() {
     }
     currentQueue = null;
     draining = false;
-    clearTimeout(timeout);
+    runClearTimeout(timeout);
 }
 
 process.nextTick = function (fun) {
@@ -4151,7 +1151,7 @@ process.nextTick = function (fun) {
     }
     queue.push(new Item(fun, args));
     if (queue.length === 1 && !draining) {
-        setTimeout(drainQueue, 0);
+        runTimeout(drainQueue);
     }
 };
 
@@ -4179,6 +1179,10 @@ process.off = noop;
 process.removeListener = noop;
 process.removeAllListeners = noop;
 process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
 
 process.binding = function (name) {
     throw new Error('process.binding is not supported');
@@ -4190,7 +1194,326 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],63:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
+/*!
+ * escape-html
+ * Copyright(c) 2012-2013 TJ Holowaychuk
+ * Copyright(c) 2015 Andreas Lubbe
+ * Copyright(c) 2015 Tiancheng "Timothy" Gu
+ * MIT Licensed
+ */
+
+'use strict';
+
+/**
+ * Module variables.
+ * @private
+ */
+
+var matchHtmlRegExp = /["'&<>]/;
+
+/**
+ * Module exports.
+ * @public
+ */
+
+module.exports = escapeHtml;
+
+/**
+ * Escape special characters in the given string of html.
+ *
+ * @param  {string} string The string to escape for inserting into HTML
+ * @return {string}
+ * @public
+ */
+
+function escapeHtml(string) {
+  var str = '' + string;
+  var match = matchHtmlRegExp.exec(str);
+
+  if (!match) {
+    return str;
+  }
+
+  var escape;
+  var html = '';
+  var index = 0;
+  var lastIndex = 0;
+
+  for (index = match.index; index < str.length; index++) {
+    switch (str.charCodeAt(index)) {
+      case 34: // "
+        escape = '&quot;';
+        break;
+      case 38: // &
+        escape = '&amp;';
+        break;
+      case 39: // '
+        escape = '&#39;';
+        break;
+      case 60: // <
+        escape = '&lt;';
+        break;
+      case 62: // >
+        escape = '&gt;';
+        break;
+      default:
+        continue;
+    }
+
+    if (lastIndex !== index) {
+      html += str.substring(lastIndex, index);
+    }
+
+    lastIndex = index + 1;
+    html += escape;
+  }
+
+  return lastIndex !== index
+    ? html + str.substring(lastIndex, index)
+    : html;
+}
+
+},{}],16:[function(require,module,exports){
+'use strict';
+
+var OneVersionConstraint = require('individual/one-version');
+
+var MY_VERSION = '7';
+OneVersionConstraint('ev-store', MY_VERSION);
+
+var hashKey = '__EV_STORE_KEY@' + MY_VERSION;
+
+module.exports = EvStore;
+
+function EvStore(elem) {
+    var hash = elem[hashKey];
+
+    if (!hash) {
+        hash = elem[hashKey] = {};
+    }
+
+    return hash;
+}
+
+},{"individual/one-version":20}],17:[function(require,module,exports){
+(function (global){
+var topLevel = typeof global !== 'undefined' ? global :
+    typeof window !== 'undefined' ? window : {}
+var minDoc = require('min-document');
+
+var doccy;
+
+if (typeof document !== 'undefined') {
+    doccy = document;
+} else {
+    doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'];
+
+    if (!doccy) {
+        doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'] = minDoc;
+    }
+}
+
+module.exports = doccy;
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"min-document":12}],18:[function(require,module,exports){
+'use strict';
+
+var isValidString = function isValidString(param) {
+  return typeof param === 'string' && param.length > 0;
+};
+
+var startsWith = function startsWith(string, start) {
+  return string.indexOf(start) === 0;
+};
+
+var isSelector = function isSelector(param) {
+  return isValidString(param) && (startsWith(param, '.') || startsWith(param, '#'));
+};
+
+var node = function node(h) {
+  return function (tagName) {
+    return function (first) {
+      for (var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+        rest[_key - 1] = arguments[_key];
+      }
+
+      if (isSelector(first)) {
+        return h.apply(undefined, [tagName + first].concat(rest));
+      } else {
+        return h.apply(undefined, [tagName, first].concat(rest));
+      }
+    };
+  };
+};
+
+var TAG_NAMES = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'base', 'bdi', 'bdo', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'dd', 'del', 'dfn', 'dir', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'link', 'map', 'mark', 'menu', 'meta', 'nav', 'noscript', 'object', 'ol', 'optgroup', 'option', 'p', 'param', 'pre', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'script', 'section', 'select', 'small', 'source', 'span', 'strong', 'style', 'sub', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'title', 'tr', 'u', 'ul', 'video'];
+
+module.exports = function (h) {
+  var exported = { TAG_NAMES: TAG_NAMES, isSelector: isSelector };
+  var appliedNode = node(h);
+  TAG_NAMES.forEach(function (n) {
+    exported[n] = appliedNode(n);
+  });
+  return exported;
+};
+
+},{}],19:[function(require,module,exports){
+(function (global){
+'use strict';
+
+/*global window, global*/
+
+var root = typeof window !== 'undefined' ?
+    window : typeof global !== 'undefined' ?
+    global : {};
+
+module.exports = Individual;
+
+function Individual(key, value) {
+    if (key in root) {
+        return root[key];
+    }
+
+    root[key] = value;
+
+    return value;
+}
+
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{}],20:[function(require,module,exports){
+'use strict';
+
+var Individual = require('./index.js');
+
+module.exports = OneVersion;
+
+function OneVersion(moduleName, version, defaultValue) {
+    var key = '__INDIVIDUAL_ONE_VERSION_' + moduleName;
+    var enforceKey = key + '_ENFORCE_SINGLETON';
+
+    var versionValue = Individual(enforceKey, version);
+
+    if (versionValue !== version) {
+        throw new Error('Can only have one copy of ' +
+            moduleName + '.\n' +
+            'You already have version ' + versionValue +
+            ' installed.\n' +
+            'This means you cannot install version ' + version);
+    }
+
+    return Individual(key, defaultValue);
+}
+
+},{"./index.js":19}],21:[function(require,module,exports){
+"use strict";
+
+module.exports = function isObject(x) {
+	return typeof x === "object" && x !== null;
+};
+
+},{}],22:[function(require,module,exports){
+/**
+ * Special language-specific overrides.
+ *
+ * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+ *
+ * @type {Object}
+ */
+var LANGUAGES = {
+  tr: {
+    regexp: /\u0130|\u0049|\u0049\u0307/g,
+    map: {
+      '\u0130': '\u0069',
+      '\u0049': '\u0131',
+      '\u0049\u0307': '\u0069'
+    }
+  },
+  az: {
+    regexp: /[\u0130]/g,
+    map: {
+      '\u0130': '\u0069',
+      '\u0049': '\u0131',
+      '\u0049\u0307': '\u0069'
+    }
+  },
+  lt: {
+    regexp: /[\u0049\u004A\u012E\u00CC\u00CD\u0128]/g,
+    map: {
+      '\u0049': '\u0069\u0307',
+      '\u004A': '\u006A\u0307',
+      '\u012E': '\u012F\u0307',
+      '\u00CC': '\u0069\u0307\u0300',
+      '\u00CD': '\u0069\u0307\u0301',
+      '\u0128': '\u0069\u0307\u0303'
+    }
+  }
+}
+
+/**
+ * Lowercase a string.
+ *
+ * @param  {String} str
+ * @return {String}
+ */
+module.exports = function (str, locale) {
+  var lang = LANGUAGES[locale]
+
+  str = str == null ? '' : String(str)
+
+  if (lang) {
+    str = str.replace(lang.regexp, function (m) { return lang.map[m] })
+  }
+
+  return str.toLowerCase()
+}
+
+},{}],23:[function(require,module,exports){
+'use strict';
+
+var proto = Element.prototype;
+var vendor = proto.matches
+  || proto.matchesSelector
+  || proto.webkitMatchesSelector
+  || proto.mozMatchesSelector
+  || proto.msMatchesSelector
+  || proto.oMatchesSelector;
+
+module.exports = match;
+
+/**
+ * Match `el` to `selector`.
+ *
+ * @param {Element} el
+ * @param {String} selector
+ * @return {Boolean}
+ * @api public
+ */
+
+function match(el, selector) {
+  if (vendor) return vendor.call(el, selector);
+  var nodes = el.parentNode.querySelectorAll(selector);
+  for (var i = 0; i < nodes.length; i++) {
+    if (nodes[i] == el) return true;
+  }
+  return false;
+}
+},{}],24:[function(require,module,exports){
+var sentenceCase = require('sentence-case')
+
+/**
+ * Param case a string.
+ *
+ * @param  {String} string
+ * @param  {String} [locale]
+ * @return {String}
+ */
+module.exports = function (string, locale) {
+  return sentenceCase(string, locale, '-')
+}
+
+},{"sentence-case":26}],25:[function(require,module,exports){
 (function (process,global){
 // Copyright (c) Microsoft, All rights reserved. See License.txt in the project root for license information.
 
@@ -5532,7 +2855,7 @@ var isEqual = Rx.internals.isEqual = function (value, other) {
       scheduleMethod = function (action) {
         var id = nextHandle++;
         tasksByHandle[id] = action;
-        root.postMessage(MSG_PREFIX + currentId, '*');
+        root.postMessage(MSG_PREFIX + id, '*');
         return id;
       };
     } else if (!!root.MessageChannel) {
@@ -5626,6 +2949,16 @@ var isEqual = Rx.internals.isEqual = function (value, other) {
       var disposable = new SingleAssignmentDisposable(),
           id = localSetTimeout(scheduleAction(disposable, action, this, state), dueTime);
       return new BinaryDisposable(disposable, new LocalClearDisposable(id));
+    };
+
+    function scheduleLongRunning(state, action, disposable) {
+      return function () { action(state, disposable); };
+    }
+
+    DefaultScheduler.prototype.scheduleLongRunning = function (state, action) {
+      var disposable = disposableCreate(noop);
+      scheduleMethod(scheduleLongRunning(state, action, disposable));
+      return disposable;
     };
 
     return DefaultScheduler;
@@ -6460,58 +3793,6 @@ var FlatMapObservable = Rx.FlatMapObservable = (function(__super__) {
     return new CatchErrorObservable(this);
   };
 
-  Enumerable.prototype.catchErrorWhen = function (notificationHandler) {
-    var sources = this;
-    return new AnonymousObservable(function (o) {
-      var exceptions = new Subject(),
-        notifier = new Subject(),
-        handled = notificationHandler(exceptions),
-        notificationDisposable = handled.subscribe(notifier);
-
-      var e = sources[$iterator$]();
-
-      var state = { isDisposed: false },
-        lastError,
-        subscription = new SerialDisposable();
-      var cancelable = currentThreadScheduler.scheduleRecursive(null, function (_, self) {
-        if (state.isDisposed) { return; }
-        var currentItem = tryCatch(e.next).call(e);
-        if (currentItem === errorObj) { return o.onError(currentItem.e); }
-
-        if (currentItem.done) {
-          if (lastError) {
-            o.onError(lastError);
-          } else {
-            o.onCompleted();
-          }
-          return;
-        }
-
-        // Check if promise
-        var currentValue = currentItem.value;
-        isPromise(currentValue) && (currentValue = observableFromPromise(currentValue));
-
-        var outer = new SingleAssignmentDisposable();
-        var inner = new SingleAssignmentDisposable();
-        subscription.setDisposable(new BinaryDisposable(inner, outer));
-        outer.setDisposable(currentValue.subscribe(
-          function(x) { o.onNext(x); },
-          function (exn) {
-            inner.setDisposable(notifier.subscribe(self, function(ex) {
-              o.onError(ex);
-            }, function() {
-              o.onCompleted();
-            }));
-
-            exceptions.onNext(exn);
-          },
-          function() { o.onCompleted(); }));
-      });
-
-      return new NAryDisposable([notificationDisposable, subscription, cancelable, new IsDisposedDisposable(state)]);
-    });
-  };
-
   var RepeatEnumerable = (function (__super__) {
     inherits(RepeatEnumerable, __super__);
     function RepeatEnumerable(v, c) {
@@ -6656,9 +3937,17 @@ var ObserveOnObservable = (function (__super__) {
     }
 
     FromPromiseObservable.prototype.subscribeCore = function(o) {
-      var sad = new SingleAssignmentDisposable(), self = this;
+      var sad = new SingleAssignmentDisposable(), self = this, p = this._p;
 
-      this._p
+      if (isFunction(p)) {
+        p = tryCatch(p)();
+        if (p === errorObj) {
+          o.onError(p.e);
+          return sad;
+        }
+      }
+
+      p
         .then(function (data) {
           sad.setDisposable(self._s.schedule([o, data], scheduleNext));
         }, function (err) {
@@ -7014,37 +4303,41 @@ var ObserveOnObservable = (function (__super__) {
   var GenerateObservable = (function (__super__) {
     inherits(GenerateObservable, __super__);
     function GenerateObservable(state, cndFn, itrFn, resFn, s) {
-      this._state = state;
+      this._initialState = state;
       this._cndFn = cndFn;
       this._itrFn = itrFn;
       this._resFn = resFn;
       this._s = s;
-      this._first = true;
       __super__.call(this);
     }
 
-    function scheduleRecursive(self, recurse) {
-      if (self._first) {
-        self._first = false;
+    function scheduleRecursive(state, recurse) {
+      if (state.first) {
+        state.first = false;
       } else {
-        self._state = tryCatch(self._itrFn)(self._state);
-        if (self._state === errorObj) { return self._o.onError(self._state.e); }
+        state.newState = tryCatch(state.self._itrFn)(state.newState);
+        if (state.newState === errorObj) { return state.o.onError(state.newState.e); }
       }
-      var hasResult = tryCatch(self._cndFn)(self._state);
-      if (hasResult === errorObj) { return self._o.onError(hasResult.e); }
+      var hasResult = tryCatch(state.self._cndFn)(state.newState);
+      if (hasResult === errorObj) { return state.o.onError(hasResult.e); }
       if (hasResult) {
-        var result = tryCatch(self._resFn)(self._state);
-        if (result === errorObj) { return self._o.onError(result.e); }
-        self._o.onNext(result);
-        recurse(self);
+        var result = tryCatch(state.self._resFn)(state.newState);
+        if (result === errorObj) { return state.o.onError(result.e); }
+        state.o.onNext(result);
+        recurse(state);
       } else {
-        self._o.onCompleted();
+        state.o.onCompleted();
       }
     }
 
     GenerateObservable.prototype.subscribeCore = function (o) {
-      this._o = o;
-      return this._s.scheduleRecursive(this, scheduleRecursive);
+      var state = {
+        o: o,
+        self: this,
+        first: true,
+        newState: this._initialState
+      };
+      return this._s.scheduleRecursive(state, scheduleRecursive);
     };
 
     return GenerateObservable;
@@ -8658,7 +5951,7 @@ observableProto.zipIterable = function () {
    * @param {Number} [skip] Number of elements to skip between creation of consecutive buffers. If not provided, defaults to the count.
    * @returns {Observable} An observable sequence of buffers.
    */
-  observableProto.bufferWithCount = function (count, skip) {
+  observableProto.bufferWithCount = observableProto.bufferCount = function (count, skip) {
     typeof skip !== 'number' && (skip = count);
     return this.windowWithCount(count, skip)
       .flatMap(toArray)
@@ -9008,19 +6301,184 @@ observableProto.zipIterable = function () {
     return enumerableRepeat(this, retryCount).catchError();
   };
 
-  /**
-   *  Repeats the source observable sequence upon error each time the notifier emits or until it successfully terminates. 
-   *  if the notifier completes, the observable sequence completes.
-   *
-   * @example
-   *  var timer = Observable.timer(500);
-   *  var source = observable.retryWhen(timer);
-   * @param {Observable} [notifier] An observable that triggers the retries or completes the observable with onNext or onCompleted respectively.
-   * @returns {Observable} An observable sequence producing the elements of the given sequence repeatedly until it terminates successfully.
-   */
+  function repeat(value) {
+    return {
+      '@@iterator': function () {
+        return {
+          next: function () {
+            return { done: false, value: value };
+          }
+        };
+      }
+    };
+  }
+
+  var RetryWhenObservable = (function(__super__) {
+    function createDisposable(state) {
+      return {
+        isDisposed: false,
+        dispose: function () {
+          if (!this.isDisposed) {
+            this.isDisposed = true;
+            state.isDisposed = true;
+          }
+        }
+      };
+    }
+
+    function RetryWhenObservable(source, notifier) {
+      this.source = source;
+      this._notifier = notifier;
+      __super__.call(this);
+    }
+
+    inherits(RetryWhenObservable, __super__);
+
+    RetryWhenObservable.prototype.subscribeCore = function (o) {
+      var exceptions = new Subject(),
+        notifier = new Subject(),
+        handled = this._notifier(exceptions),
+        notificationDisposable = handled.subscribe(notifier);
+
+      var e = this.source['@@iterator']();
+
+      var state = { isDisposed: false },
+        lastError,
+        subscription = new SerialDisposable();
+      var cancelable = currentThreadScheduler.scheduleRecursive(null, function (_, recurse) {
+        if (state.isDisposed) { return; }
+        var currentItem = e.next();
+
+        if (currentItem.done) {
+          if (lastError) {
+            o.onError(lastError);
+          } else {
+            o.onCompleted();
+          }
+          return;
+        }
+
+        // Check if promise
+        var currentValue = currentItem.value;
+        isPromise(currentValue) && (currentValue = observableFromPromise(currentValue));
+
+        var outer = new SingleAssignmentDisposable();
+        var inner = new SingleAssignmentDisposable();
+        subscription.setDisposable(new BinaryDisposable(inner, outer));
+        outer.setDisposable(currentValue.subscribe(
+          function(x) { o.onNext(x); },
+          function (exn) {
+            inner.setDisposable(notifier.subscribe(recurse, function(ex) {
+              o.onError(ex);
+            }, function() {
+              o.onCompleted();
+            }));
+
+            exceptions.onNext(exn);
+            outer.dispose();
+          },
+          function() { o.onCompleted(); }));
+      });
+
+      return new NAryDisposable([notificationDisposable, subscription, cancelable, createDisposable(state)]);
+    };
+
+    return RetryWhenObservable;
+  }(ObservableBase));
+
   observableProto.retryWhen = function (notifier) {
-    return enumerableRepeat(this).catchErrorWhen(notifier);
+    return new RetryWhenObservable(repeat(this), notifier);
   };
+
+  function repeat(value) {
+    return {
+      '@@iterator': function () {
+        return {
+          next: function () {
+            return { done: false, value: value };
+          }
+        };
+      }
+    };
+  }
+
+  var RepeatWhenObservable = (function(__super__) {
+    function createDisposable(state) {
+      return {
+        isDisposed: false,
+        dispose: function () {
+          if (!this.isDisposed) {
+            this.isDisposed = true;
+            state.isDisposed = true;
+          }
+        }
+      };
+    }
+
+    function RepeatWhenObservable(source, notifier) {
+      this.source = source;
+      this._notifier = notifier;
+      __super__.call(this);
+    }
+
+    inherits(RepeatWhenObservable, __super__);
+
+    RepeatWhenObservable.prototype.subscribeCore = function (o) {
+      var completions = new Subject(),
+        notifier = new Subject(),
+        handled = this._notifier(completions),
+        notificationDisposable = handled.subscribe(notifier);
+
+      var e = this.source['@@iterator']();
+
+      var state = { isDisposed: false },
+        lastError,
+        subscription = new SerialDisposable();
+      var cancelable = currentThreadScheduler.scheduleRecursive(null, function (_, recurse) {
+        if (state.isDisposed) { return; }
+        var currentItem = e.next();
+
+        if (currentItem.done) {
+          if (lastError) {
+            o.onError(lastError);
+          } else {
+            o.onCompleted();
+          }
+          return;
+        }
+
+        // Check if promise
+        var currentValue = currentItem.value;
+        isPromise(currentValue) && (currentValue = observableFromPromise(currentValue));
+
+        var outer = new SingleAssignmentDisposable();
+        var inner = new SingleAssignmentDisposable();
+        subscription.setDisposable(new BinaryDisposable(inner, outer));
+        outer.setDisposable(currentValue.subscribe(
+          function(x) { o.onNext(x); },
+          function (exn) { o.onError(exn); },
+          function() {
+            inner.setDisposable(notifier.subscribe(recurse, function(ex) {
+              o.onError(ex);
+            }, function() {
+              o.onCompleted();
+            }));
+
+            completions.onNext(null);
+            outer.dispose();
+          }));
+      });
+
+      return new NAryDisposable([notificationDisposable, subscription, cancelable, createDisposable(state)]);
+    };
+
+    return RepeatWhenObservable;
+  }(ObservableBase));
+
+  observableProto.repeatWhen = function (notifier) {
+    return new RepeatWhenObservable(repeat(this), notifier);
+  };
+
   var ScanObservable = (function(__super__) {
     inherits(ScanObservable, __super__);
     function ScanObservable(source, accumulator, hasSeed, seed) {
@@ -9164,7 +6622,7 @@ observableProto.zipIterable = function () {
       scheduler = immediateScheduler;
     }
     for(var args = [], i = start, len = arguments.length; i < len; i++) { args.push(arguments[i]); }
-    return enumerableOf([observableFromArray(args, scheduler), this]).concat();
+    return observableConcat.apply(null, [observableFromArray(args, scheduler), this]);
   };
 
   var TakeLastObserver = (function (__super__) {
@@ -9258,7 +6716,7 @@ observableProto.zipIterable = function () {
    * @param {Number} [skip] Number of elements to skip between creation of consecutive windows. If not specified, defaults to the count.
    * @returns {Observable} An observable sequence of windows.
    */
-  observableProto.windowWithCount = function (count, skip) {
+  observableProto.windowWithCount = observableProto.windowCount = function (count, skip) {
     var source = this;
     +count || (count = 0);
     Math.abs(count) === Infinity && (count = 0);
@@ -9696,7 +7154,7 @@ observableProto.zipIterable = function () {
         }
       }
       return currentProp;
-    }
+    };
   }
 
   /**
@@ -9712,7 +7170,7 @@ observableProto.zipIterable = function () {
     return this.map(plucker(args, len));
   };
 
-observableProto.flatMap = observableProto.selectMany = function(selector, resultSelector, thisArg) {
+observableProto.flatMap = observableProto.selectMany = observableProto.mergeMap = function(selector, resultSelector, thisArg) {
     return new FlatMapObservable(this, selector, resultSelector, thisArg).mergeAll();
 };
 
@@ -9768,9 +7226,10 @@ observableProto.flatMap = observableProto.selectMany = function(selector, result
     }, source).mergeAll();
   };
 
-Rx.Observable.prototype.flatMapLatest = function(selector, resultSelector, thisArg) {
+observableProto.flatMapLatest = observableProto.switchMap = function(selector, resultSelector, thisArg) {
     return new FlatMapObservable(this, selector, resultSelector, thisArg).switchLatest();
 };
+
   var SkipObservable = (function(__super__) {
     inherits(SkipObservable, __super__);
     function SkipObservable(source, count) {
@@ -10573,7 +8032,7 @@ Rx.Observable.prototype.flatMapLatest = function(selector, resultSelector, thisA
    * @returns {Observable} An observable sequence containing a single element with the minimum element in the source sequence.
    */
   observableProto.min = function (comparer) {
-    return this.minBy(identity, comparer).map(function (x) { return firstOnly(x); });
+    return this.minBy(identity, comparer).map(firstOnly);
   };
 
   /**
@@ -10599,7 +8058,7 @@ Rx.Observable.prototype.flatMapLatest = function(selector, resultSelector, thisA
    * @returns {Observable} An observable sequence containing a single element with the maximum element in the source sequence.
    */
   observableProto.max = function (comparer) {
-    return this.maxBy(identity, comparer).map(function (x) { return firstOnly(x); });
+    return this.maxBy(identity, comparer).map(firstOnly);
   };
 
   var AverageObservable = (function (__super__) {
@@ -11743,6 +9202,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     EventPatternDisposable.prototype.dispose = function () {
       if(!this.isDisposed) {
         isFunction(this._del) && this._del(this._fn, this._ret);
+        this.isDisposed = true;
       }
     };
 
@@ -11776,6 +9236,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     function PausableObservable(source, pauser) {
       this.source = source;
       this.controller = new Subject();
+      this.paused = true;
 
       if (pauser && pauser.subscribe) {
         this.pauser = this.controller.merge(pauser);
@@ -11791,7 +9252,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
         subscription = conn.subscribe(o),
         connection = disposableEmpty;
 
-      var pausable = this.pauser.distinctUntilChanged().subscribe(function (b) {
+      var pausable = this.pauser.startWith(!this.paused).distinctUntilChanged().subscribe(function (b) {
         if (b) {
           connection = conn.connect();
         } else {
@@ -11804,10 +9265,12 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     };
 
     PausableObservable.prototype.pause = function () {
+      this.paused = true;
       this.controller.onNext(false);
     };
 
     PausableObservable.prototype.resume = function () {
+      this.paused = false;
       this.controller.onNext(true);
     };
 
@@ -11881,6 +9344,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     function PausableBufferedObservable(source, pauser) {
       this.source = source;
       this.controller = new Subject();
+      this.paused = true;
 
       if (pauser && pauser.subscribe) {
         this.pauser = this.controller.merge(pauser);
@@ -11899,7 +9363,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       var subscription =
         combineLatestSource(
           this.source,
-          this.pauser.startWith(false).distinctUntilChanged(),
+          this.pauser.startWith(!this.paused).distinctUntilChanged(),
           function (data, shouldFire) {
             return { data: data, shouldFire: shouldFire };
           })
@@ -11932,10 +9396,12 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     };
 
     PausableBufferedObservable.prototype.pause = function () {
+      this.paused = true;
       this.controller.onNext(false);
     };
 
     PausableBufferedObservable.prototype.resume = function () {
+      this.paused = false;
       this.controller.onNext(true);
     };
 
@@ -12101,7 +9567,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     }
 
     function scheduleMethod(s, self) {
-      self.source.request(1);
+      return self.source.request(1);
     }
 
     StopAndWaitObservable.prototype._subscribe = function (o) {
@@ -12133,7 +9599,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       };
 
       function innerScheduleMethod(s, self) {
-        self.observable.source.request(1);
+        return self.observable.source.request(1);
       }
 
       StopAndWaitObserver.prototype.next = function (value) {
@@ -12141,7 +9607,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
         this.scheduleDisposable = defaultScheduler.schedule(this, innerScheduleMethod);
       };
 
-      StopAndWaitObservable.dispose = function () {
+      StopAndWaitObserver.dispose = function () {
         this.observer = null;
         if (this.cancel) {
           this.cancel.dispose();
@@ -12178,7 +9644,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     }
 
     function scheduleMethod(s, self) {
-      self.source.request(self.windowSize);
+      return self.source.request(self.windowSize);
     }
 
     WindowedObservable.prototype._subscribe = function (o) {
@@ -12211,7 +9677,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       };
 
       function innerScheduleMethod(s, self) {
-        self.observable.source.request(self.observable.windowSize);
+        return self.observable.source.request(self.observable.windowSize);
       }
 
       WindowedObserver.prototype.next = function (value) {
@@ -12264,7 +9730,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
 
     source.subscribe(
       function (x) {
-        !dest.write(String(x)) && source.pause();
+        !dest.write(x) && source.pause();
       },
       function (err) {
         dest.emit('error', err);
@@ -12504,6 +9970,9 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
 
     ConnectableObservable.prototype.connect = function () {
       if (!this._connection) {
+        if (this._subject.isStopped) {
+          return disposableEmpty;
+        }
         var subscription = this._source.subscribe(this._subject);
         this._connection = new ConnectDisposable(this, subscription);
       }
@@ -12863,6 +10332,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       this._o = o;
       this._p = null;
       this._hp = false;
+      __super__.call(this);
     }
 
     PairwiseObserver.prototype.next = function (x) {
@@ -13569,7 +11039,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
           }));
         }
       } catch (e) {
-        observableThrow(e).subscribe(o);
+        return observableThrow(e).subscribe(o);
       }
       var group = new CompositeDisposable();
       externalSubscriptions.forEach(function (joinObserver) {
@@ -13667,7 +11137,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       return _observableTimer(dueTime, scheduler);
     }
     if (dueTime instanceof Date && period !== undefined) {
-      return observableTimerDateAndPeriod(dueTime.getTime(), periodOrScheduler, scheduler);
+      return observableTimerDateAndPeriod(dueTime, periodOrScheduler, scheduler);
     }
     return observableTimerTimeSpanAndPeriod(dueTime, period, scheduler);
   };
@@ -13794,7 +11264,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       }
 
       return new BinaryDisposable(subscription, delays);
-    }, this);
+    }, source);
   }
 
   /**
@@ -13833,7 +11303,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     DebounceObservable.prototype.subscribeCore = function (o) {
       var cancelable = new SerialDisposable();
       return new BinaryDisposable(
-        this.source.subscribe(new DebounceObserver(o, this.source, this._dt, this._s, cancelable)),
+        this.source.subscribe(new DebounceObserver(o, this._dt, this._s, cancelable)),
         cancelable);
     };
 
@@ -13842,9 +11312,8 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
 
   var DebounceObserver = (function (__super__) {
     inherits(DebounceObserver, __super__);
-    function DebounceObserver(observer, source, dueTime, scheduler, cancelable) {
+    function DebounceObserver(observer, dueTime, scheduler, cancelable) {
       this._o = observer;
-      this._s = source;
       this._d = dueTime;
       this._scheduler = scheduler;
       this._c = cancelable;
@@ -13852,6 +11321,11 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       this._hv = false;
       this._id = 0;
       __super__.call(this);
+    }
+
+    function scheduleFuture(s, state) {
+      state.self._hv && state.self._id === state.currentId && state.self._o.onNext(state.x);
+      state.self._hv = false;
     }
 
     DebounceObserver.prototype.next = function (x) {
@@ -13947,7 +11421,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
    * @param {Scheduler} [scheduler]  Scheduler to run windowing timers on. If not specified, the timeout scheduler is used.
    * @returns {Observable} An observable sequence of windows.
    */
-  observableProto.windowWithTime = function (timeSpan, timeShiftOrScheduler, scheduler) {
+  observableProto.windowWithTime = observableProto.windowTime = function (timeSpan, timeShiftOrScheduler, scheduler) {
     var source = this, timeShift;
     timeShiftOrScheduler == null && (timeShift = timeSpan);
     isScheduler(scheduler) || (scheduler = defaultScheduler);
@@ -14027,7 +11501,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
    * @param {Scheduler} [scheduler]  Scheduler to run windowing timers on. If not specified, the timeout scheduler is used.
    * @returns {Observable} An observable sequence of windows.
    */
-  observableProto.windowWithTimeOrCount = function (timeSpan, count, scheduler) {
+  observableProto.windowWithTimeOrCount = observableProto.windowTimeOrCount = function (timeSpan, count, scheduler) {
     var source = this;
     isScheduler(scheduler) || (scheduler = defaultScheduler);
     return new AnonymousObservable(function (observer) {
@@ -14090,7 +11564,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
    * @param {Scheduler} [scheduler]  Scheduler to run buffer timers on. If not specified, the timeout scheduler is used.
    * @returns {Observable} An observable sequence of buffers.
    */
-  observableProto.bufferWithTime = function (timeSpan, timeShiftOrScheduler, scheduler) {
+  observableProto.bufferWithTime = observableProto.bufferTime = function (timeSpan, timeShiftOrScheduler, scheduler) {
     return this.windowWithTime(timeSpan, timeShiftOrScheduler, scheduler).flatMap(toArray);
   };
 
@@ -14103,7 +11577,7 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
    * @param {Scheduler} [scheduler]  Scheduler to run bufferin timers on. If not specified, the timeout scheduler is used.
    * @returns {Observable} An observable sequence of buffers.
    */
-  observableProto.bufferWithTimeOrCount = function (timeSpan, count, scheduler) {
+  observableProto.bufferWithTimeOrCount = observableProto.bufferTimeOrCount = function (timeSpan, count, scheduler) {
     return this.windowWithTimeOrCount(timeSpan, count, scheduler).flatMap(toArray);
   };
 
@@ -14211,37 +11685,74 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     return new TimestampObservable(this, scheduler);
   };
 
-  function sampleObservable(source, sampler) {
-    return new AnonymousObservable(function (o) {
-      var atEnd = false, value, hasValue = false;
+  var SampleObservable = (function(__super__) {
+    inherits(SampleObservable, __super__);
+    function SampleObservable(source, sampler) {
+      this.source = source;
+      this._sampler = sampler;
+      __super__.call(this);
+    }
 
-      function sampleSubscribe() {
-        if (hasValue) {
-          hasValue = false;
-          o.onNext(value);
-        }
-        atEnd && o.onCompleted();
-      }
+    SampleObservable.prototype.subscribeCore = function (o) {
+      var state = {
+        o: o,
+        atEnd: false,
+        value: null,
+        hasValue: false,
+        sourceSubscription: new SingleAssignmentDisposable()
+      };
 
-      var sourceSubscription = new SingleAssignmentDisposable();
-      sourceSubscription.setDisposable(source.subscribe(
-        function (newValue) {
-          hasValue = true;
-          value = newValue;
-        },
-        function (e) { o.onError(e); },
-        function () {
-          atEnd = true;
-          sourceSubscription.dispose();
-        }
-      ));
-
+      state.sourceSubscription.setDisposable(this.source.subscribe(new SampleSourceObserver(state)));
       return new BinaryDisposable(
-        sourceSubscription,
-        sampler.subscribe(sampleSubscribe, function (e) { o.onError(e); }, sampleSubscribe)
+        state.sourceSubscription,
+        this._sampler.subscribe(new SamplerObserver(state))
       );
-    }, source);
-  }
+    };
+
+    return SampleObservable;
+  }(ObservableBase));
+
+  var SamplerObserver = (function(__super__) {
+    inherits(SamplerObserver, __super__);
+    function SamplerObserver(s) {
+      this._s = s;
+      __super__.call(this);
+    }
+
+    SamplerObserver.prototype._handleMessage = function () {
+      if (this._s.hasValue) {
+        this._s.hasValue = false;
+        this._s.o.onNext(this._s.value);
+      }
+      this._s.atEnd && this._s.o.onCompleted();
+    };
+
+    SamplerObserver.prototype.next = function () { this._handleMessage(); };
+    SamplerObserver.prototype.error = function (e) { this._s.onError(e); };
+    SamplerObserver.prototype.completed = function () { this._handleMessage(); };
+
+    return SamplerObserver;
+  }(AbstractObserver));
+
+  var SampleSourceObserver = (function(__super__) {
+    inherits(SampleSourceObserver, __super__);
+    function SampleSourceObserver(s) {
+      this._s = s;
+      __super__.call(this);
+    }
+
+    SampleSourceObserver.prototype.next = function (x) {
+      this._s.hasValue = true;
+      this._s.value = x;
+    };
+    SampleSourceObserver.prototype.error = function (e) { this._s.o.onError(e); };
+    SampleSourceObserver.prototype.completed = function () {
+      this._s.atEnd = true;
+      this._s.sourceSubscription.dispose();
+    };
+
+    return SampleSourceObserver;
+  }(AbstractObserver));
 
   /**
    *  Samples the observable sequence at each interval.
@@ -14255,11 +11766,11 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
    * @param {Scheduler} [scheduler]  Scheduler to run the sampling timer on. If not specified, the timeout scheduler is used.
    * @returns {Observable} Sampled observable sequence.
    */
-  observableProto.sample = observableProto.throttleLatest = function (intervalOrSampler, scheduler) {
+  observableProto.sample = function (intervalOrSampler, scheduler) {
     isScheduler(scheduler) || (scheduler = defaultScheduler);
     return typeof intervalOrSampler === 'number' ?
-      sampleObservable(this, observableinterval(intervalOrSampler, scheduler)) :
-      sampleObservable(this, intervalOrSampler);
+      new SampleObservable(this, observableinterval(intervalOrSampler, scheduler)) :
+      new SampleObservable(this, intervalOrSampler);
   };
 
   var TimeoutError = Rx.TimeoutError = function(message) {
@@ -14399,36 +11910,40 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       this._resFn = resFn;
       this._timeFn = timeFn;
       this._s = s;
-      this._first = true;
-      this._hasResult = false;
       __super__.call(this);
     }
 
-    function scheduleRecursive(self, recurse) {
-      self._hasResult && self._o.onNext(self._state);
+    function scheduleRecursive(state, recurse) {
+      state.hasResult && state.o.onNext(state.result);
 
-      if (self._first) {
-        self._first = false;
+      if (state.first) {
+        state.first = false;
       } else {
-        self._state = tryCatch(self._itrFn)(self._state);
-        if (self._state === errorObj) { return self._o.onError(self._state.e); }
+        state.newState = tryCatch(state.self._itrFn)(state.newState);
+        if (state.newState === errorObj) { return state.o.onError(state.newState.e); }
       }
-      self._hasResult = tryCatch(self._cndFn)(self._state);
-      if (self._hasResult === errorObj) { return self._o.onError(self._hasResult.e); }
-      if (self._hasResult) {
-        var result = tryCatch(self._resFn)(self._state);
-        if (result === errorObj) { return self._o.onError(result.e); }
-        var time = tryCatch(self._timeFn)(self._state);
-        if (time === errorObj) { return self._o.onError(time.e); }
-        recurse(self, time);
+      state.hasResult = tryCatch(state.self._cndFn)(state.newState);
+      if (state.hasResult === errorObj) { return state.o.onError(state.hasResult.e); }
+      if (state.hasResult) {
+        state.result = tryCatch(state.self._resFn)(state.newState);
+        if (state.result === errorObj) { return state.o.onError(state.result.e); }
+        var time = tryCatch(state.self._timeFn)(state.newState);
+        if (time === errorObj) { return state.o.onError(time.e); }
+        recurse(state, time);
       } else {
-        self._o.onCompleted();
+        state.o.onCompleted();
       }
     }
 
     GenerateAbsoluteObservable.prototype.subscribeCore = function (o) {
-      this._o = o;
-      return this._s.scheduleRecursiveFuture(this, new Date(this._s.now()), scheduleRecursive);
+      var state = {
+        o: o,
+        self: this,
+        newState: this._state,
+        first: true,
+        hasResult: false
+      };
+      return this._s.scheduleRecursiveFuture(state, new Date(this._s.now()), scheduleRecursive);
     };
 
     return GenerateAbsoluteObservable;
@@ -14467,36 +11982,41 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
       this._resFn = resFn;
       this._timeFn = timeFn;
       this._s = s;
-      this._first = true;
-      this._hasResult = false;
       __super__.call(this);
     }
 
-    function scheduleRecursive(self, recurse) {
-      self._hasResult && self._o.onNext(self._state);
+    function scheduleRecursive(state, recurse) {
+      state.hasResult && state.o.onNext(state.result);
 
-      if (self._first) {
-        self._first = false;
+      if (state.first) {
+        state.first = false;
       } else {
-        self._state = tryCatch(self._itrFn)(self._state);
-        if (self._state === errorObj) { return self._o.onError(self._state.e); }
+        state.newState = tryCatch(state.self._itrFn)(state.newState);
+        if (state.newState === errorObj) { return state.o.onError(state.newState.e); }
       }
-      self._hasResult = tryCatch(self._cndFn)(self._state);
-      if (self._hasResult === errorObj) { return self._o.onError(self._hasResult.e); }
-      if (self._hasResult) {
-        var result = tryCatch(self._resFn)(self._state);
-        if (result === errorObj) { return self._o.onError(result.e); }
-        var time = tryCatch(self._timeFn)(self._state);
-        if (time === errorObj) { return self._o.onError(time.e); }
-        recurse(self, time);
+
+      state.hasResult = tryCatch(state.self._cndFn)(state.newState);
+      if (state.hasResult === errorObj) { return state.o.onError(state.hasResult.e); }
+      if (state.hasResult) {
+        state.result = tryCatch(state.self._resFn)(state.newState);
+        if (state.result === errorObj) { return state.o.onError(state.result.e); }
+        var time = tryCatch(state.self._timeFn)(state.newState);
+        if (time === errorObj) { return state.o.onError(time.e); }
+        recurse(state, time);
       } else {
-        self._o.onCompleted();
+        state.o.onCompleted();
       }
     }
 
     GenerateRelativeObservable.prototype.subscribeCore = function (o) {
-      this._o = o;
-      return this._s.scheduleRecursiveFuture(this, 0, scheduleRecursive);
+      var state = {
+        o: o,
+        self: this,
+        newState: this._state,
+        first: true,
+        hasResult: false
+      };
+      return this._s.scheduleRecursiveFuture(state, 0, scheduleRecursive);
     };
 
     return GenerateRelativeObservable;
@@ -15046,13 +12566,14 @@ Observable.fromNodeCallback = function (fn, ctx, selector) {
     return new SwitchFirstObservable(this);
   };
 
-observableProto.flatMapFirst = observableProto.selectManyFirst = function(selector, resultSelector, thisArg) {
+observableProto.flatMapFirst = observableProto.exhaustMap = function(selector, resultSelector, thisArg) {
     return new FlatMapObservable(this, selector, resultSelector, thisArg).switchFirst();
 };
 
-Rx.Observable.prototype.flatMapWithMaxConcurrent = function(limit, selector, resultSelector, thisArg) {
+observableProto.flatMapWithMaxConcurrent = observableProto.flatMapMaxConcurrent = function(limit, selector, resultSelector, thisArg) {
     return new FlatMapObservable(this, selector, resultSelector, thisArg).merge(limit);
 };
+
   /** Provides a set of extension methods for virtual time scheduling. */
   var VirtualTimeScheduler = Rx.VirtualTimeScheduler = (function (__super__) {
     inherits(VirtualTimeScheduler, __super__);
@@ -15897,7 +13418,7 @@ var ReactiveTest = Rx.ReactiveTest = {
        * Indicates whether the subject has observers subscribed to it.
        * @returns {Boolean} Indicates whether the subject has observers subscribed to it.
        */
-      hasObservers: function () { return this.observers.length > 0; },
+      hasObservers: function () { checkDisposed(this); return this.observers.length > 0; },
       /**
        * Notifies all subscribed observers about the end of the sequence.
        */
@@ -16007,10 +13528,7 @@ var ReactiveTest = Rx.ReactiveTest = {
        * Indicates whether the subject has observers subscribed to it.
        * @returns {Boolean} Indicates whether the subject has observers subscribed to it.
        */
-      hasObservers: function () {
-        checkDisposed(this);
-        return this.observers.length > 0;
-      },
+      hasObservers: function () { checkDisposed(this); return this.observers.length > 0; },
       /**
        * Notifies all subscribed observers about the end of the sequence, also causing the last received value to be sent out (if any).
        */
@@ -16124,7 +13642,7 @@ var ReactiveTest = Rx.ReactiveTest = {
        * Indicates whether the subject has observers subscribed to it.
        * @returns {Boolean} Indicates whether the subject has observers subscribed to it.
        */
-      hasObservers: function () { return this.observers.length > 0; },
+      hasObservers: function () { checkDisposed(this); return this.observers.length > 0; },
       /**
        * Notifies all subscribed observers about the end of the sequence.
        */
@@ -16242,9 +13760,7 @@ var ReactiveTest = Rx.ReactiveTest = {
        * Indicates whether the subject has observers subscribed to it.
        * @returns {Boolean} Indicates whether the subject has observers subscribed to it.
        */
-      hasObservers: function () {
-        return this.observers.length > 0;
-      },
+      hasObservers: function () { checkDisposed(this); return this.observers.length > 0; },
       _trim: function (now) {
         while (this.q.length > this.bufferSize) {
           this.q.shift();
@@ -16389,7 +13905,2765 @@ var ReactiveTest = Rx.ReactiveTest = {
 }.call(this));
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"_process":62}],64:[function(require,module,exports){
-"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}function renderSidebar(){return(0,_dom.div)(".sidebar",[(0,_dom.a)({href:"http://cycle.js.org",target:"_blank"},[(0,_dom.img)({src:"assets/cyclejs_logo.svg",alt:"Cycle.js"})]),(0,_dom.h2)("Built with Cycle.js"),(0,_dom.div)(".instructions",{innerHTML:INSTRUCTIONS}),(0,_dom.hr)(),(0,_dom.div)(".credit",["Built by ",(0,_dom.a)({href:"https://github.com/Widdershin",_target:"blank"},"Widdershin")," with the help of the ",(0,_dom.a)({href:"https://github.com/Widdershin/built-with-cycle/graphs/contributors",_target:"blank"},"Cycle community"),"."])])}function renderProject(e,t,r){var o=t===r.length-1;return(0,_dom.div)(".project",[(0,_dom.div)(".project-header",[(0,_dom.a)(".homepage",{href:e.homepage,target:"_blank"},[(0,_dom.h3)(".name",e.name)]),(0,_dom.a)(".repo",{href:e.repository,target:"_blank"},[(0,_dom.img)(".repo-img",{src:"assets/github.svg",alt:e.name})])]),(0,_dom.div)(".description",e.description),(0,_dom.a)(".homepage",{href:e.homepage,target:"_blank"},[(0,_dom.img)(".screenshot",{src:e.screenshot,alt:e.name})]),o?"":(0,_dom.hr)()])}function renderNavigationControls(e,t){return t>=e.length?void 0:(0,_dom.div)(".navigation",[(0,_dom.button)(".more","Show more")])}function renderProjects(e,t){return(0,_dom.div)(".projects",e.slice(0,t).map(renderProject).concat([renderNavigationControls(e,t)]))}function App(e){var t=e.DOM,r=t.select(".navigation .more").events("click")["do"](function(e){return e.preventDefault()}).map(function(e){return+PROJECTS_PER_PAGE}),o=r.scan(function(e,t){return e+t},PROJECTS_PER_PAGE).startWith(PROJECTS_PER_PAGE);return{DOM:o.map(function(e){return(0,_dom.div)(".built-with-cycle",[renderSidebar(),renderProjects(_projects2["default"],e)])})}}Object.defineProperty(exports,"__esModule",{value:!0}),exports["default"]=App;var _rx=require("rx"),_dom=require("@cycle/dom"),_projects=require("../data/projects"),_projects2=_interopRequireDefault(_projects),PROJECTS_PER_PAGE=10,INSTRUCTIONS='\nPlease add new projects by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle" _target="blank">project\'s repository</a>.\n';
+},{"_process":14}],26:[function(require,module,exports){
+var lowerCase = require('lower-case')
 
-},{"../data/projects":1,"@cycle/dom":4,"rx":63}]},{},[2]);
+var NON_WORD_REGEXP = require('./vendor/non-word-regexp')
+var CAMEL_CASE_REGEXP = require('./vendor/camel-case-regexp')
+var TRAILING_DIGIT_REGEXP = require('./vendor/trailing-digit-regexp')
+
+/**
+ * Sentence case a string.
+ *
+ * @param  {String} str
+ * @param  {String} locale
+ * @param  {String} replacement
+ * @return {String}
+ */
+module.exports = function (str, locale, replacement) {
+  if (str == null) {
+    return ''
+  }
+
+  replacement = replacement || ' '
+
+  function replace (match, index, string) {
+    if (index === 0 || index === (string.length - match.length)) {
+      return ''
+    }
+
+    return replacement
+  }
+
+  str = String(str)
+    // Support camel case ("camelCase" -> "camel Case").
+    .replace(CAMEL_CASE_REGEXP, '$1 $2')
+    // Support digit groups ("test2012" -> "test 2012").
+    .replace(TRAILING_DIGIT_REGEXP, '$1 $2')
+    // Remove all non-word characters and replace with a single space.
+    .replace(NON_WORD_REGEXP, replace)
+
+  // Lower case the entire string.
+  return lowerCase(str, locale)
+}
+
+},{"./vendor/camel-case-regexp":27,"./vendor/non-word-regexp":28,"./vendor/trailing-digit-regexp":29,"lower-case":22}],27:[function(require,module,exports){
+module.exports = /([\u0061-\u007A\u00B5\u00DF-\u00F6\u00F8-\u00FF\u0101\u0103\u0105\u0107\u0109\u010B\u010D\u010F\u0111\u0113\u0115\u0117\u0119\u011B\u011D\u011F\u0121\u0123\u0125\u0127\u0129\u012B\u012D\u012F\u0131\u0133\u0135\u0137\u0138\u013A\u013C\u013E\u0140\u0142\u0144\u0146\u0148\u0149\u014B\u014D\u014F\u0151\u0153\u0155\u0157\u0159\u015B\u015D\u015F\u0161\u0163\u0165\u0167\u0169\u016B\u016D\u016F\u0171\u0173\u0175\u0177\u017A\u017C\u017E-\u0180\u0183\u0185\u0188\u018C\u018D\u0192\u0195\u0199-\u019B\u019E\u01A1\u01A3\u01A5\u01A8\u01AA\u01AB\u01AD\u01B0\u01B4\u01B6\u01B9\u01BA\u01BD-\u01BF\u01C6\u01C9\u01CC\u01CE\u01D0\u01D2\u01D4\u01D6\u01D8\u01DA\u01DC\u01DD\u01DF\u01E1\u01E3\u01E5\u01E7\u01E9\u01EB\u01ED\u01EF\u01F0\u01F3\u01F5\u01F9\u01FB\u01FD\u01FF\u0201\u0203\u0205\u0207\u0209\u020B\u020D\u020F\u0211\u0213\u0215\u0217\u0219\u021B\u021D\u021F\u0221\u0223\u0225\u0227\u0229\u022B\u022D\u022F\u0231\u0233-\u0239\u023C\u023F\u0240\u0242\u0247\u0249\u024B\u024D\u024F-\u0293\u0295-\u02AF\u0371\u0373\u0377\u037B-\u037D\u0390\u03AC-\u03CE\u03D0\u03D1\u03D5-\u03D7\u03D9\u03DB\u03DD\u03DF\u03E1\u03E3\u03E5\u03E7\u03E9\u03EB\u03ED\u03EF-\u03F3\u03F5\u03F8\u03FB\u03FC\u0430-\u045F\u0461\u0463\u0465\u0467\u0469\u046B\u046D\u046F\u0471\u0473\u0475\u0477\u0479\u047B\u047D\u047F\u0481\u048B\u048D\u048F\u0491\u0493\u0495\u0497\u0499\u049B\u049D\u049F\u04A1\u04A3\u04A5\u04A7\u04A9\u04AB\u04AD\u04AF\u04B1\u04B3\u04B5\u04B7\u04B9\u04BB\u04BD\u04BF\u04C2\u04C4\u04C6\u04C8\u04CA\u04CC\u04CE\u04CF\u04D1\u04D3\u04D5\u04D7\u04D9\u04DB\u04DD\u04DF\u04E1\u04E3\u04E5\u04E7\u04E9\u04EB\u04ED\u04EF\u04F1\u04F3\u04F5\u04F7\u04F9\u04FB\u04FD\u04FF\u0501\u0503\u0505\u0507\u0509\u050B\u050D\u050F\u0511\u0513\u0515\u0517\u0519\u051B\u051D\u051F\u0521\u0523\u0525\u0527\u0561-\u0587\u1D00-\u1D2B\u1D6B-\u1D77\u1D79-\u1D9A\u1E01\u1E03\u1E05\u1E07\u1E09\u1E0B\u1E0D\u1E0F\u1E11\u1E13\u1E15\u1E17\u1E19\u1E1B\u1E1D\u1E1F\u1E21\u1E23\u1E25\u1E27\u1E29\u1E2B\u1E2D\u1E2F\u1E31\u1E33\u1E35\u1E37\u1E39\u1E3B\u1E3D\u1E3F\u1E41\u1E43\u1E45\u1E47\u1E49\u1E4B\u1E4D\u1E4F\u1E51\u1E53\u1E55\u1E57\u1E59\u1E5B\u1E5D\u1E5F\u1E61\u1E63\u1E65\u1E67\u1E69\u1E6B\u1E6D\u1E6F\u1E71\u1E73\u1E75\u1E77\u1E79\u1E7B\u1E7D\u1E7F\u1E81\u1E83\u1E85\u1E87\u1E89\u1E8B\u1E8D\u1E8F\u1E91\u1E93\u1E95-\u1E9D\u1E9F\u1EA1\u1EA3\u1EA5\u1EA7\u1EA9\u1EAB\u1EAD\u1EAF\u1EB1\u1EB3\u1EB5\u1EB7\u1EB9\u1EBB\u1EBD\u1EBF\u1EC1\u1EC3\u1EC5\u1EC7\u1EC9\u1ECB\u1ECD\u1ECF\u1ED1\u1ED3\u1ED5\u1ED7\u1ED9\u1EDB\u1EDD\u1EDF\u1EE1\u1EE3\u1EE5\u1EE7\u1EE9\u1EEB\u1EED\u1EEF\u1EF1\u1EF3\u1EF5\u1EF7\u1EF9\u1EFB\u1EFD\u1EFF-\u1F07\u1F10-\u1F15\u1F20-\u1F27\u1F30-\u1F37\u1F40-\u1F45\u1F50-\u1F57\u1F60-\u1F67\u1F70-\u1F7D\u1F80-\u1F87\u1F90-\u1F97\u1FA0-\u1FA7\u1FB0-\u1FB4\u1FB6\u1FB7\u1FBE\u1FC2-\u1FC4\u1FC6\u1FC7\u1FD0-\u1FD3\u1FD6\u1FD7\u1FE0-\u1FE7\u1FF2-\u1FF4\u1FF6\u1FF7\u210A\u210E\u210F\u2113\u212F\u2134\u2139\u213C\u213D\u2146-\u2149\u214E\u2184\u2C30-\u2C5E\u2C61\u2C65\u2C66\u2C68\u2C6A\u2C6C\u2C71\u2C73\u2C74\u2C76-\u2C7B\u2C81\u2C83\u2C85\u2C87\u2C89\u2C8B\u2C8D\u2C8F\u2C91\u2C93\u2C95\u2C97\u2C99\u2C9B\u2C9D\u2C9F\u2CA1\u2CA3\u2CA5\u2CA7\u2CA9\u2CAB\u2CAD\u2CAF\u2CB1\u2CB3\u2CB5\u2CB7\u2CB9\u2CBB\u2CBD\u2CBF\u2CC1\u2CC3\u2CC5\u2CC7\u2CC9\u2CCB\u2CCD\u2CCF\u2CD1\u2CD3\u2CD5\u2CD7\u2CD9\u2CDB\u2CDD\u2CDF\u2CE1\u2CE3\u2CE4\u2CEC\u2CEE\u2CF3\u2D00-\u2D25\u2D27\u2D2D\uA641\uA643\uA645\uA647\uA649\uA64B\uA64D\uA64F\uA651\uA653\uA655\uA657\uA659\uA65B\uA65D\uA65F\uA661\uA663\uA665\uA667\uA669\uA66B\uA66D\uA681\uA683\uA685\uA687\uA689\uA68B\uA68D\uA68F\uA691\uA693\uA695\uA697\uA723\uA725\uA727\uA729\uA72B\uA72D\uA72F-\uA731\uA733\uA735\uA737\uA739\uA73B\uA73D\uA73F\uA741\uA743\uA745\uA747\uA749\uA74B\uA74D\uA74F\uA751\uA753\uA755\uA757\uA759\uA75B\uA75D\uA75F\uA761\uA763\uA765\uA767\uA769\uA76B\uA76D\uA76F\uA771-\uA778\uA77A\uA77C\uA77F\uA781\uA783\uA785\uA787\uA78C\uA78E\uA791\uA793\uA7A1\uA7A3\uA7A5\uA7A7\uA7A9\uA7FA\uFB00-\uFB06\uFB13-\uFB17\uFF41-\uFF5A])([\u0041-\u005A\u00C0-\u00D6\u00D8-\u00DE\u0100\u0102\u0104\u0106\u0108\u010A\u010C\u010E\u0110\u0112\u0114\u0116\u0118\u011A\u011C\u011E\u0120\u0122\u0124\u0126\u0128\u012A\u012C\u012E\u0130\u0132\u0134\u0136\u0139\u013B\u013D\u013F\u0141\u0143\u0145\u0147\u014A\u014C\u014E\u0150\u0152\u0154\u0156\u0158\u015A\u015C\u015E\u0160\u0162\u0164\u0166\u0168\u016A\u016C\u016E\u0170\u0172\u0174\u0176\u0178\u0179\u017B\u017D\u0181\u0182\u0184\u0186\u0187\u0189-\u018B\u018E-\u0191\u0193\u0194\u0196-\u0198\u019C\u019D\u019F\u01A0\u01A2\u01A4\u01A6\u01A7\u01A9\u01AC\u01AE\u01AF\u01B1-\u01B3\u01B5\u01B7\u01B8\u01BC\u01C4\u01C7\u01CA\u01CD\u01CF\u01D1\u01D3\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u01E2\u01E4\u01E6\u01E8\u01EA\u01EC\u01EE\u01F1\u01F4\u01F6-\u01F8\u01FA\u01FC\u01FE\u0200\u0202\u0204\u0206\u0208\u020A\u020C\u020E\u0210\u0212\u0214\u0216\u0218\u021A\u021C\u021E\u0220\u0222\u0224\u0226\u0228\u022A\u022C\u022E\u0230\u0232\u023A\u023B\u023D\u023E\u0241\u0243-\u0246\u0248\u024A\u024C\u024E\u0370\u0372\u0376\u0386\u0388-\u038A\u038C\u038E\u038F\u0391-\u03A1\u03A3-\u03AB\u03CF\u03D2-\u03D4\u03D8\u03DA\u03DC\u03DE\u03E0\u03E2\u03E4\u03E6\u03E8\u03EA\u03EC\u03EE\u03F4\u03F7\u03F9\u03FA\u03FD-\u042F\u0460\u0462\u0464\u0466\u0468\u046A\u046C\u046E\u0470\u0472\u0474\u0476\u0478\u047A\u047C\u047E\u0480\u048A\u048C\u048E\u0490\u0492\u0494\u0496\u0498\u049A\u049C\u049E\u04A0\u04A2\u04A4\u04A6\u04A8\u04AA\u04AC\u04AE\u04B0\u04B2\u04B4\u04B6\u04B8\u04BA\u04BC\u04BE\u04C0\u04C1\u04C3\u04C5\u04C7\u04C9\u04CB\u04CD\u04D0\u04D2\u04D4\u04D6\u04D8\u04DA\u04DC\u04DE\u04E0\u04E2\u04E4\u04E6\u04E8\u04EA\u04EC\u04EE\u04F0\u04F2\u04F4\u04F6\u04F8\u04FA\u04FC\u04FE\u0500\u0502\u0504\u0506\u0508\u050A\u050C\u050E\u0510\u0512\u0514\u0516\u0518\u051A\u051C\u051E\u0520\u0522\u0524\u0526\u0531-\u0556\u10A0-\u10C5\u10C7\u10CD\u1E00\u1E02\u1E04\u1E06\u1E08\u1E0A\u1E0C\u1E0E\u1E10\u1E12\u1E14\u1E16\u1E18\u1E1A\u1E1C\u1E1E\u1E20\u1E22\u1E24\u1E26\u1E28\u1E2A\u1E2C\u1E2E\u1E30\u1E32\u1E34\u1E36\u1E38\u1E3A\u1E3C\u1E3E\u1E40\u1E42\u1E44\u1E46\u1E48\u1E4A\u1E4C\u1E4E\u1E50\u1E52\u1E54\u1E56\u1E58\u1E5A\u1E5C\u1E5E\u1E60\u1E62\u1E64\u1E66\u1E68\u1E6A\u1E6C\u1E6E\u1E70\u1E72\u1E74\u1E76\u1E78\u1E7A\u1E7C\u1E7E\u1E80\u1E82\u1E84\u1E86\u1E88\u1E8A\u1E8C\u1E8E\u1E90\u1E92\u1E94\u1E9E\u1EA0\u1EA2\u1EA4\u1EA6\u1EA8\u1EAA\u1EAC\u1EAE\u1EB0\u1EB2\u1EB4\u1EB6\u1EB8\u1EBA\u1EBC\u1EBE\u1EC0\u1EC2\u1EC4\u1EC6\u1EC8\u1ECA\u1ECC\u1ECE\u1ED0\u1ED2\u1ED4\u1ED6\u1ED8\u1EDA\u1EDC\u1EDE\u1EE0\u1EE2\u1EE4\u1EE6\u1EE8\u1EEA\u1EEC\u1EEE\u1EF0\u1EF2\u1EF4\u1EF6\u1EF8\u1EFA\u1EFC\u1EFE\u1F08-\u1F0F\u1F18-\u1F1D\u1F28-\u1F2F\u1F38-\u1F3F\u1F48-\u1F4D\u1F59\u1F5B\u1F5D\u1F5F\u1F68-\u1F6F\u1FB8-\u1FBB\u1FC8-\u1FCB\u1FD8-\u1FDB\u1FE8-\u1FEC\u1FF8-\u1FFB\u2102\u2107\u210B-\u210D\u2110-\u2112\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u2130-\u2133\u213E\u213F\u2145\u2183\u2C00-\u2C2E\u2C60\u2C62-\u2C64\u2C67\u2C69\u2C6B\u2C6D-\u2C70\u2C72\u2C75\u2C7E-\u2C80\u2C82\u2C84\u2C86\u2C88\u2C8A\u2C8C\u2C8E\u2C90\u2C92\u2C94\u2C96\u2C98\u2C9A\u2C9C\u2C9E\u2CA0\u2CA2\u2CA4\u2CA6\u2CA8\u2CAA\u2CAC\u2CAE\u2CB0\u2CB2\u2CB4\u2CB6\u2CB8\u2CBA\u2CBC\u2CBE\u2CC0\u2CC2\u2CC4\u2CC6\u2CC8\u2CCA\u2CCC\u2CCE\u2CD0\u2CD2\u2CD4\u2CD6\u2CD8\u2CDA\u2CDC\u2CDE\u2CE0\u2CE2\u2CEB\u2CED\u2CF2\uA640\uA642\uA644\uA646\uA648\uA64A\uA64C\uA64E\uA650\uA652\uA654\uA656\uA658\uA65A\uA65C\uA65E\uA660\uA662\uA664\uA666\uA668\uA66A\uA66C\uA680\uA682\uA684\uA686\uA688\uA68A\uA68C\uA68E\uA690\uA692\uA694\uA696\uA722\uA724\uA726\uA728\uA72A\uA72C\uA72E\uA732\uA734\uA736\uA738\uA73A\uA73C\uA73E\uA740\uA742\uA744\uA746\uA748\uA74A\uA74C\uA74E\uA750\uA752\uA754\uA756\uA758\uA75A\uA75C\uA75E\uA760\uA762\uA764\uA766\uA768\uA76A\uA76C\uA76E\uA779\uA77B\uA77D\uA77E\uA780\uA782\uA784\uA786\uA78B\uA78D\uA790\uA792\uA7A0\uA7A2\uA7A4\uA7A6\uA7A8\uA7AA\uFF21-\uFF3A\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])/g
+
+},{}],28:[function(require,module,exports){
+module.exports = /[^\u0041-\u005A\u0061-\u007A\u00AA\u00B5\u00BA\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u0527\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u08A0\u08A2-\u08AC\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0977\u0979-\u097F\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C33\u0C35-\u0C39\u0C3D\u0C58\u0C59\u0C60\u0C61\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D60\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F4\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191C\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19C1-\u19C7\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312D\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FCC\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA697\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA78E\uA790-\uA793\uA7A0-\uA7AA\uA7F8-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA80-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uABC0-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19]+/g
+
+},{}],29:[function(require,module,exports){
+module.exports = /([\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])([^\u0030-\u0039\u00B2\u00B3\u00B9\u00BC-\u00BE\u0660-\u0669\u06F0-\u06F9\u07C0-\u07C9\u0966-\u096F\u09E6-\u09EF\u09F4-\u09F9\u0A66-\u0A6F\u0AE6-\u0AEF\u0B66-\u0B6F\u0B72-\u0B77\u0BE6-\u0BF2\u0C66-\u0C6F\u0C78-\u0C7E\u0CE6-\u0CEF\u0D66-\u0D75\u0E50-\u0E59\u0ED0-\u0ED9\u0F20-\u0F33\u1040-\u1049\u1090-\u1099\u1369-\u137C\u16EE-\u16F0\u17E0-\u17E9\u17F0-\u17F9\u1810-\u1819\u1946-\u194F\u19D0-\u19DA\u1A80-\u1A89\u1A90-\u1A99\u1B50-\u1B59\u1BB0-\u1BB9\u1C40-\u1C49\u1C50-\u1C59\u2070\u2074-\u2079\u2080-\u2089\u2150-\u2182\u2185-\u2189\u2460-\u249B\u24EA-\u24FF\u2776-\u2793\u2CFD\u3007\u3021-\u3029\u3038-\u303A\u3192-\u3195\u3220-\u3229\u3248-\u324F\u3251-\u325F\u3280-\u3289\u32B1-\u32BF\uA620-\uA629\uA6E6-\uA6EF\uA830-\uA835\uA8D0-\uA8D9\uA900-\uA909\uA9D0-\uA9D9\uAA50-\uAA59\uABF0-\uABF9\uFF10-\uFF19])/g
+
+},{}],30:[function(require,module,exports){
+
+/**
+ * index.js
+ *
+ * A client-side DOM to vdom parser based on DOMParser API
+ */
+
+'use strict';
+
+var VNode = require('virtual-dom/vnode/vnode');
+var VText = require('virtual-dom/vnode/vtext');
+var domParser = new DOMParser();
+
+var propertyMap = require('./property-map');
+var namespaceMap = require('./namespace-map');
+
+var HTML_NAMESPACE = 'http://www.w3.org/1999/xhtml';
+
+module.exports = parser;
+
+/**
+ * DOM/html string to vdom parser
+ *
+ * @param   Mixed   el    DOM element or html string
+ * @param   String  attr  Attribute name that contains vdom key
+ * @return  Object        VNode or VText
+ */
+function parser(el, attr) {
+	// empty input fallback to empty text node
+	if (!el) {
+		return createNode(document.createTextNode(''));
+	}
+
+	if (typeof el === 'string') {
+		var doc = domParser.parseFromString(el, 'text/html');
+
+		// most tags default to body
+		if (doc.body.firstChild) {
+			el = doc.body.firstChild;
+
+		// some tags, like script and style, default to head
+		} else if (doc.head.firstChild && (doc.head.firstChild.tagName !== 'TITLE' || doc.title)) {
+			el = doc.head.firstChild;
+
+		// special case for html comment, cdata, doctype
+		} else if (doc.firstChild && doc.firstChild.tagName !== 'HTML') {
+			el = doc.firstChild;
+
+		// other element, such as whitespace, or html/body/head tag, fallback to empty text node
+		} else {
+			el = document.createTextNode('');
+		}
+	}
+
+	if (typeof el !== 'object' || !el || !el.nodeType) { 
+		throw new Error('invalid dom node', el);
+	}
+
+	return createNode(el, attr);
+}
+
+/**
+ * Create vdom from dom node
+ *
+ * @param   Object  el    DOM element
+ * @param   String  attr  Attribute name that contains vdom key
+ * @return  Object        VNode or VText
+ */
+function createNode(el, attr) {
+	// html comment is not currently supported by virtual-dom
+	if (el.nodeType === 3) {
+		return createVirtualTextNode(el);
+
+	// cdata or doctype is not currently supported by virtual-dom
+	} else if (el.nodeType === 1 || el.nodeType === 9) {
+		return createVirtualDomNode(el, attr);
+	}
+
+	// default to empty text node
+	return new VText('');
+}
+
+/**
+ * Create vtext from dom node
+ *
+ * @param   Object  el  Text node
+ * @return  Object      VText
+ */
+function createVirtualTextNode(el) {
+	return new VText(el.nodeValue);
+}
+
+/**
+ * Create vnode from dom node
+ *
+ * @param   Object  el    DOM element
+ * @param   String  attr  Attribute name that contains vdom key
+ * @return  Object        VNode
+ */
+function createVirtualDomNode(el, attr) {
+	var ns = el.namespaceURI !== HTML_NAMESPACE ? el.namespaceURI : null;
+	var key = attr && el.getAttribute(attr) ? el.getAttribute(attr) : null;
+
+	return new VNode(
+		el.tagName
+		, createProperties(el)
+		, createChildren(el, attr)
+		, key
+		, ns
+	);
+}
+
+/**
+ * Recursively create vdom
+ *
+ * @param   Object  el    Parent element
+ * @param   String  attr  Attribute name that contains vdom key
+ * @return  Array         Child vnode or vtext
+ */
+function createChildren(el, attr) {
+	var children = [];
+	for (var i = 0; i < el.childNodes.length; i++) {
+		children.push(createNode(el.childNodes[i], attr));
+	};
+
+	return children;
+}
+
+/**
+ * Create properties from dom node
+ *
+ * @param   Object  el  DOM element
+ * @return  Object      Node properties and attributes
+ */
+function createProperties(el) {
+	var properties = {};
+
+	if (!el.hasAttributes()) {
+		return properties;
+	}
+
+	var ns;
+	if (el.namespaceURI && el.namespaceURI !== HTML_NAMESPACE) {
+		ns = el.namespaceURI;
+	}
+
+	var attr;
+	for (var i = 0; i < el.attributes.length; i++) {
+		if (ns) {
+			attr = createPropertyNS(el.attributes[i]);
+		} else {
+			attr = createProperty(el.attributes[i]);
+		}
+
+		// special case, namespaced attribute, use properties.foobar
+		if (attr.ns) {
+			properties[attr.name] = {
+				namespace: attr.ns
+				, value: attr.value
+			};
+
+		// special case, use properties.attributes.foobar
+		} else if (attr.isAttr) {
+			// init attributes object only when necessary
+			if (!properties.attributes) {
+				properties.attributes = {}
+			}
+			properties.attributes[attr.name] = attr.value;
+
+		// default case, use properties.foobar
+		} else {
+			properties[attr.name] = attr.value;
+		}
+	};
+
+	return properties;
+}
+
+/**
+ * Create property from dom attribute 
+ *
+ * @param   Object  attr  DOM attribute
+ * @return  Object        Normalized attribute
+ */
+function createProperty(attr) {
+	var name, value, isAttr;
+
+	// using a map to find the correct case of property name
+	if (propertyMap[attr.name]) {
+		name = propertyMap[attr.name];
+	} else {
+		name = attr.name;
+	}
+
+	// special cases for style attribute, we default to properties.style
+	if (name === 'style') {
+		var style = {};
+		attr.value.split(';').forEach(function (s) {
+			var pos = s.indexOf(':');
+			if (pos < 0) {
+				return;
+			}
+			style[s.substr(0, pos).trim()] = s.substr(pos + 1).trim();
+		});
+		value = style;
+	// special cases for data attribute, we default to properties.attributes.data
+	} else if (name.indexOf('data-') === 0) {
+		value = attr.value;
+		isAttr = true;
+	} else {
+		value = attr.value;
+	}
+
+	return {
+		name: name
+		, value: value
+		, isAttr: isAttr || false
+	};
+}
+
+/**
+ * Create namespaced property from dom attribute 
+ *
+ * @param   Object  attr  DOM attribute
+ * @return  Object        Normalized attribute
+ */
+function createPropertyNS(attr) {
+	var name, value;
+
+	return {
+		name: attr.name
+		, value: attr.value
+		, ns: namespaceMap[attr.name] || ''
+	};
+}
+
+},{"./namespace-map":31,"./property-map":32,"virtual-dom/vnode/vnode":57,"virtual-dom/vnode/vtext":59}],31:[function(require,module,exports){
+
+/**
+ * namespace-map.js
+ *
+ * Necessary to map svg attributes back to their namespace
+ */
+
+'use strict';
+
+// extracted from https://github.com/Matt-Esch/virtual-dom/blob/master/virtual-hyperscript/svg-attribute-namespace.js
+var DEFAULT_NAMESPACE = null;
+var EV_NAMESPACE = 'http://www.w3.org/2001/xml-events';
+var XLINK_NAMESPACE = 'http://www.w3.org/1999/xlink';
+var XML_NAMESPACE = 'http://www.w3.org/XML/1998/namespace';
+
+var namespaces = {
+	'about': DEFAULT_NAMESPACE
+	, 'accent-height': DEFAULT_NAMESPACE
+	, 'accumulate': DEFAULT_NAMESPACE
+	, 'additive': DEFAULT_NAMESPACE
+	, 'alignment-baseline': DEFAULT_NAMESPACE
+	, 'alphabetic': DEFAULT_NAMESPACE
+	, 'amplitude': DEFAULT_NAMESPACE
+	, 'arabic-form': DEFAULT_NAMESPACE
+	, 'ascent': DEFAULT_NAMESPACE
+	, 'attributeName': DEFAULT_NAMESPACE
+	, 'attributeType': DEFAULT_NAMESPACE
+	, 'azimuth': DEFAULT_NAMESPACE
+	, 'bandwidth': DEFAULT_NAMESPACE
+	, 'baseFrequency': DEFAULT_NAMESPACE
+	, 'baseProfile': DEFAULT_NAMESPACE
+	, 'baseline-shift': DEFAULT_NAMESPACE
+	, 'bbox': DEFAULT_NAMESPACE
+	, 'begin': DEFAULT_NAMESPACE
+	, 'bias': DEFAULT_NAMESPACE
+	, 'by': DEFAULT_NAMESPACE
+	, 'calcMode': DEFAULT_NAMESPACE
+	, 'cap-height': DEFAULT_NAMESPACE
+	, 'class': DEFAULT_NAMESPACE
+	, 'clip': DEFAULT_NAMESPACE
+	, 'clip-path': DEFAULT_NAMESPACE
+	, 'clip-rule': DEFAULT_NAMESPACE
+	, 'clipPathUnits': DEFAULT_NAMESPACE
+	, 'color': DEFAULT_NAMESPACE
+	, 'color-interpolation': DEFAULT_NAMESPACE
+	, 'color-interpolation-filters': DEFAULT_NAMESPACE
+	, 'color-profile': DEFAULT_NAMESPACE
+	, 'color-rendering': DEFAULT_NAMESPACE
+	, 'content': DEFAULT_NAMESPACE
+	, 'contentScriptType': DEFAULT_NAMESPACE
+	, 'contentStyleType': DEFAULT_NAMESPACE
+	, 'cursor': DEFAULT_NAMESPACE
+	, 'cx': DEFAULT_NAMESPACE
+	, 'cy': DEFAULT_NAMESPACE
+	, 'd': DEFAULT_NAMESPACE
+	, 'datatype': DEFAULT_NAMESPACE
+	, 'defaultAction': DEFAULT_NAMESPACE
+	, 'descent': DEFAULT_NAMESPACE
+	, 'diffuseConstant': DEFAULT_NAMESPACE
+	, 'direction': DEFAULT_NAMESPACE
+	, 'display': DEFAULT_NAMESPACE
+	, 'divisor': DEFAULT_NAMESPACE
+	, 'dominant-baseline': DEFAULT_NAMESPACE
+	, 'dur': DEFAULT_NAMESPACE
+	, 'dx': DEFAULT_NAMESPACE
+	, 'dy': DEFAULT_NAMESPACE
+	, 'edgeMode': DEFAULT_NAMESPACE
+	, 'editable': DEFAULT_NAMESPACE
+	, 'elevation': DEFAULT_NAMESPACE
+	, 'enable-background': DEFAULT_NAMESPACE
+	, 'end': DEFAULT_NAMESPACE
+	, 'ev:event': EV_NAMESPACE
+	, 'event': DEFAULT_NAMESPACE
+	, 'exponent': DEFAULT_NAMESPACE
+	, 'externalResourcesRequired': DEFAULT_NAMESPACE
+	, 'fill': DEFAULT_NAMESPACE
+	, 'fill-opacity': DEFAULT_NAMESPACE
+	, 'fill-rule': DEFAULT_NAMESPACE
+	, 'filter': DEFAULT_NAMESPACE
+	, 'filterRes': DEFAULT_NAMESPACE
+	, 'filterUnits': DEFAULT_NAMESPACE
+	, 'flood-color': DEFAULT_NAMESPACE
+	, 'flood-opacity': DEFAULT_NAMESPACE
+	, 'focusHighlight': DEFAULT_NAMESPACE
+	, 'focusable': DEFAULT_NAMESPACE
+	, 'font-family': DEFAULT_NAMESPACE
+	, 'font-size': DEFAULT_NAMESPACE
+	, 'font-size-adjust': DEFAULT_NAMESPACE
+	, 'font-stretch': DEFAULT_NAMESPACE
+	, 'font-style': DEFAULT_NAMESPACE
+	, 'font-variant': DEFAULT_NAMESPACE
+	, 'font-weight': DEFAULT_NAMESPACE
+	, 'format': DEFAULT_NAMESPACE
+	, 'from': DEFAULT_NAMESPACE
+	, 'fx': DEFAULT_NAMESPACE
+	, 'fy': DEFAULT_NAMESPACE
+	, 'g1': DEFAULT_NAMESPACE
+	, 'g2': DEFAULT_NAMESPACE
+	, 'glyph-name': DEFAULT_NAMESPACE
+	, 'glyph-orientation-horizontal': DEFAULT_NAMESPACE
+	, 'glyph-orientation-vertical': DEFAULT_NAMESPACE
+	, 'glyphRef': DEFAULT_NAMESPACE
+	, 'gradientTransform': DEFAULT_NAMESPACE
+	, 'gradientUnits': DEFAULT_NAMESPACE
+	, 'handler': DEFAULT_NAMESPACE
+	, 'hanging': DEFAULT_NAMESPACE
+	, 'height': DEFAULT_NAMESPACE
+	, 'horiz-adv-x': DEFAULT_NAMESPACE
+	, 'horiz-origin-x': DEFAULT_NAMESPACE
+	, 'horiz-origin-y': DEFAULT_NAMESPACE
+	, 'id': DEFAULT_NAMESPACE
+	, 'ideographic': DEFAULT_NAMESPACE
+	, 'image-rendering': DEFAULT_NAMESPACE
+	, 'in': DEFAULT_NAMESPACE
+	, 'in2': DEFAULT_NAMESPACE
+	, 'initialVisibility': DEFAULT_NAMESPACE
+	, 'intercept': DEFAULT_NAMESPACE
+	, 'k': DEFAULT_NAMESPACE
+	, 'k1': DEFAULT_NAMESPACE
+	, 'k2': DEFAULT_NAMESPACE
+	, 'k3': DEFAULT_NAMESPACE
+	, 'k4': DEFAULT_NAMESPACE
+	, 'kernelMatrix': DEFAULT_NAMESPACE
+	, 'kernelUnitLength': DEFAULT_NAMESPACE
+	, 'kerning': DEFAULT_NAMESPACE
+	, 'keyPoints': DEFAULT_NAMESPACE
+	, 'keySplines': DEFAULT_NAMESPACE
+	, 'keyTimes': DEFAULT_NAMESPACE
+	, 'lang': DEFAULT_NAMESPACE
+	, 'lengthAdjust': DEFAULT_NAMESPACE
+	, 'letter-spacing': DEFAULT_NAMESPACE
+	, 'lighting-color': DEFAULT_NAMESPACE
+	, 'limitingConeAngle': DEFAULT_NAMESPACE
+	, 'local': DEFAULT_NAMESPACE
+	, 'marker-end': DEFAULT_NAMESPACE
+	, 'marker-mid': DEFAULT_NAMESPACE
+	, 'marker-start': DEFAULT_NAMESPACE
+	, 'markerHeight': DEFAULT_NAMESPACE
+	, 'markerUnits': DEFAULT_NAMESPACE
+	, 'markerWidth': DEFAULT_NAMESPACE
+	, 'mask': DEFAULT_NAMESPACE
+	, 'maskContentUnits': DEFAULT_NAMESPACE
+	, 'maskUnits': DEFAULT_NAMESPACE
+	, 'mathematical': DEFAULT_NAMESPACE
+	, 'max': DEFAULT_NAMESPACE
+	, 'media': DEFAULT_NAMESPACE
+	, 'mediaCharacterEncoding': DEFAULT_NAMESPACE
+	, 'mediaContentEncodings': DEFAULT_NAMESPACE
+	, 'mediaSize': DEFAULT_NAMESPACE
+	, 'mediaTime': DEFAULT_NAMESPACE
+	, 'method': DEFAULT_NAMESPACE
+	, 'min': DEFAULT_NAMESPACE
+	, 'mode': DEFAULT_NAMESPACE
+	, 'name': DEFAULT_NAMESPACE
+	, 'nav-down': DEFAULT_NAMESPACE
+	, 'nav-down-left': DEFAULT_NAMESPACE
+	, 'nav-down-right': DEFAULT_NAMESPACE
+	, 'nav-left': DEFAULT_NAMESPACE
+	, 'nav-next': DEFAULT_NAMESPACE
+	, 'nav-prev': DEFAULT_NAMESPACE
+	, 'nav-right': DEFAULT_NAMESPACE
+	, 'nav-up': DEFAULT_NAMESPACE
+	, 'nav-up-left': DEFAULT_NAMESPACE
+	, 'nav-up-right': DEFAULT_NAMESPACE
+	, 'numOctaves': DEFAULT_NAMESPACE
+	, 'observer': DEFAULT_NAMESPACE
+	, 'offset': DEFAULT_NAMESPACE
+	, 'opacity': DEFAULT_NAMESPACE
+	, 'operator': DEFAULT_NAMESPACE
+	, 'order': DEFAULT_NAMESPACE
+	, 'orient': DEFAULT_NAMESPACE
+	, 'orientation': DEFAULT_NAMESPACE
+	, 'origin': DEFAULT_NAMESPACE
+	, 'overflow': DEFAULT_NAMESPACE
+	, 'overlay': DEFAULT_NAMESPACE
+	, 'overline-position': DEFAULT_NAMESPACE
+	, 'overline-thickness': DEFAULT_NAMESPACE
+	, 'panose-1': DEFAULT_NAMESPACE
+	, 'path': DEFAULT_NAMESPACE
+	, 'pathLength': DEFAULT_NAMESPACE
+	, 'patternContentUnits': DEFAULT_NAMESPACE
+	, 'patternTransform': DEFAULT_NAMESPACE
+	, 'patternUnits': DEFAULT_NAMESPACE
+	, 'phase': DEFAULT_NAMESPACE
+	, 'playbackOrder': DEFAULT_NAMESPACE
+	, 'pointer-events': DEFAULT_NAMESPACE
+	, 'points': DEFAULT_NAMESPACE
+	, 'pointsAtX': DEFAULT_NAMESPACE
+	, 'pointsAtY': DEFAULT_NAMESPACE
+	, 'pointsAtZ': DEFAULT_NAMESPACE
+	, 'preserveAlpha': DEFAULT_NAMESPACE
+	, 'preserveAspectRatio': DEFAULT_NAMESPACE
+	, 'primitiveUnits': DEFAULT_NAMESPACE
+	, 'propagate': DEFAULT_NAMESPACE
+	, 'property': DEFAULT_NAMESPACE
+	, 'r': DEFAULT_NAMESPACE
+	, 'radius': DEFAULT_NAMESPACE
+	, 'refX': DEFAULT_NAMESPACE
+	, 'refY': DEFAULT_NAMESPACE
+	, 'rel': DEFAULT_NAMESPACE
+	, 'rendering-intent': DEFAULT_NAMESPACE
+	, 'repeatCount': DEFAULT_NAMESPACE
+	, 'repeatDur': DEFAULT_NAMESPACE
+	, 'requiredExtensions': DEFAULT_NAMESPACE
+	, 'requiredFeatures': DEFAULT_NAMESPACE
+	, 'requiredFonts': DEFAULT_NAMESPACE
+	, 'requiredFormats': DEFAULT_NAMESPACE
+	, 'resource': DEFAULT_NAMESPACE
+	, 'restart': DEFAULT_NAMESPACE
+	, 'result': DEFAULT_NAMESPACE
+	, 'rev': DEFAULT_NAMESPACE
+	, 'role': DEFAULT_NAMESPACE
+	, 'rotate': DEFAULT_NAMESPACE
+	, 'rx': DEFAULT_NAMESPACE
+	, 'ry': DEFAULT_NAMESPACE
+	, 'scale': DEFAULT_NAMESPACE
+	, 'seed': DEFAULT_NAMESPACE
+	, 'shape-rendering': DEFAULT_NAMESPACE
+	, 'slope': DEFAULT_NAMESPACE
+	, 'snapshotTime': DEFAULT_NAMESPACE
+	, 'spacing': DEFAULT_NAMESPACE
+	, 'specularConstant': DEFAULT_NAMESPACE
+	, 'specularExponent': DEFAULT_NAMESPACE
+	, 'spreadMethod': DEFAULT_NAMESPACE
+	, 'startOffset': DEFAULT_NAMESPACE
+	, 'stdDeviation': DEFAULT_NAMESPACE
+	, 'stemh': DEFAULT_NAMESPACE
+	, 'stemv': DEFAULT_NAMESPACE
+	, 'stitchTiles': DEFAULT_NAMESPACE
+	, 'stop-color': DEFAULT_NAMESPACE
+	, 'stop-opacity': DEFAULT_NAMESPACE
+	, 'strikethrough-position': DEFAULT_NAMESPACE
+	, 'strikethrough-thickness': DEFAULT_NAMESPACE
+	, 'string': DEFAULT_NAMESPACE
+	, 'stroke': DEFAULT_NAMESPACE
+	, 'stroke-dasharray': DEFAULT_NAMESPACE
+	, 'stroke-dashoffset': DEFAULT_NAMESPACE
+	, 'stroke-linecap': DEFAULT_NAMESPACE
+	, 'stroke-linejoin': DEFAULT_NAMESPACE
+	, 'stroke-miterlimit': DEFAULT_NAMESPACE
+	, 'stroke-opacity': DEFAULT_NAMESPACE
+	, 'stroke-width': DEFAULT_NAMESPACE
+	, 'surfaceScale': DEFAULT_NAMESPACE
+	, 'syncBehavior': DEFAULT_NAMESPACE
+	, 'syncBehaviorDefault': DEFAULT_NAMESPACE
+	, 'syncMaster': DEFAULT_NAMESPACE
+	, 'syncTolerance': DEFAULT_NAMESPACE
+	, 'syncToleranceDefault': DEFAULT_NAMESPACE
+	, 'systemLanguage': DEFAULT_NAMESPACE
+	, 'tableValues': DEFAULT_NAMESPACE
+	, 'target': DEFAULT_NAMESPACE
+	, 'targetX': DEFAULT_NAMESPACE
+	, 'targetY': DEFAULT_NAMESPACE
+	, 'text-anchor': DEFAULT_NAMESPACE
+	, 'text-decoration': DEFAULT_NAMESPACE
+	, 'text-rendering': DEFAULT_NAMESPACE
+	, 'textLength': DEFAULT_NAMESPACE
+	, 'timelineBegin': DEFAULT_NAMESPACE
+	, 'title': DEFAULT_NAMESPACE
+	, 'to': DEFAULT_NAMESPACE
+	, 'transform': DEFAULT_NAMESPACE
+	, 'transformBehavior': DEFAULT_NAMESPACE
+	, 'type': DEFAULT_NAMESPACE
+	, 'typeof': DEFAULT_NAMESPACE
+	, 'u1': DEFAULT_NAMESPACE
+	, 'u2': DEFAULT_NAMESPACE
+	, 'underline-position': DEFAULT_NAMESPACE
+	, 'underline-thickness': DEFAULT_NAMESPACE
+	, 'unicode': DEFAULT_NAMESPACE
+	, 'unicode-bidi': DEFAULT_NAMESPACE
+	, 'unicode-range': DEFAULT_NAMESPACE
+	, 'units-per-em': DEFAULT_NAMESPACE
+	, 'v-alphabetic': DEFAULT_NAMESPACE
+	, 'v-hanging': DEFAULT_NAMESPACE
+	, 'v-ideographic': DEFAULT_NAMESPACE
+	, 'v-mathematical': DEFAULT_NAMESPACE
+	, 'values': DEFAULT_NAMESPACE
+	, 'version': DEFAULT_NAMESPACE
+	, 'vert-adv-y': DEFAULT_NAMESPACE
+	, 'vert-origin-x': DEFAULT_NAMESPACE
+	, 'vert-origin-y': DEFAULT_NAMESPACE
+	, 'viewBox': DEFAULT_NAMESPACE
+	, 'viewTarget': DEFAULT_NAMESPACE
+	, 'visibility': DEFAULT_NAMESPACE
+	, 'width': DEFAULT_NAMESPACE
+	, 'widths': DEFAULT_NAMESPACE
+	, 'word-spacing': DEFAULT_NAMESPACE
+	, 'writing-mode': DEFAULT_NAMESPACE
+	, 'x': DEFAULT_NAMESPACE
+	, 'x-height': DEFAULT_NAMESPACE
+	, 'x1': DEFAULT_NAMESPACE
+	, 'x2': DEFAULT_NAMESPACE
+	, 'xChannelSelector': DEFAULT_NAMESPACE
+	, 'xlink:actuate': XLINK_NAMESPACE
+	, 'xlink:arcrole': XLINK_NAMESPACE
+	, 'xlink:href': XLINK_NAMESPACE
+	, 'xlink:role': XLINK_NAMESPACE
+	, 'xlink:show': XLINK_NAMESPACE
+	, 'xlink:title': XLINK_NAMESPACE
+	, 'xlink:type': XLINK_NAMESPACE
+	, 'xml:base': XML_NAMESPACE
+	, 'xml:id': XML_NAMESPACE
+	, 'xml:lang': XML_NAMESPACE
+	, 'xml:space': XML_NAMESPACE
+	, 'y': DEFAULT_NAMESPACE
+	, 'y1': DEFAULT_NAMESPACE
+	, 'y2': DEFAULT_NAMESPACE
+	, 'yChannelSelector': DEFAULT_NAMESPACE
+	, 'z': DEFAULT_NAMESPACE
+	, 'zoomAndPan': DEFAULT_NAMESPACE
+};
+
+module.exports = namespaces;
+
+},{}],32:[function(require,module,exports){
+
+/**
+ * property-map.js
+ *
+ * Necessary to map dom attributes back to vdom properties
+ */
+
+'use strict';
+
+// invert of https://www.npmjs.com/package/html-attributes
+var properties = {
+	'abbr': 'abbr'
+	, 'accept': 'accept'
+	, 'accept-charset': 'acceptCharset'
+	, 'accesskey': 'accessKey'
+	, 'action': 'action'
+	, 'allowfullscreen': 'allowFullScreen'
+	, 'allowtransparency': 'allowTransparency'
+	, 'alt': 'alt'
+	, 'async': 'async'
+	, 'autocomplete': 'autoComplete'
+	, 'autofocus': 'autoFocus'
+	, 'autoplay': 'autoPlay'
+	, 'cellpadding': 'cellPadding'
+	, 'cellspacing': 'cellSpacing'
+	, 'challenge': 'challenge'
+	, 'charset': 'charset'
+	, 'checked': 'checked'
+	, 'cite': 'cite'
+	, 'class': 'className'
+	, 'cols': 'cols'
+	, 'colspan': 'colSpan'
+	, 'command': 'command'
+	, 'content': 'content'
+	, 'contenteditable': 'contentEditable'
+	, 'contextmenu': 'contextMenu'
+	, 'controls': 'controls'
+	, 'coords': 'coords'
+	, 'crossorigin': 'crossOrigin'
+	, 'data': 'data'
+	, 'datetime': 'dateTime'
+	, 'default': 'default'
+	, 'defer': 'defer'
+	, 'dir': 'dir'
+	, 'disabled': 'disabled'
+	, 'download': 'download'
+	, 'draggable': 'draggable'
+	, 'dropzone': 'dropzone'
+	, 'enctype': 'encType'
+	, 'for': 'htmlFor'
+	, 'form': 'form'
+	, 'formaction': 'formAction'
+	, 'formenctype': 'formEncType'
+	, 'formmethod': 'formMethod'
+	, 'formnovalidate': 'formNoValidate'
+	, 'formtarget': 'formTarget'
+	, 'frameBorder': 'frameBorder'
+	, 'headers': 'headers'
+	, 'height': 'height'
+	, 'hidden': 'hidden'
+	, 'high': 'high'
+	, 'href': 'href'
+	, 'hreflang': 'hrefLang'
+	, 'http-equiv': 'httpEquiv'
+	, 'icon': 'icon'
+	, 'id': 'id'
+	, 'inputmode': 'inputMode'
+	, 'ismap': 'isMap'
+	, 'itemid': 'itemId'
+	, 'itemprop': 'itemProp'
+	, 'itemref': 'itemRef'
+	, 'itemscope': 'itemScope'
+	, 'itemtype': 'itemType'
+	, 'kind': 'kind'
+	, 'label': 'label'
+	, 'lang': 'lang'
+	, 'list': 'list'
+	, 'loop': 'loop'
+	, 'manifest': 'manifest'
+	, 'max': 'max'
+	, 'maxlength': 'maxLength'
+	, 'media': 'media'
+	, 'mediagroup': 'mediaGroup'
+	, 'method': 'method'
+	, 'min': 'min'
+	, 'minlength': 'minLength'
+	, 'multiple': 'multiple'
+	, 'muted': 'muted'
+	, 'name': 'name'
+	, 'novalidate': 'noValidate'
+	, 'open': 'open'
+	, 'optimum': 'optimum'
+	, 'pattern': 'pattern'
+	, 'ping': 'ping'
+	, 'placeholder': 'placeholder'
+	, 'poster': 'poster'
+	, 'preload': 'preload'
+	, 'radiogroup': 'radioGroup'
+	, 'readonly': 'readOnly'
+	, 'rel': 'rel'
+	, 'required': 'required'
+	, 'role': 'role'
+	, 'rows': 'rows'
+	, 'rowspan': 'rowSpan'
+	, 'sandbox': 'sandbox'
+	, 'scope': 'scope'
+	, 'scoped': 'scoped'
+	, 'scrolling': 'scrolling'
+	, 'seamless': 'seamless'
+	, 'selected': 'selected'
+	, 'shape': 'shape'
+	, 'size': 'size'
+	, 'sizes': 'sizes'
+	, 'sortable': 'sortable'
+	, 'span': 'span'
+	, 'spellcheck': 'spellCheck'
+	, 'src': 'src'
+	, 'srcdoc': 'srcDoc'
+	, 'srcset': 'srcSet'
+	, 'start': 'start'
+	, 'step': 'step'
+	, 'style': 'style'
+	, 'tabindex': 'tabIndex'
+	, 'target': 'target'
+	, 'title': 'title'
+	, 'translate': 'translate'
+	, 'type': 'type'
+	, 'typemustmatch': 'typeMustMatch'
+	, 'usemap': 'useMap'
+	, 'value': 'value'
+	, 'width': 'width'
+	, 'wmode': 'wmode'
+	, 'wrap': 'wrap'
+};
+
+module.exports = properties;
+
+},{}],33:[function(require,module,exports){
+var escape = require('escape-html');
+var propConfig = require('./property-config');
+var types = propConfig.attributeTypes;
+var properties = propConfig.properties;
+var attributeNames = propConfig.attributeNames;
+
+var prefixAttribute = memoizeString(function (name) {
+  return escape(name) + '="';
+});
+
+module.exports = createAttribute;
+
+/**
+ * Create attribute string.
+ *
+ * @param {String} name The name of the property or attribute
+ * @param {*} value The value
+ * @param {Boolean} [isAttribute] Denotes whether `name` is an attribute.
+ * @return {?String} Attribute string || null if not a valid property or custom attribute.
+ */
+
+function createAttribute(name, value, isAttribute) {
+  if (properties.hasOwnProperty(name)) {
+    if (shouldSkip(name, value)) return '';
+    name = (attributeNames[name] || name).toLowerCase();
+    var attrType = properties[name];
+    // for BOOLEAN `value` only has to be truthy
+    // for OVERLOADED_BOOLEAN `value` has to be === true
+    if ((attrType === types.BOOLEAN) ||
+        (attrType === types.OVERLOADED_BOOLEAN && value === true)) {
+      return escape(name);
+    }
+    return prefixAttribute(name) + escape(value) + '"';
+  } else if (isAttribute) {
+    if (value == null) return '';
+    return prefixAttribute(name) + escape(value) + '"';
+  }
+  // return null if `name` is neither a valid property nor an attribute
+  return null;
+}
+
+/**
+ * Should skip false boolean attributes.
+ */
+
+function shouldSkip(name, value) {
+  var attrType = properties[name];
+  return value == null ||
+    (attrType === types.BOOLEAN && !value) ||
+    (attrType === types.OVERLOADED_BOOLEAN && value === false);
+}
+
+/**
+ * Memoizes the return value of a function that accepts one string argument.
+ *
+ * @param {function} callback
+ * @return {function}
+ */
+
+function memoizeString(callback) {
+  var cache = {};
+  return function(string) {
+    if (cache.hasOwnProperty(string)) {
+      return cache[string];
+    } else {
+      return cache[string] = callback.call(this, string);
+    }
+  };
+}
+},{"./property-config":35,"escape-html":15}],34:[function(require,module,exports){
+var escape = require('escape-html');
+var extend = require('xtend');
+var isVNode = require('virtual-dom/vnode/is-vnode');
+var isVText = require('virtual-dom/vnode/is-vtext');
+var isThunk = require('virtual-dom/vnode/is-thunk');
+var isWidget = require('virtual-dom/vnode/is-widget');
+var softHook = require('virtual-dom/virtual-hyperscript/hooks/soft-set-hook');
+var attrHook = require('virtual-dom/virtual-hyperscript/hooks/attribute-hook');
+var paramCase = require('param-case');
+var createAttribute = require('./create-attribute');
+var voidElements = require('./void-elements');
+
+module.exports = toHTML;
+
+function toHTML(node, parent) {
+  if (!node) return '';
+
+  if (isThunk(node)) {
+    node = node.render();
+  }
+
+  if (isWidget(node) && node.render) {
+    node = node.render();
+  }
+
+  if (isVNode(node)) {
+    return openTag(node) + tagContent(node) + closeTag(node);
+  } else if (isVText(node)) {
+    if (parent && parent.tagName.toLowerCase() === 'script') return String(node.text);
+    return escape(String(node.text));
+  }
+
+  return '';
+}
+
+function openTag(node) {
+  var props = node.properties;
+  var ret = '<' + node.tagName.toLowerCase();
+
+  for (var name in props) {
+    var value = props[name];
+    if (value == null) continue;
+
+    if (name == 'attributes') {
+      value = extend({}, value);
+      for (var attrProp in value) {
+        ret += ' ' + createAttribute(attrProp, value[attrProp], true);
+      }
+      continue;
+    }
+
+    if (name == 'style') {
+      var css = '';
+      value = extend({}, value);
+      for (var styleProp in value) {
+        css += paramCase(styleProp) + ': ' + value[styleProp] + '; ';
+      }
+      value = css.trim();
+    }
+
+    if (value instanceof softHook || value instanceof attrHook) {
+      ret += ' ' + createAttribute(name, value.value, true);
+      continue;
+    }
+
+    var attr = createAttribute(name, value);
+    if (attr) ret += ' ' + attr;
+  }
+
+  return ret + '>';
+}
+
+function tagContent(node) {
+  var innerHTML = node.properties.innerHTML;
+  if (innerHTML != null) return innerHTML;
+  else {
+    var ret = '';
+    if (node.children && node.children.length) {
+      for (var i = 0, l = node.children.length; i<l; i++) {
+        var child = node.children[i];
+        ret += toHTML(child, node);
+      }
+    }
+    return ret;
+  }
+}
+
+function closeTag(node) {
+  var tag = node.tagName.toLowerCase();
+  return voidElements[tag] ? '' : '</' + tag + '>';
+}
+},{"./create-attribute":33,"./void-elements":36,"escape-html":15,"param-case":24,"virtual-dom/virtual-hyperscript/hooks/attribute-hook":45,"virtual-dom/virtual-hyperscript/hooks/soft-set-hook":47,"virtual-dom/vnode/is-thunk":51,"virtual-dom/vnode/is-vnode":53,"virtual-dom/vnode/is-vtext":54,"virtual-dom/vnode/is-widget":55,"xtend":63}],35:[function(require,module,exports){
+/**
+ * Attribute types.
+ */
+
+var types = {
+  BOOLEAN: 1,
+  OVERLOADED_BOOLEAN: 2
+};
+
+/**
+ * Properties.
+ *
+ * Taken from https://github.com/facebook/react/blob/847357e42e5267b04dd6e297219eaa125ab2f9f4/src/browser/ui/dom/HTMLDOMPropertyConfig.js
+ *
+ */
+
+var properties = {
+  /**
+   * Standard Properties
+   */
+  accept: true,
+  acceptCharset: true,
+  accessKey: true,
+  action: true,
+  allowFullScreen: types.BOOLEAN,
+  allowTransparency: true,
+  alt: true,
+  async: types.BOOLEAN,
+  autocomplete: true,
+  autofocus: types.BOOLEAN,
+  autoplay: types.BOOLEAN,
+  cellPadding: true,
+  cellSpacing: true,
+  charset: true,
+  checked: types.BOOLEAN,
+  classID: true,
+  className: true,
+  cols: true,
+  colSpan: true,
+  content: true,
+  contentEditable: true,
+  contextMenu: true,
+  controls: types.BOOLEAN,
+  coords: true,
+  crossOrigin: true,
+  data: true, // For `<object />` acts as `src`.
+  dateTime: true,
+  defer: types.BOOLEAN,
+  dir: true,
+  disabled: types.BOOLEAN,
+  download: types.OVERLOADED_BOOLEAN,
+  draggable: true,
+  enctype: true,
+  form: true,
+  formAction: true,
+  formEncType: true,
+  formMethod: true,
+  formNoValidate: types.BOOLEAN,
+  formTarget: true,
+  frameBorder: true,
+  headers: true,
+  height: true,
+  hidden: types.BOOLEAN,
+  href: true,
+  hreflang: true,
+  htmlFor: true,
+  httpEquiv: true,
+  icon: true,
+  id: true,
+  label: true,
+  lang: true,
+  list: true,
+  loop: types.BOOLEAN,
+  manifest: true,
+  marginHeight: true,
+  marginWidth: true,
+  max: true,
+  maxLength: true,
+  media: true,
+  mediaGroup: true,
+  method: true,
+  min: true,
+  multiple: types.BOOLEAN,
+  muted: types.BOOLEAN,
+  name: true,
+  noValidate: types.BOOLEAN,
+  open: true,
+  pattern: true,
+  placeholder: true,
+  poster: true,
+  preload: true,
+  radiogroup: true,
+  readOnly: types.BOOLEAN,
+  rel: true,
+  required: types.BOOLEAN,
+  role: true,
+  rows: true,
+  rowSpan: true,
+  sandbox: true,
+  scope: true,
+  scrolling: true,
+  seamless: types.BOOLEAN,
+  selected: types.BOOLEAN,
+  shape: true,
+  size: true,
+  sizes: true,
+  span: true,
+  spellcheck: true,
+  src: true,
+  srcdoc: true,
+  srcset: true,
+  start: true,
+  step: true,
+  style: true,
+  tabIndex: true,
+  target: true,
+  title: true,
+  type: true,
+  useMap: true,
+  value: true,
+  width: true,
+  wmode: true,
+
+  /**
+   * Non-standard Properties
+   */
+  // autoCapitalize and autoCorrect are supported in Mobile Safari for
+  // keyboard hints.
+  autocapitalize: true,
+  autocorrect: true,
+  // itemProp, itemScope, itemType are for Microdata support. See
+  // http://schema.org/docs/gs.html
+  itemProp: true,
+  itemScope: types.BOOLEAN,
+  itemType: true,
+  // property is supported for OpenGraph in meta tags.
+  property: true
+};
+
+/**
+ * Properties to attributes mapping.
+ *
+ * The ones not here are simply converted to lower case.
+ */
+
+var attributeNames = {
+  acceptCharset: 'accept-charset',
+  className: 'class',
+  htmlFor: 'for',
+  httpEquiv: 'http-equiv'
+};
+
+/**
+ * Exports.
+ */
+
+module.exports = {
+  attributeTypes: types,
+  properties: properties,
+  attributeNames: attributeNames
+};
+},{}],36:[function(require,module,exports){
+
+/**
+ * Void elements.
+ *
+ * https://github.com/facebook/react/blob/v0.12.0/src/browser/ui/ReactDOMComponent.js#L99
+ */
+
+module.exports = {
+  'area': true,
+  'base': true,
+  'br': true,
+  'col': true,
+  'embed': true,
+  'hr': true,
+  'img': true,
+  'input': true,
+  'keygen': true,
+  'link': true,
+  'meta': true,
+  'param': true,
+  'source': true,
+  'track': true,
+  'wbr': true
+};
+},{}],37:[function(require,module,exports){
+var diff = require("./vtree/diff.js")
+
+module.exports = diff
+
+},{"./vtree/diff.js":61}],38:[function(require,module,exports){
+var patch = require("./vdom/patch.js")
+
+module.exports = patch
+
+},{"./vdom/patch.js":43}],39:[function(require,module,exports){
+var isObject = require("is-object")
+var isHook = require("../vnode/is-vhook.js")
+
+module.exports = applyProperties
+
+function applyProperties(node, props, previous) {
+    for (var propName in props) {
+        var propValue = props[propName]
+
+        if (propValue === undefined) {
+            removeProperty(node, propName, propValue, previous);
+        } else if (isHook(propValue)) {
+            removeProperty(node, propName, propValue, previous)
+            if (propValue.hook) {
+                propValue.hook(node,
+                    propName,
+                    previous ? previous[propName] : undefined)
+            }
+        } else {
+            if (isObject(propValue)) {
+                patchObject(node, props, previous, propName, propValue);
+            } else {
+                node[propName] = propValue
+            }
+        }
+    }
+}
+
+function removeProperty(node, propName, propValue, previous) {
+    if (previous) {
+        var previousValue = previous[propName]
+
+        if (!isHook(previousValue)) {
+            if (propName === "attributes") {
+                for (var attrName in previousValue) {
+                    node.removeAttribute(attrName)
+                }
+            } else if (propName === "style") {
+                for (var i in previousValue) {
+                    node.style[i] = ""
+                }
+            } else if (typeof previousValue === "string") {
+                node[propName] = ""
+            } else {
+                node[propName] = null
+            }
+        } else if (previousValue.unhook) {
+            previousValue.unhook(node, propName, propValue)
+        }
+    }
+}
+
+function patchObject(node, props, previous, propName, propValue) {
+    var previousValue = previous ? previous[propName] : undefined
+
+    // Set attributes
+    if (propName === "attributes") {
+        for (var attrName in propValue) {
+            var attrValue = propValue[attrName]
+
+            if (attrValue === undefined) {
+                node.removeAttribute(attrName)
+            } else {
+                node.setAttribute(attrName, attrValue)
+            }
+        }
+
+        return
+    }
+
+    if(previousValue && isObject(previousValue) &&
+        getPrototype(previousValue) !== getPrototype(propValue)) {
+        node[propName] = propValue
+        return
+    }
+
+    if (!isObject(node[propName])) {
+        node[propName] = {}
+    }
+
+    var replacer = propName === "style" ? "" : undefined
+
+    for (var k in propValue) {
+        var value = propValue[k]
+        node[propName][k] = (value === undefined) ? replacer : value
+    }
+}
+
+function getPrototype(value) {
+    if (Object.getPrototypeOf) {
+        return Object.getPrototypeOf(value)
+    } else if (value.__proto__) {
+        return value.__proto__
+    } else if (value.constructor) {
+        return value.constructor.prototype
+    }
+}
+
+},{"../vnode/is-vhook.js":52,"is-object":21}],40:[function(require,module,exports){
+var document = require("global/document")
+
+var applyProperties = require("./apply-properties")
+
+var isVNode = require("../vnode/is-vnode.js")
+var isVText = require("../vnode/is-vtext.js")
+var isWidget = require("../vnode/is-widget.js")
+var handleThunk = require("../vnode/handle-thunk.js")
+
+module.exports = createElement
+
+function createElement(vnode, opts) {
+    var doc = opts ? opts.document || document : document
+    var warn = opts ? opts.warn : null
+
+    vnode = handleThunk(vnode).a
+
+    if (isWidget(vnode)) {
+        return vnode.init()
+    } else if (isVText(vnode)) {
+        return doc.createTextNode(vnode.text)
+    } else if (!isVNode(vnode)) {
+        if (warn) {
+            warn("Item is not a valid virtual dom node", vnode)
+        }
+        return null
+    }
+
+    var node = (vnode.namespace === null) ?
+        doc.createElement(vnode.tagName) :
+        doc.createElementNS(vnode.namespace, vnode.tagName)
+
+    var props = vnode.properties
+    applyProperties(node, props)
+
+    var children = vnode.children
+
+    for (var i = 0; i < children.length; i++) {
+        var childNode = createElement(children[i], opts)
+        if (childNode) {
+            node.appendChild(childNode)
+        }
+    }
+
+    return node
+}
+
+},{"../vnode/handle-thunk.js":50,"../vnode/is-vnode.js":53,"../vnode/is-vtext.js":54,"../vnode/is-widget.js":55,"./apply-properties":39,"global/document":17}],41:[function(require,module,exports){
+// Maps a virtual DOM tree onto a real DOM tree in an efficient manner.
+// We don't want to read all of the DOM nodes in the tree so we use
+// the in-order tree indexing to eliminate recursion down certain branches.
+// We only recurse into a DOM node if we know that it contains a child of
+// interest.
+
+var noChild = {}
+
+module.exports = domIndex
+
+function domIndex(rootNode, tree, indices, nodes) {
+    if (!indices || indices.length === 0) {
+        return {}
+    } else {
+        indices.sort(ascending)
+        return recurse(rootNode, tree, indices, nodes, 0)
+    }
+}
+
+function recurse(rootNode, tree, indices, nodes, rootIndex) {
+    nodes = nodes || {}
+
+
+    if (rootNode) {
+        if (indexInRange(indices, rootIndex, rootIndex)) {
+            nodes[rootIndex] = rootNode
+        }
+
+        var vChildren = tree.children
+
+        if (vChildren) {
+
+            var childNodes = rootNode.childNodes
+
+            for (var i = 0; i < tree.children.length; i++) {
+                rootIndex += 1
+
+                var vChild = vChildren[i] || noChild
+                var nextIndex = rootIndex + (vChild.count || 0)
+
+                // skip recursion down the tree if there are no nodes down here
+                if (indexInRange(indices, rootIndex, nextIndex)) {
+                    recurse(childNodes[i], vChild, indices, nodes, rootIndex)
+                }
+
+                rootIndex = nextIndex
+            }
+        }
+    }
+
+    return nodes
+}
+
+// Binary search for an index in the interval [left, right]
+function indexInRange(indices, left, right) {
+    if (indices.length === 0) {
+        return false
+    }
+
+    var minIndex = 0
+    var maxIndex = indices.length - 1
+    var currentIndex
+    var currentItem
+
+    while (minIndex <= maxIndex) {
+        currentIndex = ((maxIndex + minIndex) / 2) >> 0
+        currentItem = indices[currentIndex]
+
+        if (minIndex === maxIndex) {
+            return currentItem >= left && currentItem <= right
+        } else if (currentItem < left) {
+            minIndex = currentIndex + 1
+        } else  if (currentItem > right) {
+            maxIndex = currentIndex - 1
+        } else {
+            return true
+        }
+    }
+
+    return false;
+}
+
+function ascending(a, b) {
+    return a > b ? 1 : -1
+}
+
+},{}],42:[function(require,module,exports){
+var applyProperties = require("./apply-properties")
+
+var isWidget = require("../vnode/is-widget.js")
+var VPatch = require("../vnode/vpatch.js")
+
+var updateWidget = require("./update-widget")
+
+module.exports = applyPatch
+
+function applyPatch(vpatch, domNode, renderOptions) {
+    var type = vpatch.type
+    var vNode = vpatch.vNode
+    var patch = vpatch.patch
+
+    switch (type) {
+        case VPatch.REMOVE:
+            return removeNode(domNode, vNode)
+        case VPatch.INSERT:
+            return insertNode(domNode, patch, renderOptions)
+        case VPatch.VTEXT:
+            return stringPatch(domNode, vNode, patch, renderOptions)
+        case VPatch.WIDGET:
+            return widgetPatch(domNode, vNode, patch, renderOptions)
+        case VPatch.VNODE:
+            return vNodePatch(domNode, vNode, patch, renderOptions)
+        case VPatch.ORDER:
+            reorderChildren(domNode, patch)
+            return domNode
+        case VPatch.PROPS:
+            applyProperties(domNode, patch, vNode.properties)
+            return domNode
+        case VPatch.THUNK:
+            return replaceRoot(domNode,
+                renderOptions.patch(domNode, patch, renderOptions))
+        default:
+            return domNode
+    }
+}
+
+function removeNode(domNode, vNode) {
+    var parentNode = domNode.parentNode
+
+    if (parentNode) {
+        parentNode.removeChild(domNode)
+    }
+
+    destroyWidget(domNode, vNode);
+
+    return null
+}
+
+function insertNode(parentNode, vNode, renderOptions) {
+    var newNode = renderOptions.render(vNode, renderOptions)
+
+    if (parentNode) {
+        parentNode.appendChild(newNode)
+    }
+
+    return parentNode
+}
+
+function stringPatch(domNode, leftVNode, vText, renderOptions) {
+    var newNode
+
+    if (domNode.nodeType === 3) {
+        domNode.replaceData(0, domNode.length, vText.text)
+        newNode = domNode
+    } else {
+        var parentNode = domNode.parentNode
+        newNode = renderOptions.render(vText, renderOptions)
+
+        if (parentNode && newNode !== domNode) {
+            parentNode.replaceChild(newNode, domNode)
+        }
+    }
+
+    return newNode
+}
+
+function widgetPatch(domNode, leftVNode, widget, renderOptions) {
+    var updating = updateWidget(leftVNode, widget)
+    var newNode
+
+    if (updating) {
+        newNode = widget.update(leftVNode, domNode) || domNode
+    } else {
+        newNode = renderOptions.render(widget, renderOptions)
+    }
+
+    var parentNode = domNode.parentNode
+
+    if (parentNode && newNode !== domNode) {
+        parentNode.replaceChild(newNode, domNode)
+    }
+
+    if (!updating) {
+        destroyWidget(domNode, leftVNode)
+    }
+
+    return newNode
+}
+
+function vNodePatch(domNode, leftVNode, vNode, renderOptions) {
+    var parentNode = domNode.parentNode
+    var newNode = renderOptions.render(vNode, renderOptions)
+
+    if (parentNode && newNode !== domNode) {
+        parentNode.replaceChild(newNode, domNode)
+    }
+
+    return newNode
+}
+
+function destroyWidget(domNode, w) {
+    if (typeof w.destroy === "function" && isWidget(w)) {
+        w.destroy(domNode)
+    }
+}
+
+function reorderChildren(domNode, moves) {
+    var childNodes = domNode.childNodes
+    var keyMap = {}
+    var node
+    var remove
+    var insert
+
+    for (var i = 0; i < moves.removes.length; i++) {
+        remove = moves.removes[i]
+        node = childNodes[remove.from]
+        if (remove.key) {
+            keyMap[remove.key] = node
+        }
+        domNode.removeChild(node)
+    }
+
+    var length = childNodes.length
+    for (var j = 0; j < moves.inserts.length; j++) {
+        insert = moves.inserts[j]
+        node = keyMap[insert.key]
+        // this is the weirdest bug i've ever seen in webkit
+        domNode.insertBefore(node, insert.to >= length++ ? null : childNodes[insert.to])
+    }
+}
+
+function replaceRoot(oldRoot, newRoot) {
+    if (oldRoot && newRoot && oldRoot !== newRoot && oldRoot.parentNode) {
+        oldRoot.parentNode.replaceChild(newRoot, oldRoot)
+    }
+
+    return newRoot;
+}
+
+},{"../vnode/is-widget.js":55,"../vnode/vpatch.js":58,"./apply-properties":39,"./update-widget":44}],43:[function(require,module,exports){
+var document = require("global/document")
+var isArray = require("x-is-array")
+
+var render = require("./create-element")
+var domIndex = require("./dom-index")
+var patchOp = require("./patch-op")
+module.exports = patch
+
+function patch(rootNode, patches, renderOptions) {
+    renderOptions = renderOptions || {}
+    renderOptions.patch = renderOptions.patch && renderOptions.patch !== patch
+        ? renderOptions.patch
+        : patchRecursive
+    renderOptions.render = renderOptions.render || render
+
+    return renderOptions.patch(rootNode, patches, renderOptions)
+}
+
+function patchRecursive(rootNode, patches, renderOptions) {
+    var indices = patchIndices(patches)
+
+    if (indices.length === 0) {
+        return rootNode
+    }
+
+    var index = domIndex(rootNode, patches.a, indices)
+    var ownerDocument = rootNode.ownerDocument
+
+    if (!renderOptions.document && ownerDocument !== document) {
+        renderOptions.document = ownerDocument
+    }
+
+    for (var i = 0; i < indices.length; i++) {
+        var nodeIndex = indices[i]
+        rootNode = applyPatch(rootNode,
+            index[nodeIndex],
+            patches[nodeIndex],
+            renderOptions)
+    }
+
+    return rootNode
+}
+
+function applyPatch(rootNode, domNode, patchList, renderOptions) {
+    if (!domNode) {
+        return rootNode
+    }
+
+    var newNode
+
+    if (isArray(patchList)) {
+        for (var i = 0; i < patchList.length; i++) {
+            newNode = patchOp(patchList[i], domNode, renderOptions)
+
+            if (domNode === rootNode) {
+                rootNode = newNode
+            }
+        }
+    } else {
+        newNode = patchOp(patchList, domNode, renderOptions)
+
+        if (domNode === rootNode) {
+            rootNode = newNode
+        }
+    }
+
+    return rootNode
+}
+
+function patchIndices(patches) {
+    var indices = []
+
+    for (var key in patches) {
+        if (key !== "a") {
+            indices.push(Number(key))
+        }
+    }
+
+    return indices
+}
+
+},{"./create-element":40,"./dom-index":41,"./patch-op":42,"global/document":17,"x-is-array":62}],44:[function(require,module,exports){
+var isWidget = require("../vnode/is-widget.js")
+
+module.exports = updateWidget
+
+function updateWidget(a, b) {
+    if (isWidget(a) && isWidget(b)) {
+        if ("name" in a && "name" in b) {
+            return a.id === b.id
+        } else {
+            return a.init === b.init
+        }
+    }
+
+    return false
+}
+
+},{"../vnode/is-widget.js":55}],45:[function(require,module,exports){
+'use strict';
+
+module.exports = AttributeHook;
+
+function AttributeHook(namespace, value) {
+    if (!(this instanceof AttributeHook)) {
+        return new AttributeHook(namespace, value);
+    }
+
+    this.namespace = namespace;
+    this.value = value;
+}
+
+AttributeHook.prototype.hook = function (node, prop, prev) {
+    if (prev && prev.type === 'AttributeHook' &&
+        prev.value === this.value &&
+        prev.namespace === this.namespace) {
+        return;
+    }
+
+    node.setAttributeNS(this.namespace, prop, this.value);
+};
+
+AttributeHook.prototype.unhook = function (node, prop, next) {
+    if (next && next.type === 'AttributeHook' &&
+        next.namespace === this.namespace) {
+        return;
+    }
+
+    var colonPosition = prop.indexOf(':');
+    var localName = colonPosition > -1 ? prop.substr(colonPosition + 1) : prop;
+    node.removeAttributeNS(this.namespace, localName);
+};
+
+AttributeHook.prototype.type = 'AttributeHook';
+
+},{}],46:[function(require,module,exports){
+'use strict';
+
+var EvStore = require('ev-store');
+
+module.exports = EvHook;
+
+function EvHook(value) {
+    if (!(this instanceof EvHook)) {
+        return new EvHook(value);
+    }
+
+    this.value = value;
+}
+
+EvHook.prototype.hook = function (node, propertyName) {
+    var es = EvStore(node);
+    var propName = propertyName.substr(3);
+
+    es[propName] = this.value;
+};
+
+EvHook.prototype.unhook = function(node, propertyName) {
+    var es = EvStore(node);
+    var propName = propertyName.substr(3);
+
+    es[propName] = undefined;
+};
+
+},{"ev-store":16}],47:[function(require,module,exports){
+'use strict';
+
+module.exports = SoftSetHook;
+
+function SoftSetHook(value) {
+    if (!(this instanceof SoftSetHook)) {
+        return new SoftSetHook(value);
+    }
+
+    this.value = value;
+}
+
+SoftSetHook.prototype.hook = function (node, propertyName) {
+    if (node[propertyName] !== this.value) {
+        node[propertyName] = this.value;
+    }
+};
+
+},{}],48:[function(require,module,exports){
+'use strict';
+
+var split = require('browser-split');
+
+var classIdSplit = /([\.#]?[a-zA-Z0-9\u007F-\uFFFF_:-]+)/;
+var notClassId = /^\.|#/;
+
+module.exports = parseTag;
+
+function parseTag(tag, props) {
+    if (!tag) {
+        return 'DIV';
+    }
+
+    var noId = !(props.hasOwnProperty('id'));
+
+    var tagParts = split(tag, classIdSplit);
+    var tagName = null;
+
+    if (notClassId.test(tagParts[1])) {
+        tagName = 'DIV';
+    }
+
+    var classes, part, type, i;
+
+    for (i = 0; i < tagParts.length; i++) {
+        part = tagParts[i];
+
+        if (!part) {
+            continue;
+        }
+
+        type = part.charAt(0);
+
+        if (!tagName) {
+            tagName = part;
+        } else if (type === '.') {
+            classes = classes || [];
+            classes.push(part.substring(1, part.length));
+        } else if (type === '#' && noId) {
+            props.id = part.substring(1, part.length);
+        }
+    }
+
+    if (classes) {
+        if (props.className) {
+            classes.push(props.className);
+        }
+
+        props.className = classes.join(' ');
+    }
+
+    return props.namespace ? tagName : tagName.toUpperCase();
+}
+
+},{"browser-split":13}],49:[function(require,module,exports){
+'use strict';
+
+var DEFAULT_NAMESPACE = null;
+var EV_NAMESPACE = 'http://www.w3.org/2001/xml-events';
+var XLINK_NAMESPACE = 'http://www.w3.org/1999/xlink';
+var XML_NAMESPACE = 'http://www.w3.org/XML/1998/namespace';
+
+// http://www.w3.org/TR/SVGTiny12/attributeTable.html
+// http://www.w3.org/TR/SVG/attindex.html
+var SVG_PROPERTIES = {
+    'about': DEFAULT_NAMESPACE,
+    'accent-height': DEFAULT_NAMESPACE,
+    'accumulate': DEFAULT_NAMESPACE,
+    'additive': DEFAULT_NAMESPACE,
+    'alignment-baseline': DEFAULT_NAMESPACE,
+    'alphabetic': DEFAULT_NAMESPACE,
+    'amplitude': DEFAULT_NAMESPACE,
+    'arabic-form': DEFAULT_NAMESPACE,
+    'ascent': DEFAULT_NAMESPACE,
+    'attributeName': DEFAULT_NAMESPACE,
+    'attributeType': DEFAULT_NAMESPACE,
+    'azimuth': DEFAULT_NAMESPACE,
+    'bandwidth': DEFAULT_NAMESPACE,
+    'baseFrequency': DEFAULT_NAMESPACE,
+    'baseProfile': DEFAULT_NAMESPACE,
+    'baseline-shift': DEFAULT_NAMESPACE,
+    'bbox': DEFAULT_NAMESPACE,
+    'begin': DEFAULT_NAMESPACE,
+    'bias': DEFAULT_NAMESPACE,
+    'by': DEFAULT_NAMESPACE,
+    'calcMode': DEFAULT_NAMESPACE,
+    'cap-height': DEFAULT_NAMESPACE,
+    'class': DEFAULT_NAMESPACE,
+    'clip': DEFAULT_NAMESPACE,
+    'clip-path': DEFAULT_NAMESPACE,
+    'clip-rule': DEFAULT_NAMESPACE,
+    'clipPathUnits': DEFAULT_NAMESPACE,
+    'color': DEFAULT_NAMESPACE,
+    'color-interpolation': DEFAULT_NAMESPACE,
+    'color-interpolation-filters': DEFAULT_NAMESPACE,
+    'color-profile': DEFAULT_NAMESPACE,
+    'color-rendering': DEFAULT_NAMESPACE,
+    'content': DEFAULT_NAMESPACE,
+    'contentScriptType': DEFAULT_NAMESPACE,
+    'contentStyleType': DEFAULT_NAMESPACE,
+    'cursor': DEFAULT_NAMESPACE,
+    'cx': DEFAULT_NAMESPACE,
+    'cy': DEFAULT_NAMESPACE,
+    'd': DEFAULT_NAMESPACE,
+    'datatype': DEFAULT_NAMESPACE,
+    'defaultAction': DEFAULT_NAMESPACE,
+    'descent': DEFAULT_NAMESPACE,
+    'diffuseConstant': DEFAULT_NAMESPACE,
+    'direction': DEFAULT_NAMESPACE,
+    'display': DEFAULT_NAMESPACE,
+    'divisor': DEFAULT_NAMESPACE,
+    'dominant-baseline': DEFAULT_NAMESPACE,
+    'dur': DEFAULT_NAMESPACE,
+    'dx': DEFAULT_NAMESPACE,
+    'dy': DEFAULT_NAMESPACE,
+    'edgeMode': DEFAULT_NAMESPACE,
+    'editable': DEFAULT_NAMESPACE,
+    'elevation': DEFAULT_NAMESPACE,
+    'enable-background': DEFAULT_NAMESPACE,
+    'end': DEFAULT_NAMESPACE,
+    'ev:event': EV_NAMESPACE,
+    'event': DEFAULT_NAMESPACE,
+    'exponent': DEFAULT_NAMESPACE,
+    'externalResourcesRequired': DEFAULT_NAMESPACE,
+    'fill': DEFAULT_NAMESPACE,
+    'fill-opacity': DEFAULT_NAMESPACE,
+    'fill-rule': DEFAULT_NAMESPACE,
+    'filter': DEFAULT_NAMESPACE,
+    'filterRes': DEFAULT_NAMESPACE,
+    'filterUnits': DEFAULT_NAMESPACE,
+    'flood-color': DEFAULT_NAMESPACE,
+    'flood-opacity': DEFAULT_NAMESPACE,
+    'focusHighlight': DEFAULT_NAMESPACE,
+    'focusable': DEFAULT_NAMESPACE,
+    'font-family': DEFAULT_NAMESPACE,
+    'font-size': DEFAULT_NAMESPACE,
+    'font-size-adjust': DEFAULT_NAMESPACE,
+    'font-stretch': DEFAULT_NAMESPACE,
+    'font-style': DEFAULT_NAMESPACE,
+    'font-variant': DEFAULT_NAMESPACE,
+    'font-weight': DEFAULT_NAMESPACE,
+    'format': DEFAULT_NAMESPACE,
+    'from': DEFAULT_NAMESPACE,
+    'fx': DEFAULT_NAMESPACE,
+    'fy': DEFAULT_NAMESPACE,
+    'g1': DEFAULT_NAMESPACE,
+    'g2': DEFAULT_NAMESPACE,
+    'glyph-name': DEFAULT_NAMESPACE,
+    'glyph-orientation-horizontal': DEFAULT_NAMESPACE,
+    'glyph-orientation-vertical': DEFAULT_NAMESPACE,
+    'glyphRef': DEFAULT_NAMESPACE,
+    'gradientTransform': DEFAULT_NAMESPACE,
+    'gradientUnits': DEFAULT_NAMESPACE,
+    'handler': DEFAULT_NAMESPACE,
+    'hanging': DEFAULT_NAMESPACE,
+    'height': DEFAULT_NAMESPACE,
+    'horiz-adv-x': DEFAULT_NAMESPACE,
+    'horiz-origin-x': DEFAULT_NAMESPACE,
+    'horiz-origin-y': DEFAULT_NAMESPACE,
+    'id': DEFAULT_NAMESPACE,
+    'ideographic': DEFAULT_NAMESPACE,
+    'image-rendering': DEFAULT_NAMESPACE,
+    'in': DEFAULT_NAMESPACE,
+    'in2': DEFAULT_NAMESPACE,
+    'initialVisibility': DEFAULT_NAMESPACE,
+    'intercept': DEFAULT_NAMESPACE,
+    'k': DEFAULT_NAMESPACE,
+    'k1': DEFAULT_NAMESPACE,
+    'k2': DEFAULT_NAMESPACE,
+    'k3': DEFAULT_NAMESPACE,
+    'k4': DEFAULT_NAMESPACE,
+    'kernelMatrix': DEFAULT_NAMESPACE,
+    'kernelUnitLength': DEFAULT_NAMESPACE,
+    'kerning': DEFAULT_NAMESPACE,
+    'keyPoints': DEFAULT_NAMESPACE,
+    'keySplines': DEFAULT_NAMESPACE,
+    'keyTimes': DEFAULT_NAMESPACE,
+    'lang': DEFAULT_NAMESPACE,
+    'lengthAdjust': DEFAULT_NAMESPACE,
+    'letter-spacing': DEFAULT_NAMESPACE,
+    'lighting-color': DEFAULT_NAMESPACE,
+    'limitingConeAngle': DEFAULT_NAMESPACE,
+    'local': DEFAULT_NAMESPACE,
+    'marker-end': DEFAULT_NAMESPACE,
+    'marker-mid': DEFAULT_NAMESPACE,
+    'marker-start': DEFAULT_NAMESPACE,
+    'markerHeight': DEFAULT_NAMESPACE,
+    'markerUnits': DEFAULT_NAMESPACE,
+    'markerWidth': DEFAULT_NAMESPACE,
+    'mask': DEFAULT_NAMESPACE,
+    'maskContentUnits': DEFAULT_NAMESPACE,
+    'maskUnits': DEFAULT_NAMESPACE,
+    'mathematical': DEFAULT_NAMESPACE,
+    'max': DEFAULT_NAMESPACE,
+    'media': DEFAULT_NAMESPACE,
+    'mediaCharacterEncoding': DEFAULT_NAMESPACE,
+    'mediaContentEncodings': DEFAULT_NAMESPACE,
+    'mediaSize': DEFAULT_NAMESPACE,
+    'mediaTime': DEFAULT_NAMESPACE,
+    'method': DEFAULT_NAMESPACE,
+    'min': DEFAULT_NAMESPACE,
+    'mode': DEFAULT_NAMESPACE,
+    'name': DEFAULT_NAMESPACE,
+    'nav-down': DEFAULT_NAMESPACE,
+    'nav-down-left': DEFAULT_NAMESPACE,
+    'nav-down-right': DEFAULT_NAMESPACE,
+    'nav-left': DEFAULT_NAMESPACE,
+    'nav-next': DEFAULT_NAMESPACE,
+    'nav-prev': DEFAULT_NAMESPACE,
+    'nav-right': DEFAULT_NAMESPACE,
+    'nav-up': DEFAULT_NAMESPACE,
+    'nav-up-left': DEFAULT_NAMESPACE,
+    'nav-up-right': DEFAULT_NAMESPACE,
+    'numOctaves': DEFAULT_NAMESPACE,
+    'observer': DEFAULT_NAMESPACE,
+    'offset': DEFAULT_NAMESPACE,
+    'opacity': DEFAULT_NAMESPACE,
+    'operator': DEFAULT_NAMESPACE,
+    'order': DEFAULT_NAMESPACE,
+    'orient': DEFAULT_NAMESPACE,
+    'orientation': DEFAULT_NAMESPACE,
+    'origin': DEFAULT_NAMESPACE,
+    'overflow': DEFAULT_NAMESPACE,
+    'overlay': DEFAULT_NAMESPACE,
+    'overline-position': DEFAULT_NAMESPACE,
+    'overline-thickness': DEFAULT_NAMESPACE,
+    'panose-1': DEFAULT_NAMESPACE,
+    'path': DEFAULT_NAMESPACE,
+    'pathLength': DEFAULT_NAMESPACE,
+    'patternContentUnits': DEFAULT_NAMESPACE,
+    'patternTransform': DEFAULT_NAMESPACE,
+    'patternUnits': DEFAULT_NAMESPACE,
+    'phase': DEFAULT_NAMESPACE,
+    'playbackOrder': DEFAULT_NAMESPACE,
+    'pointer-events': DEFAULT_NAMESPACE,
+    'points': DEFAULT_NAMESPACE,
+    'pointsAtX': DEFAULT_NAMESPACE,
+    'pointsAtY': DEFAULT_NAMESPACE,
+    'pointsAtZ': DEFAULT_NAMESPACE,
+    'preserveAlpha': DEFAULT_NAMESPACE,
+    'preserveAspectRatio': DEFAULT_NAMESPACE,
+    'primitiveUnits': DEFAULT_NAMESPACE,
+    'propagate': DEFAULT_NAMESPACE,
+    'property': DEFAULT_NAMESPACE,
+    'r': DEFAULT_NAMESPACE,
+    'radius': DEFAULT_NAMESPACE,
+    'refX': DEFAULT_NAMESPACE,
+    'refY': DEFAULT_NAMESPACE,
+    'rel': DEFAULT_NAMESPACE,
+    'rendering-intent': DEFAULT_NAMESPACE,
+    'repeatCount': DEFAULT_NAMESPACE,
+    'repeatDur': DEFAULT_NAMESPACE,
+    'requiredExtensions': DEFAULT_NAMESPACE,
+    'requiredFeatures': DEFAULT_NAMESPACE,
+    'requiredFonts': DEFAULT_NAMESPACE,
+    'requiredFormats': DEFAULT_NAMESPACE,
+    'resource': DEFAULT_NAMESPACE,
+    'restart': DEFAULT_NAMESPACE,
+    'result': DEFAULT_NAMESPACE,
+    'rev': DEFAULT_NAMESPACE,
+    'role': DEFAULT_NAMESPACE,
+    'rotate': DEFAULT_NAMESPACE,
+    'rx': DEFAULT_NAMESPACE,
+    'ry': DEFAULT_NAMESPACE,
+    'scale': DEFAULT_NAMESPACE,
+    'seed': DEFAULT_NAMESPACE,
+    'shape-rendering': DEFAULT_NAMESPACE,
+    'slope': DEFAULT_NAMESPACE,
+    'snapshotTime': DEFAULT_NAMESPACE,
+    'spacing': DEFAULT_NAMESPACE,
+    'specularConstant': DEFAULT_NAMESPACE,
+    'specularExponent': DEFAULT_NAMESPACE,
+    'spreadMethod': DEFAULT_NAMESPACE,
+    'startOffset': DEFAULT_NAMESPACE,
+    'stdDeviation': DEFAULT_NAMESPACE,
+    'stemh': DEFAULT_NAMESPACE,
+    'stemv': DEFAULT_NAMESPACE,
+    'stitchTiles': DEFAULT_NAMESPACE,
+    'stop-color': DEFAULT_NAMESPACE,
+    'stop-opacity': DEFAULT_NAMESPACE,
+    'strikethrough-position': DEFAULT_NAMESPACE,
+    'strikethrough-thickness': DEFAULT_NAMESPACE,
+    'string': DEFAULT_NAMESPACE,
+    'stroke': DEFAULT_NAMESPACE,
+    'stroke-dasharray': DEFAULT_NAMESPACE,
+    'stroke-dashoffset': DEFAULT_NAMESPACE,
+    'stroke-linecap': DEFAULT_NAMESPACE,
+    'stroke-linejoin': DEFAULT_NAMESPACE,
+    'stroke-miterlimit': DEFAULT_NAMESPACE,
+    'stroke-opacity': DEFAULT_NAMESPACE,
+    'stroke-width': DEFAULT_NAMESPACE,
+    'surfaceScale': DEFAULT_NAMESPACE,
+    'syncBehavior': DEFAULT_NAMESPACE,
+    'syncBehaviorDefault': DEFAULT_NAMESPACE,
+    'syncMaster': DEFAULT_NAMESPACE,
+    'syncTolerance': DEFAULT_NAMESPACE,
+    'syncToleranceDefault': DEFAULT_NAMESPACE,
+    'systemLanguage': DEFAULT_NAMESPACE,
+    'tableValues': DEFAULT_NAMESPACE,
+    'target': DEFAULT_NAMESPACE,
+    'targetX': DEFAULT_NAMESPACE,
+    'targetY': DEFAULT_NAMESPACE,
+    'text-anchor': DEFAULT_NAMESPACE,
+    'text-decoration': DEFAULT_NAMESPACE,
+    'text-rendering': DEFAULT_NAMESPACE,
+    'textLength': DEFAULT_NAMESPACE,
+    'timelineBegin': DEFAULT_NAMESPACE,
+    'title': DEFAULT_NAMESPACE,
+    'to': DEFAULT_NAMESPACE,
+    'transform': DEFAULT_NAMESPACE,
+    'transformBehavior': DEFAULT_NAMESPACE,
+    'type': DEFAULT_NAMESPACE,
+    'typeof': DEFAULT_NAMESPACE,
+    'u1': DEFAULT_NAMESPACE,
+    'u2': DEFAULT_NAMESPACE,
+    'underline-position': DEFAULT_NAMESPACE,
+    'underline-thickness': DEFAULT_NAMESPACE,
+    'unicode': DEFAULT_NAMESPACE,
+    'unicode-bidi': DEFAULT_NAMESPACE,
+    'unicode-range': DEFAULT_NAMESPACE,
+    'units-per-em': DEFAULT_NAMESPACE,
+    'v-alphabetic': DEFAULT_NAMESPACE,
+    'v-hanging': DEFAULT_NAMESPACE,
+    'v-ideographic': DEFAULT_NAMESPACE,
+    'v-mathematical': DEFAULT_NAMESPACE,
+    'values': DEFAULT_NAMESPACE,
+    'version': DEFAULT_NAMESPACE,
+    'vert-adv-y': DEFAULT_NAMESPACE,
+    'vert-origin-x': DEFAULT_NAMESPACE,
+    'vert-origin-y': DEFAULT_NAMESPACE,
+    'viewBox': DEFAULT_NAMESPACE,
+    'viewTarget': DEFAULT_NAMESPACE,
+    'visibility': DEFAULT_NAMESPACE,
+    'width': DEFAULT_NAMESPACE,
+    'widths': DEFAULT_NAMESPACE,
+    'word-spacing': DEFAULT_NAMESPACE,
+    'writing-mode': DEFAULT_NAMESPACE,
+    'x': DEFAULT_NAMESPACE,
+    'x-height': DEFAULT_NAMESPACE,
+    'x1': DEFAULT_NAMESPACE,
+    'x2': DEFAULT_NAMESPACE,
+    'xChannelSelector': DEFAULT_NAMESPACE,
+    'xlink:actuate': XLINK_NAMESPACE,
+    'xlink:arcrole': XLINK_NAMESPACE,
+    'xlink:href': XLINK_NAMESPACE,
+    'xlink:role': XLINK_NAMESPACE,
+    'xlink:show': XLINK_NAMESPACE,
+    'xlink:title': XLINK_NAMESPACE,
+    'xlink:type': XLINK_NAMESPACE,
+    'xml:base': XML_NAMESPACE,
+    'xml:id': XML_NAMESPACE,
+    'xml:lang': XML_NAMESPACE,
+    'xml:space': XML_NAMESPACE,
+    'y': DEFAULT_NAMESPACE,
+    'y1': DEFAULT_NAMESPACE,
+    'y2': DEFAULT_NAMESPACE,
+    'yChannelSelector': DEFAULT_NAMESPACE,
+    'z': DEFAULT_NAMESPACE,
+    'zoomAndPan': DEFAULT_NAMESPACE
+};
+
+module.exports = SVGAttributeNamespace;
+
+function SVGAttributeNamespace(value) {
+  if (SVG_PROPERTIES.hasOwnProperty(value)) {
+    return SVG_PROPERTIES[value];
+  }
+}
+
+},{}],50:[function(require,module,exports){
+var isVNode = require("./is-vnode")
+var isVText = require("./is-vtext")
+var isWidget = require("./is-widget")
+var isThunk = require("./is-thunk")
+
+module.exports = handleThunk
+
+function handleThunk(a, b) {
+    var renderedA = a
+    var renderedB = b
+
+    if (isThunk(b)) {
+        renderedB = renderThunk(b, a)
+    }
+
+    if (isThunk(a)) {
+        renderedA = renderThunk(a, null)
+    }
+
+    return {
+        a: renderedA,
+        b: renderedB
+    }
+}
+
+function renderThunk(thunk, previous) {
+    var renderedThunk = thunk.vnode
+
+    if (!renderedThunk) {
+        renderedThunk = thunk.vnode = thunk.render(previous)
+    }
+
+    if (!(isVNode(renderedThunk) ||
+            isVText(renderedThunk) ||
+            isWidget(renderedThunk))) {
+        throw new Error("thunk did not return a valid node");
+    }
+
+    return renderedThunk
+}
+
+},{"./is-thunk":51,"./is-vnode":53,"./is-vtext":54,"./is-widget":55}],51:[function(require,module,exports){
+module.exports = isThunk
+
+function isThunk(t) {
+    return t && t.type === "Thunk"
+}
+
+},{}],52:[function(require,module,exports){
+module.exports = isHook
+
+function isHook(hook) {
+    return hook &&
+      (typeof hook.hook === "function" && !hook.hasOwnProperty("hook") ||
+       typeof hook.unhook === "function" && !hook.hasOwnProperty("unhook"))
+}
+
+},{}],53:[function(require,module,exports){
+var version = require("./version")
+
+module.exports = isVirtualNode
+
+function isVirtualNode(x) {
+    return x && x.type === "VirtualNode" && x.version === version
+}
+
+},{"./version":56}],54:[function(require,module,exports){
+var version = require("./version")
+
+module.exports = isVirtualText
+
+function isVirtualText(x) {
+    return x && x.type === "VirtualText" && x.version === version
+}
+
+},{"./version":56}],55:[function(require,module,exports){
+module.exports = isWidget
+
+function isWidget(w) {
+    return w && w.type === "Widget"
+}
+
+},{}],56:[function(require,module,exports){
+module.exports = "2"
+
+},{}],57:[function(require,module,exports){
+var version = require("./version")
+var isVNode = require("./is-vnode")
+var isWidget = require("./is-widget")
+var isThunk = require("./is-thunk")
+var isVHook = require("./is-vhook")
+
+module.exports = VirtualNode
+
+var noProperties = {}
+var noChildren = []
+
+function VirtualNode(tagName, properties, children, key, namespace) {
+    this.tagName = tagName
+    this.properties = properties || noProperties
+    this.children = children || noChildren
+    this.key = key != null ? String(key) : undefined
+    this.namespace = (typeof namespace === "string") ? namespace : null
+
+    var count = (children && children.length) || 0
+    var descendants = 0
+    var hasWidgets = false
+    var hasThunks = false
+    var descendantHooks = false
+    var hooks
+
+    for (var propName in properties) {
+        if (properties.hasOwnProperty(propName)) {
+            var property = properties[propName]
+            if (isVHook(property) && property.unhook) {
+                if (!hooks) {
+                    hooks = {}
+                }
+
+                hooks[propName] = property
+            }
+        }
+    }
+
+    for (var i = 0; i < count; i++) {
+        var child = children[i]
+        if (isVNode(child)) {
+            descendants += child.count || 0
+
+            if (!hasWidgets && child.hasWidgets) {
+                hasWidgets = true
+            }
+
+            if (!hasThunks && child.hasThunks) {
+                hasThunks = true
+            }
+
+            if (!descendantHooks && (child.hooks || child.descendantHooks)) {
+                descendantHooks = true
+            }
+        } else if (!hasWidgets && isWidget(child)) {
+            if (typeof child.destroy === "function") {
+                hasWidgets = true
+            }
+        } else if (!hasThunks && isThunk(child)) {
+            hasThunks = true;
+        }
+    }
+
+    this.count = count + descendants
+    this.hasWidgets = hasWidgets
+    this.hasThunks = hasThunks
+    this.hooks = hooks
+    this.descendantHooks = descendantHooks
+}
+
+VirtualNode.prototype.version = version
+VirtualNode.prototype.type = "VirtualNode"
+
+},{"./is-thunk":51,"./is-vhook":52,"./is-vnode":53,"./is-widget":55,"./version":56}],58:[function(require,module,exports){
+var version = require("./version")
+
+VirtualPatch.NONE = 0
+VirtualPatch.VTEXT = 1
+VirtualPatch.VNODE = 2
+VirtualPatch.WIDGET = 3
+VirtualPatch.PROPS = 4
+VirtualPatch.ORDER = 5
+VirtualPatch.INSERT = 6
+VirtualPatch.REMOVE = 7
+VirtualPatch.THUNK = 8
+
+module.exports = VirtualPatch
+
+function VirtualPatch(type, vNode, patch) {
+    this.type = Number(type)
+    this.vNode = vNode
+    this.patch = patch
+}
+
+VirtualPatch.prototype.version = version
+VirtualPatch.prototype.type = "VirtualPatch"
+
+},{"./version":56}],59:[function(require,module,exports){
+var version = require("./version")
+
+module.exports = VirtualText
+
+function VirtualText(text) {
+    this.text = String(text)
+}
+
+VirtualText.prototype.version = version
+VirtualText.prototype.type = "VirtualText"
+
+},{"./version":56}],60:[function(require,module,exports){
+var isObject = require("is-object")
+var isHook = require("../vnode/is-vhook")
+
+module.exports = diffProps
+
+function diffProps(a, b) {
+    var diff
+
+    for (var aKey in a) {
+        if (!(aKey in b)) {
+            diff = diff || {}
+            diff[aKey] = undefined
+        }
+
+        var aValue = a[aKey]
+        var bValue = b[aKey]
+
+        if (aValue === bValue) {
+            continue
+        } else if (isObject(aValue) && isObject(bValue)) {
+            if (getPrototype(bValue) !== getPrototype(aValue)) {
+                diff = diff || {}
+                diff[aKey] = bValue
+            } else if (isHook(bValue)) {
+                 diff = diff || {}
+                 diff[aKey] = bValue
+            } else {
+                var objectDiff = diffProps(aValue, bValue)
+                if (objectDiff) {
+                    diff = diff || {}
+                    diff[aKey] = objectDiff
+                }
+            }
+        } else {
+            diff = diff || {}
+            diff[aKey] = bValue
+        }
+    }
+
+    for (var bKey in b) {
+        if (!(bKey in a)) {
+            diff = diff || {}
+            diff[bKey] = b[bKey]
+        }
+    }
+
+    return diff
+}
+
+function getPrototype(value) {
+  if (Object.getPrototypeOf) {
+    return Object.getPrototypeOf(value)
+  } else if (value.__proto__) {
+    return value.__proto__
+  } else if (value.constructor) {
+    return value.constructor.prototype
+  }
+}
+
+},{"../vnode/is-vhook":52,"is-object":21}],61:[function(require,module,exports){
+var isArray = require("x-is-array")
+
+var VPatch = require("../vnode/vpatch")
+var isVNode = require("../vnode/is-vnode")
+var isVText = require("../vnode/is-vtext")
+var isWidget = require("../vnode/is-widget")
+var isThunk = require("../vnode/is-thunk")
+var handleThunk = require("../vnode/handle-thunk")
+
+var diffProps = require("./diff-props")
+
+module.exports = diff
+
+function diff(a, b) {
+    var patch = { a: a }
+    walk(a, b, patch, 0)
+    return patch
+}
+
+function walk(a, b, patch, index) {
+    if (a === b) {
+        return
+    }
+
+    var apply = patch[index]
+    var applyClear = false
+
+    if (isThunk(a) || isThunk(b)) {
+        thunks(a, b, patch, index)
+    } else if (b == null) {
+
+        // If a is a widget we will add a remove patch for it
+        // Otherwise any child widgets/hooks must be destroyed.
+        // This prevents adding two remove patches for a widget.
+        if (!isWidget(a)) {
+            clearState(a, patch, index)
+            apply = patch[index]
+        }
+
+        apply = appendPatch(apply, new VPatch(VPatch.REMOVE, a, b))
+    } else if (isVNode(b)) {
+        if (isVNode(a)) {
+            if (a.tagName === b.tagName &&
+                a.namespace === b.namespace &&
+                a.key === b.key) {
+                var propsPatch = diffProps(a.properties, b.properties)
+                if (propsPatch) {
+                    apply = appendPatch(apply,
+                        new VPatch(VPatch.PROPS, a, propsPatch))
+                }
+                apply = diffChildren(a, b, patch, apply, index)
+            } else {
+                apply = appendPatch(apply, new VPatch(VPatch.VNODE, a, b))
+                applyClear = true
+            }
+        } else {
+            apply = appendPatch(apply, new VPatch(VPatch.VNODE, a, b))
+            applyClear = true
+        }
+    } else if (isVText(b)) {
+        if (!isVText(a)) {
+            apply = appendPatch(apply, new VPatch(VPatch.VTEXT, a, b))
+            applyClear = true
+        } else if (a.text !== b.text) {
+            apply = appendPatch(apply, new VPatch(VPatch.VTEXT, a, b))
+        }
+    } else if (isWidget(b)) {
+        if (!isWidget(a)) {
+            applyClear = true
+        }
+
+        apply = appendPatch(apply, new VPatch(VPatch.WIDGET, a, b))
+    }
+
+    if (apply) {
+        patch[index] = apply
+    }
+
+    if (applyClear) {
+        clearState(a, patch, index)
+    }
+}
+
+function diffChildren(a, b, patch, apply, index) {
+    var aChildren = a.children
+    var orderedSet = reorder(aChildren, b.children)
+    var bChildren = orderedSet.children
+
+    var aLen = aChildren.length
+    var bLen = bChildren.length
+    var len = aLen > bLen ? aLen : bLen
+
+    for (var i = 0; i < len; i++) {
+        var leftNode = aChildren[i]
+        var rightNode = bChildren[i]
+        index += 1
+
+        if (!leftNode) {
+            if (rightNode) {
+                // Excess nodes in b need to be added
+                apply = appendPatch(apply,
+                    new VPatch(VPatch.INSERT, null, rightNode))
+            }
+        } else {
+            walk(leftNode, rightNode, patch, index)
+        }
+
+        if (isVNode(leftNode) && leftNode.count) {
+            index += leftNode.count
+        }
+    }
+
+    if (orderedSet.moves) {
+        // Reorder nodes last
+        apply = appendPatch(apply, new VPatch(
+            VPatch.ORDER,
+            a,
+            orderedSet.moves
+        ))
+    }
+
+    return apply
+}
+
+function clearState(vNode, patch, index) {
+    // TODO: Make this a single walk, not two
+    unhook(vNode, patch, index)
+    destroyWidgets(vNode, patch, index)
+}
+
+// Patch records for all destroyed widgets must be added because we need
+// a DOM node reference for the destroy function
+function destroyWidgets(vNode, patch, index) {
+    if (isWidget(vNode)) {
+        if (typeof vNode.destroy === "function") {
+            patch[index] = appendPatch(
+                patch[index],
+                new VPatch(VPatch.REMOVE, vNode, null)
+            )
+        }
+    } else if (isVNode(vNode) && (vNode.hasWidgets || vNode.hasThunks)) {
+        var children = vNode.children
+        var len = children.length
+        for (var i = 0; i < len; i++) {
+            var child = children[i]
+            index += 1
+
+            destroyWidgets(child, patch, index)
+
+            if (isVNode(child) && child.count) {
+                index += child.count
+            }
+        }
+    } else if (isThunk(vNode)) {
+        thunks(vNode, null, patch, index)
+    }
+}
+
+// Create a sub-patch for thunks
+function thunks(a, b, patch, index) {
+    var nodes = handleThunk(a, b)
+    var thunkPatch = diff(nodes.a, nodes.b)
+    if (hasPatches(thunkPatch)) {
+        patch[index] = new VPatch(VPatch.THUNK, null, thunkPatch)
+    }
+}
+
+function hasPatches(patch) {
+    for (var index in patch) {
+        if (index !== "a") {
+            return true
+        }
+    }
+
+    return false
+}
+
+// Execute hooks when two nodes are identical
+function unhook(vNode, patch, index) {
+    if (isVNode(vNode)) {
+        if (vNode.hooks) {
+            patch[index] = appendPatch(
+                patch[index],
+                new VPatch(
+                    VPatch.PROPS,
+                    vNode,
+                    undefinedKeys(vNode.hooks)
+                )
+            )
+        }
+
+        if (vNode.descendantHooks || vNode.hasThunks) {
+            var children = vNode.children
+            var len = children.length
+            for (var i = 0; i < len; i++) {
+                var child = children[i]
+                index += 1
+
+                unhook(child, patch, index)
+
+                if (isVNode(child) && child.count) {
+                    index += child.count
+                }
+            }
+        }
+    } else if (isThunk(vNode)) {
+        thunks(vNode, null, patch, index)
+    }
+}
+
+function undefinedKeys(obj) {
+    var result = {}
+
+    for (var key in obj) {
+        result[key] = undefined
+    }
+
+    return result
+}
+
+// List diff, naive left to right reordering
+function reorder(aChildren, bChildren) {
+    // O(M) time, O(M) memory
+    var bChildIndex = keyIndex(bChildren)
+    var bKeys = bChildIndex.keys
+    var bFree = bChildIndex.free
+
+    if (bFree.length === bChildren.length) {
+        return {
+            children: bChildren,
+            moves: null
+        }
+    }
+
+    // O(N) time, O(N) memory
+    var aChildIndex = keyIndex(aChildren)
+    var aKeys = aChildIndex.keys
+    var aFree = aChildIndex.free
+
+    if (aFree.length === aChildren.length) {
+        return {
+            children: bChildren,
+            moves: null
+        }
+    }
+
+    // O(MAX(N, M)) memory
+    var newChildren = []
+
+    var freeIndex = 0
+    var freeCount = bFree.length
+    var deletedItems = 0
+
+    // Iterate through a and match a node in b
+    // O(N) time,
+    for (var i = 0 ; i < aChildren.length; i++) {
+        var aItem = aChildren[i]
+        var itemIndex
+
+        if (aItem.key) {
+            if (bKeys.hasOwnProperty(aItem.key)) {
+                // Match up the old keys
+                itemIndex = bKeys[aItem.key]
+                newChildren.push(bChildren[itemIndex])
+
+            } else {
+                // Remove old keyed items
+                itemIndex = i - deletedItems++
+                newChildren.push(null)
+            }
+        } else {
+            // Match the item in a with the next free item in b
+            if (freeIndex < freeCount) {
+                itemIndex = bFree[freeIndex++]
+                newChildren.push(bChildren[itemIndex])
+            } else {
+                // There are no free items in b to match with
+                // the free items in a, so the extra free nodes
+                // are deleted.
+                itemIndex = i - deletedItems++
+                newChildren.push(null)
+            }
+        }
+    }
+
+    var lastFreeIndex = freeIndex >= bFree.length ?
+        bChildren.length :
+        bFree[freeIndex]
+
+    // Iterate through b and append any new keys
+    // O(M) time
+    for (var j = 0; j < bChildren.length; j++) {
+        var newItem = bChildren[j]
+
+        if (newItem.key) {
+            if (!aKeys.hasOwnProperty(newItem.key)) {
+                // Add any new keyed items
+                // We are adding new items to the end and then sorting them
+                // in place. In future we should insert new items in place.
+                newChildren.push(newItem)
+            }
+        } else if (j >= lastFreeIndex) {
+            // Add any leftover non-keyed items
+            newChildren.push(newItem)
+        }
+    }
+
+    var simulate = newChildren.slice()
+    var simulateIndex = 0
+    var removes = []
+    var inserts = []
+    var simulateItem
+
+    for (var k = 0; k < bChildren.length;) {
+        var wantedItem = bChildren[k]
+        simulateItem = simulate[simulateIndex]
+
+        // remove items
+        while (simulateItem === null && simulate.length) {
+            removes.push(remove(simulate, simulateIndex, null))
+            simulateItem = simulate[simulateIndex]
+        }
+
+        if (!simulateItem || simulateItem.key !== wantedItem.key) {
+            // if we need a key in this position...
+            if (wantedItem.key) {
+                if (simulateItem && simulateItem.key) {
+                    // if an insert doesn't put this key in place, it needs to move
+                    if (bKeys[simulateItem.key] !== k + 1) {
+                        removes.push(remove(simulate, simulateIndex, simulateItem.key))
+                        simulateItem = simulate[simulateIndex]
+                        // if the remove didn't put the wanted item in place, we need to insert it
+                        if (!simulateItem || simulateItem.key !== wantedItem.key) {
+                            inserts.push({key: wantedItem.key, to: k})
+                        }
+                        // items are matching, so skip ahead
+                        else {
+                            simulateIndex++
+                        }
+                    }
+                    else {
+                        inserts.push({key: wantedItem.key, to: k})
+                    }
+                }
+                else {
+                    inserts.push({key: wantedItem.key, to: k})
+                }
+                k++
+            }
+            // a key in simulate has no matching wanted key, remove it
+            else if (simulateItem && simulateItem.key) {
+                removes.push(remove(simulate, simulateIndex, simulateItem.key))
+            }
+        }
+        else {
+            simulateIndex++
+            k++
+        }
+    }
+
+    // remove all the remaining nodes from simulate
+    while(simulateIndex < simulate.length) {
+        simulateItem = simulate[simulateIndex]
+        removes.push(remove(simulate, simulateIndex, simulateItem && simulateItem.key))
+    }
+
+    // If the only moves we have are deletes then we can just
+    // let the delete patch remove these items.
+    if (removes.length === deletedItems && !inserts.length) {
+        return {
+            children: newChildren,
+            moves: null
+        }
+    }
+
+    return {
+        children: newChildren,
+        moves: {
+            removes: removes,
+            inserts: inserts
+        }
+    }
+}
+
+function remove(arr, index, key) {
+    arr.splice(index, 1)
+
+    return {
+        from: index,
+        key: key
+    }
+}
+
+function keyIndex(children) {
+    var keys = {}
+    var free = []
+    var length = children.length
+
+    for (var i = 0; i < length; i++) {
+        var child = children[i]
+
+        if (child.key) {
+            keys[child.key] = i
+        } else {
+            free.push(i)
+        }
+    }
+
+    return {
+        keys: keys,     // A hash of key name to index
+        free: free      // An array of unkeyed item indices
+    }
+}
+
+function appendPatch(apply, patch) {
+    if (apply) {
+        if (isArray(apply)) {
+            apply.push(patch)
+        } else {
+            apply = [apply, patch]
+        }
+
+        return apply
+    } else {
+        return patch
+    }
+}
+
+},{"../vnode/handle-thunk":50,"../vnode/is-thunk":51,"../vnode/is-vnode":53,"../vnode/is-vtext":54,"../vnode/is-widget":55,"../vnode/vpatch":58,"./diff-props":60,"x-is-array":62}],62:[function(require,module,exports){
+var nativeIsArray = Array.isArray
+var toString = Object.prototype.toString
+
+module.exports = nativeIsArray || isArray
+
+function isArray(obj) {
+    return toString.call(obj) === "[object Array]"
+}
+
+},{}],63:[function(require,module,exports){
+module.exports = extend
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+function extend() {
+    var target = {}
+
+    for (var i = 0; i < arguments.length; i++) {
+        var source = arguments[i]
+
+        for (var key in source) {
+            if (hasOwnProperty.call(source, key)) {
+                target[key] = source[key]
+            }
+        }
+    }
+
+    return target
+}
+
+},{}],64:[function(require,module,exports){
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function renderSidebar(){return(0,_dom.div)(".sidebar",[(0,_dom.a)({href:"http://cycle.js.org",target:"_blank"},[(0,_dom.img)({src:"assets/cyclejs_logo.svg",alt:"Cycle.js"})]),(0,_dom.h2)("Built with Cycle.js"),(0,_dom.div)(".instructions",{innerHTML:INSTRUCTIONS}),(0,_dom.hr)(),(0,_dom.div)(".credit",["Built by ",(0,_dom.a)({href:"https://github.com/Widdershin",_target:"blank"},"Widdershin")," with the help of the ",(0,_dom.a)({href:"https://github.com/Widdershin/built-with-cycle/graphs/contributors",_target:"blank"},"Cycle community"),"."])])}function renderProject(e,t,r){var o=t===r.length-1;return(0,_dom.div)(".project",[(0,_dom.div)(".project-header",[(0,_dom.a)(".homepage",{href:e.homepage,target:"_blank"},[(0,_dom.h3)(".name",e.name)]),(0,_dom.a)(".repo",{href:e.repository,target:"_blank"},[(0,_dom.img)(".repo-img",{src:"assets/github.svg",alt:e.name})])]),(0,_dom.div)(".description",e.description),(0,_dom.a)(".homepage",{href:e.homepage,target:"_blank"},[(0,_dom.img)(".screenshot",{src:e.screenshot,alt:e.name})]),o?"":(0,_dom.hr)()])}function renderNavigationControls(e,t){if(!(t>=e.length))return(0,_dom.div)(".navigation",[(0,_dom.button)(".more","Show more")])}function renderProjects(e,t){return(0,_dom.div)(".projects",e.slice(0,t).map(renderProject).concat([renderNavigationControls(e,t)]))}function App(e){return{DOM:e.DOM.select(".navigation .more").events("click").do(function(e){return e.preventDefault()}).map(function(e){return+PROJECTS_PER_PAGE}).scan(function(e,t){return e+t},PROJECTS_PER_PAGE).startWith(PROJECTS_PER_PAGE).map(function(e){return(0,_dom.div)(".built-with-cycle",[renderSidebar(),renderProjects(_projects2.default,e)])})}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=App;var _rx=require("rx"),_dom=require("@cycle/dom"),_projects=require("../data/projects"),_projects2=_interopRequireDefault(_projects),PROJECTS_PER_PAGE=10,INSTRUCTIONS='\nPlease add new projects by making a pull request or issue against this <a href="https://github.com/Widdershin/built-with-cycle" _target="blank">project\'s repository</a>.\n';
+
+},{"../data/projects":1,"@cycle/dom":4,"rx":25}]},{},[2]);
