@@ -1,7 +1,14 @@
 // When you add a new project, please add it to the top of the array!
 
 export default [
-   {
+  {
+    name: 'Zaraina: Split the bill',
+    description: 'Split the restaurant bill with your friends!',
+    repository: 'https://github.com/nylo-andry/zaraina',
+    homepage: 'https://zaraina.rafanilo.com',
+    screenshot: 'data/images/zaraina.png'
+  },
+  {
     name: 'Meeting Price Calculator',
     description: 'Do you hate long meetings? This app could significantly reduce the duration of meetings by showing the actual price of the meeting',
     repository: 'https://github.com/olpeh/meeting-price-calculator',
@@ -15,7 +22,7 @@ export default [
     homepage: 'https://cyclejs-community.github.io/cycle-keyboard/',
     screenshot: 'data/images/cycle-keyboard.png'
   },
-  
+
   {
     name: 'Trello Kanban Analysis Tool (TKAT)',
     description: 'Analyse Kanban metrics from a Trello board',
