@@ -59,7 +59,7 @@ export default [
     name: 'Bornycentre',
     description: 'An app to get your Bornycentre built with Cycle.js',
     repository: 'https://github.com/teawaterwire/bornycentre',
-    homepage: 'http://bornycent.re/',
+    homepage: 'http://bornycentre.herokuapp.com/',
     screenshot: 'data/images/bornycentre.png'
   },
   {
